@@ -7,16 +7,16 @@ Le dénominateur est constitué des notices `record_type=work`; les 1 536 renvoi
 | Couverture | Notices | Pourcentage |
 |---|---:|---:|
 | Texte grec ouvert vérifié, sans scan archivé | 1940 | 14,09 % |
-| Scan grec archivé sur HF, sans texte vérifié | 1006 | 7,31 % |
+| Scan grec archivé sur HF, sans texte vérifié | 1007 | 7,32 % |
 | Texte vérifié et scan archivé | 102 | 0,74 % |
-| Ni texte vérifié ni scan archivé | 10717 | 77,86 % |
+| Ni texte vérifié ni scan archivé | 10716 | 77,85 % |
 | **Total** | **13765** | **100,00 %** |
 
 ## Totaux transversaux
 
 - Texte vérifié : 2042 / 13765 (14,83 %), dont 1903 correspondances d’identifiant exactes et 139 éditions alternatives vérifiées.
-- Scan archivé et rattaché explicitement : 1108 / 13765 (8,05 %).
+- Scan archivé et rattaché explicitement : 1109 / 13765 (8,06 %).
 - Texte hôte partiel vérifié, sans texte complet : 19 / 13765 (0,14 %). Ces fragments ne sont pas comptés comme œuvres textuelles complètes.
-- Au moins une ressource exploitable, fragments partiels inclus : 3066 / 13765 (22,27 %).
+- Au moins une ressource exploitable, fragments partiels inclus : 3067 / 13765 (22,28 %).
 
 Les scans ne sont comptés que si leur mapping READY pointe vers une notice du Canon, si l’archive distante est enregistrée `MIGRATED_PUBLIC`, et si chaque archive HF est résolue. Une édition alternative textuelle reste séparée d’une correspondance exacte.
