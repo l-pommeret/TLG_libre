@@ -76,3 +76,9 @@ La résolution (~151 ppi) est moyenne mais les échantillons sont lisibles. La s
 ## Recommandation
 
 **READY, rendement très élevé : 29 notices directes pour moins de 100 Mo.** Transférer l’original PDM ou ses images originales, conserver URL/licence/SHA-1 et générer le manifeste colonne→image. N’exécuter que l’OCR propre au projet ; étiqueter les cinq sections `REVIEW` comme sources alternatives.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré : 98 227 411 octets, 818 pages.
+- SHA-256 local et distant : `bbc2e41f37c926e5719cf54e0930d9fa6bfa51cecee59b9e367ee500104fdfa7`.
+- L'ancien tar de 579 440 640 octets a été retiré après vérification distante ; il reste récupérable dans l'historique HF.
