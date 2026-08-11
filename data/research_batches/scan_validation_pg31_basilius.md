@@ -66,3 +66,9 @@ Les numéros sont les notices TLG 2040, les colonnes celles imprimées dans MPG 
 - Trois échantillons représentatifs (p. 100, p. 500, p. 850) inspectés visuellement : grec lisible, contraste et définition suffisants pour OCR interne. Ils ont été supprimés immédiatement après contrôle.
 
 **Action :** ingestion image-only PDM des colonnes listées, avec repérage visuel des bornes. Aucun OCR fournisseur, PDF complet, archive ni image locale n’a été conservé.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg31-basilius/pg31-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 110 555 071 octets et son SHA-256 LFS vérifié est `242016fdd9ed3b735959d7066c195b529179de4b4a17b325a1b17963d8bad992`.
+
+L’ancienne archive JPEG de 687 831 040 octets a été retirée de HF après validation de cette copie native. Les 942 pages et les quatre contrôles grecs restent disponibles. Le registre a également été corrigé avec les plages explicites `020-052;057-071;073-074`, afin que les 50 notices exactes soient effectivement comptées sans inclure les lacunes. Aucun OCR fournisseur n’a été extrait ni conservé.
