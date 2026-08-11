@@ -1,6 +1,6 @@
 # W.521 — manifeste d’ingestion strictement ciblé
 
-## Décision : READY — cinq segments grecs contrôlés et archivés
+## Décision : READY — vingt segments grecs contrôlés et archivés
 
 Objet : [Walters W.521, *Imperial Menologion*](https://purl.thewalters.org/art/W.521/browse), manuscrit grec de janvier (second quart du XIe s.). La page objet actuelle affiche **CC0**. Le miroir institutionnel OPenn de la collection Walters déclare lui aussi explicitement que les substituts numériques complets sont téléchargeables sous **CC0**. Cette double déclaration actuelle lève l'ambiguïté créée par une ancienne mention CC BY-NC-SA 3.0 dans des métadonnées historiques.
 
@@ -16,8 +16,30 @@ L’endpoint documentaire public est `https://www.thedigitalwalters.org/Data/Wal
 
 Les concordances folio/BHG viennent de la table des matières officielle de W.521 : 25r–27v BHG 2444 ; 50v–56r BHG 2479 ; 92v–95v BHG 1307d ; 155v–158r BHG 2437 ; 200r–203r BHG 1326b. Elles ne désignent pas les éditions modernes citées au canon, mais le témoin manuscrit explicitement demandé par ces notices.
 
+Un second lot couvre les quinze notices supplémentaires dont les checkpoints item-level ont établi la concordance W.521. `5059.013` demeure volontairement exclue : son témoin est certain, mais aucune borne de folios n'a encore été vérifiée.
+
+| Notice | Foliation exacte | IDs transférés | Pré-vol grec |
+|---|---|---|---|
+| 5059.010 | 12r–22r | 27–47 | image 27 |
+| 5059.011 | 23r–24v | 49–52 | image 49 |
+| 5059.012 | 28r–35v | 59–74 | image 59 |
+| 5059.014 | 48v–50r | 100–103 | image 100 |
+| 5059.015 | 56v–60v | 116–124 | image 116 |
+| 5059.016 | 61r–70r | 125–143 | image 125 |
+| 5059.017 | 70v–74v et 83r–85v | 144–152 et 169–174 | images 144 et 169 |
+| 5059.018 | 75r–82v | 153–168 | image 153 |
+| 5059.019 | 86r–87v | 175–178 | image 175 |
+| 5059.020 | 88r–92r | 179–187 | image 179 |
+| 5059.021 | 96r–104v | 195–212 | image 195 |
+| 5059.022 | 105r–113r | 213–229 | image 213 |
+| 5059.023 | 113v–129r | 230–261 | image 230 |
+| 5059.024 | 129v–150v | 262–304 | image 262 |
+| 5059.025 | 151r–155r | 305–313 | image 305 |
+
 ## Transfert réalisé
 
 Le miroir OPenn a servi les cinq JPEG de pré-vol (`53`, `104`, `188`, `314`, `403`) en 1319–1408 × 1800 pixels. Chaque image a été inspectée visuellement et contient bien du grec manuscrit. Les fichiers temporaires ont ensuite été supprimés.
 
 Les 38 JPEG `sap` ciblés (1800 px sur le grand côté) ont été transférés dans `Zual/TLG_libre_scans` sous `webdataset/walters-w521-targeted-sap-jpeg.tar`. L'archive distante fait 28 323 840 octets et porte le SHA-256 `2dcb385dd1c8e2372f796cb8620911d635deaade837428c300c4334776ae8082`. Son `manifest.json` conserve pour chaque image l'URL source, la taille et le SHA-256. Aucun OCR fournisseur ni folio voisin n'est inclus. Les TIFF 300/600 ppp restent des améliorations possibles lorsque leur endpoint sera de nouveau servi ; cette archive JPEG constitue déjà un scan lisible et auditable pour préparer l'OCR.
+
+Le second lot contient 236 JPEG supplémentaires dans `webdataset/walters-w521-targeted-more-sap-jpeg.tar`, soit 175 144 960 octets et le SHA-256 distant vérifié `b084eee77bcd7d8bfe7f343149383e8b02e3f2aa71f1e782acd971ac7c962f3e`. Ses 16 points de pré-vol sont tous grecs ; les deux séquences de `5059.017` ont été contrôlées séparément. L'archive contient 236 images et un manifeste, sans OCR fournisseur.
