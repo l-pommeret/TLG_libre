@@ -12284,16 +12284,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5010,010,SCHOLIA IN AESCHYLUM,Scholia et glossae in Persas (scholia vetera et recentiora Thomae Magistri et Demetrii Triclinii) (e cod. Laur. 31.8),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,011,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera) (e cod. Mediceo 32.9),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,012,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5010,014,SCHOLIA IN AESCHYLUM,Scholia in Septem contra Thebas (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,017,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholion recentius),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,018,SCHOLIA IN AESCHYLUM,Scholia et glossae in Prometheum vinctum (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,019,SCHOLIA IN AESCHYLUM,Scholia de metris Aeschyli (scholia recentiora Demetrii Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,020,SCHOLIA IN AESCHYLUM,Argumentum in margine et glossae interlineariae ad Persas (glossae recentiores) (e codd. Vindob. 197; Palatino 18; Guelferbytano 88; Lipsiensi rep. I.4.43; Cantabrigiensi 1),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,021,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,022,SCHOLIA IN AESCHYLUM,Catalogus in fabulas (e cod. Mediceo 32.9),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,023,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholia vetera et recentiora Demetrii Triclinii) (e cod. Neapol. II.F.31),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,024,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora) (e cod. Mediceo),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5011,001,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia ad epigrammata arithmetica in Anthologia Graeca,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5010,014,SCHOLIA IN AESCHYLUM,Scholia in Septem contra Thebas (scholia recentiora),1,detailed_verified_3001_batch_552.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,017,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholion recentius),1,detailed_verified_3001_batch_552.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,018,SCHOLIA IN AESCHYLUM,Scholia et glossae in Prometheum vinctum (scholia recentiora),1,detailed_verified_3001_batch_552.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,019,SCHOLIA IN AESCHYLUM,Scholia de metris Aeschyli (scholia recentiora Demetrii Triclinii),1,detailed_verified_3001_batch_552.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,020,SCHOLIA IN AESCHYLUM,Argumentum in margine et glossae interlineariae ad Persas (glossae recentiores) (e codd. Vindob. 197; Palatino 18; Guelferbytano 88; Lipsiensi rep. I.4.43; Cantabrigiensi 1),1,detailed_verified_3001_batch_552.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,021,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,022,SCHOLIA IN AESCHYLUM,Catalogus in fabulas (e cod. Mediceo 32.9),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,023,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholia vetera et recentiora Demetrii Triclinii) (e cod. Neapol. II.F.31),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,024,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora) (e cod. Mediceo),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5011,001,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia ad epigrammata arithmetica in Anthologia Graeca,1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5011,002,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia in Anthologiam Graecam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5012,001,SCHOLIA IN APOLLONIUM RHODI-,Scholia in Apollonii Rhodii Argonautica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5013,001,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
