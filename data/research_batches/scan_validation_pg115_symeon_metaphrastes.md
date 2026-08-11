@@ -25,3 +25,9 @@ Sélectionner dans le flux images les **colonnes imprimées** ci-dessous (et non
 | 5285.001 ; 5460.001 ; 5462.001 ; 5467.001 | 404–425 ; 217–240 ; 596–609 ; 348–353 |
 
 Les bornes adjacentes partagées (par ex. 1160, 1289, 1293, 633) doivent être incluses une seule fois lors du découpage, tout en restant rattachées aux deux notices concernées. Rendement : 44 notices à édition-locus exacts, licence explicite et qualité visuellement contrôlée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 73 776 180 octets, 710 pages.
+- SHA-256 local et distant : `ae77a932ac777bd603603f77fc78a3f3893bad388e1210b0cb12d543ba817847`.
+- Ancien tar de 546 355 200 octets retiré après vérification distante, récupérable dans l'historique HF.
