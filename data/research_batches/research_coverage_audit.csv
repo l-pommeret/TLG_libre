@@ -11963,23 +11963,23 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4430,003,JACOBUS Monachus Epist. et Theol.,"Orationes encomiasticae in Deiparam, MPG 127: 543–700. Cod: Hagiogr",1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4431,001,Georgius PELAGONIUS Phil. et Theol.,Adversus Palamam,2,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4431,001,Georgius PELAGONIUS Phil. et Theol.,Fragmenta,2,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4431,002,Georgius PELAGONIUS Phil. et Theol.,Vita imperatoris Joannis Vatatzae [Dub.] (BHG 933),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4432,001,Joannes PICATORUS Poeta,Ρίμα θρηνητικὴ εἰς τὸν πικρὸν καὶ ἀκόρεστον Ἅδην,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4431,002,Georgius PELAGONIUS Phil. et Theol.,Vita imperatoris Joannis Vatatzae [Dub.] (BHG 933),1,detailed_verified_3001_batch_532.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4432,001,Joannes PICATORUS Poeta,Ρίμα θρηνητικὴ εἰς τὸν πικρὸν καὶ ἀκόρεστον Ἅδην,1,detailed_verified_3001_batch_532.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4433,001,Callistus ANGELICUDES Theol.,Ref utatio Thomae Aquinae,1,tlg_3001_4500_b3_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4433,002,Callistus ANGELICUDES Theol.,Homiliae,1,tlg_3001_4500_b3_batch_0002.csv,EXTRACTION_REVIEW,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4434,001,Nicetas MYRSINIOTES Theol.,Homiliae,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4434,002,Nicetas MYRSINIOTES Theol.,Encomium in sanctam Matronam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4434,001,Nicetas MYRSINIOTES Theol.,Homiliae,1,detailed_verified_3001_batch_532.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4434,002,Nicetas MYRSINIOTES Theol.,Encomium in sanctam Matronam,1,detailed_verified_3001_batch_532.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4435,001,Manuel MELIGALAS Epist.,Epistulae,1,tlg_0001_1500_b5_cont142_checkpoint_01_4435_001.csv,EDITION_RIGHTS_RESTRICTED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4436,001,NICETAS Maroniensis Hagiogr. et Theol.,Orationes de processione spiritus sancti,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4436,001,NICETAS Maroniensis Hagiogr. et Theol.,Orationes de processione spiritus sancti,1,detailed_verified_3001_batch_532.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4437,001,GABRIEL Hieromonachus Hymnograph.,Περὶ τῶν ἐν τῇ ψαλτικῇ σημαδίων καὶ φωνῶν καὶ τῆς τούτων ἐτυμολογίας,1,tlg_3001_4500_b57_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4437,002,GABRIEL Hieromonachus Hymnograph.,Canones et contacia,1,tlg_3001_4500_b57_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4438,001,Manuel CHRYSAPHES Hymnograph.,Περὶ τῶν ἐνθεωρουμένων τῇ ψαλτικῇ τέχνῃ καὶ ὧν φρονοῦσι κακῶς τινες περὶ αὐτῶν,1,tlg_3001_4500_b30_batch_0004.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4439,001,HIERONYMUS TRAGODISTES Mus.,Περὶ χρείας μουσικῆς Γραικῶν χαρακτήρων,2,detailed_verified_3001_batch_215.csv; tlg_0001_1500_b5_cont2_checkpoint_03_2408_001_2051_002.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4440,001,THEODORUS Smyrnaeus Phil.,Epitome de natura et de principiis naturalibus,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4441,001,Manuel STRABOROMANUS Rhet.,Orationes ad imperatorem Alexium I Comnenum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4441,002,Manuel STRABOROMANUS Rhet.,Consolatio ad Irenem imperatricem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4441,003,Manuel STRABOROMANUS Rhet.,Carmina,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4442,001,Joannes PLUSIADENUS Hymnograph. et,Θρῆνος τῆς Θεοτόκου,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4440,001,THEODORUS Smyrnaeus Phil.,Epitome de natura et de principiis naturalibus,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4441,001,Manuel STRABOROMANUS Rhet.,Orationes ad imperatorem Alexium I Comnenum,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4441,002,Manuel STRABOROMANUS Rhet.,Consolatio ad Irenem imperatricem,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4441,003,Manuel STRABOROMANUS Rhet.,Carmina,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4442,001,Joannes PLUSIADENUS Hymnograph. et,Θρῆνος τῆς Θεοτόκου,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4442,002,Joannes PLUSIADENUS Hymnograph. et,Κανὼν εἰς τὸν ἅγιον Θωμᾶν τὸν Ἀγχίνουν,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4442,003,Joannes PLUSIADENUS Hymnograph. et,"Disceptatio de differentiis inter graecos et latinos et synodo Florentina, MPG 159: 960–1024. Cod: 12,440: Homilet., Theol",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4443,001,Constantinus MELITENIOTES Theol.,"Orationes antirrheticae adversus tomum Gregorii II Cyprii (e cod. Paris. gr. 1303, ff. 82–143v)",1,tlg_0001_1500_b5_cont156_checkpoint_01_4443_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
