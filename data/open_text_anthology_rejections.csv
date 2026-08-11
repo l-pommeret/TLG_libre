@@ -32,3 +32,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0171,001,5.81;11.182,5.81,11.182=tlg-0167 Dionysius; 5.81=tlg-0171,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b43_batch_0002.csv
 0175,001,7.261;7.420,7.420,7.261=tlg-0174 Diotimus Epicus; 7.420=tlg-0175,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
 0176,001,5.106;9.391,5.106,9.391=tlg-0174 Diotimus Epicus; 5.106=tlg-0176,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
+1290,001,1.218,,,NO_PASSAGE_OR_AUTHOR_RECORD_FOR_CANON_LOCUS,data/research_batches/tlg_3001_4500_b34_batch_0004.csv
