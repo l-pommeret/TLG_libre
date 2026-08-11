@@ -90,16 +90,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,018,PLUTARCHUS Biogr. et Phil.,Timoleon,1,detailed_verified_3001_batch_559.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,019,PLUTARCHUS Biogr. et Phil.,Aemilius Paullus,1,detailed_verified_3001_batch_559.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,020,PLUTARCHUS Biogr. et Phil.,Comparatio Aemilii Paulli et Timoleontis,1,detailed_verified_3001_batch_559.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,021,PLUTARCHUS Biogr. et Phil.,Pelopidas,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,022,PLUTARCHUS Biogr. et Phil.,Marcellus,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,023,PLUTARCHUS Biogr. et Phil.,Comparatio Pelopidae et Marcelli,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,024,PLUTARCHUS Biogr. et Phil.,Aristides,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,025,PLUTARCHUS Biogr. et Phil.,Cato Maior,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,026,PLUTARCHUS Biogr. et Phil.,Comparatio Aristidis et Catonis,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,027,PLUTARCHUS Biogr. et Phil.,Philopoemen,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,028,PLUTARCHUS Biogr. et Phil.,Titus Flamininus,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,029,PLUTARCHUS Biogr. et Phil.,Comparatio Philopoemenis et Titi Flaminini,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,030,PLUTARCHUS Biogr. et Phil.,Pyrrhus,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,021,PLUTARCHUS Biogr. et Phil.,Pelopidas,1,detailed_verified_3001_batch_560.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,022,PLUTARCHUS Biogr. et Phil.,Marcellus,1,detailed_verified_3001_batch_560.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,023,PLUTARCHUS Biogr. et Phil.,Comparatio Pelopidae et Marcelli,1,detailed_verified_3001_batch_560.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,024,PLUTARCHUS Biogr. et Phil.,Aristides,1,detailed_verified_3001_batch_560.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,025,PLUTARCHUS Biogr. et Phil.,Cato Maior,1,detailed_verified_3001_batch_560.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,026,PLUTARCHUS Biogr. et Phil.,Comparatio Aristidis et Catonis,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,027,PLUTARCHUS Biogr. et Phil.,Philopoemen,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,028,PLUTARCHUS Biogr. et Phil.,Titus Flamininus,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,029,PLUTARCHUS Biogr. et Phil.,Comparatio Philopoemenis et Titi Flaminini,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,030,PLUTARCHUS Biogr. et Phil.,Pyrrhus,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,031,PLUTARCHUS Biogr. et Phil.,Marius,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,032,PLUTARCHUS Biogr. et Phil.,Lysander,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,033,PLUTARCHUS Biogr. et Phil.,Sulla,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
