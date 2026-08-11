@@ -14,3 +14,9 @@
 - Échantillons temporaires inspectés puis supprimés : p. 150 (cols. 211–212, grec net, début de 2040.018), p. 260 (cols. 431–432, milieu), p. 385 (cols. 777–778, immédiatement après la borne finale de 2040.019). Numérisation lisible, contraste suffisant pour OCR interne.
 
 **Action :** ingestion image-only depuis Commons PDM, en sélectionnant les pages par colonnes imprimées : 209–494, 497–669 et 672–768. Aucun OCR fournisseur, PDF entier, archive ou image locale n’est conservé.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg29-basilius/pg29-original-image-only.pdf` : 95 465 952 octets, 809 pages.
+- SHA-256 local et distant : `53d21bafdbf3a6f308badaa384d06e12940541f8809276721631cddb1e645be4`.
+- Le tar redondant de 607 426 560 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
