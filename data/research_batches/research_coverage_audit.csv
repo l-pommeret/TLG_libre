@@ -12131,10 +12131,10 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4538,004,Theodorus PEDIASIMUS Hagiogr.,Encomium ad solem,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4538,005,Theodorus PEDIASIMUS Hagiogr.,Εἰς τὴν τοῦ θέρους ὥραν ἐγκώμιον,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4538,006,Theodorus PEDIASIMUS Hagiogr.,Epistulae,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4538,007,Theodorus PEDIASIMUS Hagiogr.,Versus heroici,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4539,001,ZACHARIAS Chalchedonius Phil.,De tempore,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4540,001,PHILOTHEUS Monachus Scr. Eccl.,"De mandatis domini [Dub.] (fort. auctore Philotheo Coccino) (CPG 7865), MPG 154: 729–745. Cod: Theol. Cf. et Philotheus COCCINUS Theol. (3251)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4541,001,PHILOTHEUS Selymbriae Hagiogr.,Λόγος εἰς τὴν σύναξιν τῶν ἀγγέλων (BHG 129j) (e cod. Pan. Chalc. [51] 53),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4538,007,Theodorus PEDIASIMUS Hagiogr.,Versus heroici,1,detailed_verified_3001_batch_548.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4539,001,ZACHARIAS Chalchedonius Phil.,De tempore,1,detailed_verified_3001_batch_548.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4540,001,PHILOTHEUS Monachus Scr. Eccl.,"De mandatis domini [Dub.] (fort. auctore Philotheo Coccino) (CPG 7865), MPG 154: 729–745. Cod: Theol. Cf. et Philotheus COCCINUS Theol. (3251)",1,detailed_verified_3001_batch_548.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4541,001,PHILOTHEUS Selymbriae Hagiogr.,Λόγος εἰς τὴν σύναξιν τῶν ἀγγέλων (BHG 129j) (e cod. Pan. Chalc. [51] 53),1,detailed_verified_3001_batch_548.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5000,001,CONCILIA OECUMENICA (ACO),Concilium universale Ephesenum anno 431,1,tlg_3001_4500_b33_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5000,002,CONCILIA OECUMENICA (ACO),Concilium universale Ephesenum anno 431,1,tlg_3001_4500_b33_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5000,003,CONCILIA OECUMENICA (ACO),Concilium universale Chalcedonense anno 451,1,tlg_3001_4500_b33_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
@@ -12268,12 +12268,12 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5005,053,HYPOTHESES (in papyris),Danaides (hypothesis?) (P. Hibeh 2.221),1,tlg_0001_1500_b5_cont6_checkpoint_02_5005_052_2023_102.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5005,054,HYPOTHESES (in papyris),Hypothesis (?) (P. Giss. inv. 302 [= P. Giss. univ. 41]),1,tlg_0001_1500_b5_cont6_checkpoint_02_5005_052_2023_102.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5005,055,HYPOTHESES (in papyris),Dyscolus Menandri (hypothesis) (P. Bodmer 4),1,tlg_0001_1500_b5_cont6_checkpoint_02_5005_052_2023_102.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5007,001,SCHOLIA IN BATRACHOMYOMA-,Scholia in Batrachomyomachia,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5008,001,SCHOLIA IN AELIUM ARISTIDEM,Scholia in Aelium Aristidem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5009,001,SCHOLIA IN AESCHINEM,Scholia in Aeschinem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5009,002,SCHOLIA IN AESCHINEM,Scholia in Aeschinem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,001,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,002,SCHOLIA IN AESCHYLUM,Scholia prototricliniana in Aeschylum (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5007,001,SCHOLIA IN BATRACHOMYOMA-,Scholia in Batrachomyomachia,1,detailed_verified_3001_batch_548.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5008,001,SCHOLIA IN AELIUM ARISTIDEM,Scholia in Aelium Aristidem (scholia vetera),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5009,001,SCHOLIA IN AESCHINEM,Scholia in Aeschinem (scholia vetera),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5009,002,SCHOLIA IN AESCHINEM,Scholia in Aeschinem,1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,001,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia vetera),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,002,SCHOLIA IN AESCHYLUM,Scholia prototricliniana in Aeschylum (scholia recentiora),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,003,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia recentiora Demetrii Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5010,004,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5010,005,SCHOLIA IN AESCHYLUM,Scholia in Prometheum vinctum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
