@@ -190,16 +190,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,118,PLUTARCHUS Biogr. et Phil.,Praecepta gerendae reipublicae (798a– 825f),1,detailed_verified_3001_batch_579.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,119,PLUTARCHUS Biogr. et Phil.,"De unius in republica dominatione, populari statu, et paucorum imperio (826a–827c)",1,detailed_verified_3001_batch_579.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,120,PLUTARCHUS Biogr. et Phil.,De vitando aere alieno (827d–832a),1,detailed_verified_3001_batch_579.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,121,PLUTARCHUS Biogr. et Phil.,Vitae decem oratorum [Sp.] (832b–852e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,122,PLUTARCHUS Biogr. et Phil.,Comparationis Aristophanis et Menandri compendium (853a–854d),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,123,PLUTARCHUS Biogr. et Phil.,De Herodoti malignitate (854e–874c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,125,PLUTARCHUS Biogr. et Phil.,Aetia physica (911c–919e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,126,PLUTARCHUS Biogr. et Phil.,De facie in orbe lunae (920b–945e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,127,PLUTARCHUS Biogr. et Phil.,De primo frigido (945f–955c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,128,PLUTARCHUS Biogr. et Phil.,Aquane an ignis sit utilior [Sp.] (955d– 958e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,129,PLUTARCHUS Biogr. et Phil.,De sollertia animalium (959a–985c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,130,PLUTARCHUS Biogr. et Phil.,Bruta animalia ratione uti (985d–992e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,131,PLUTARCHUS Biogr. et Phil.,De esu carnium i (993a–996c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,121,PLUTARCHUS Biogr. et Phil.,Vitae decem oratorum [Sp.] (832b–852e),1,detailed_verified_3001_batch_580.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,122,PLUTARCHUS Biogr. et Phil.,Comparationis Aristophanis et Menandri compendium (853a–854d),1,detailed_verified_3001_batch_580.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,123,PLUTARCHUS Biogr. et Phil.,De Herodoti malignitate (854e–874c),1,detailed_verified_3001_batch_580.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,125,PLUTARCHUS Biogr. et Phil.,Aetia physica (911c–919e),1,detailed_verified_3001_batch_580.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,126,PLUTARCHUS Biogr. et Phil.,De facie in orbe lunae (920b–945e),1,detailed_verified_3001_batch_580.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,127,PLUTARCHUS Biogr. et Phil.,De primo frigido (945f–955c),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,128,PLUTARCHUS Biogr. et Phil.,Aquane an ignis sit utilior [Sp.] (955d– 958e),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,129,PLUTARCHUS Biogr. et Phil.,De sollertia animalium (959a–985c),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,130,PLUTARCHUS Biogr. et Phil.,Bruta animalia ratione uti (985d–992e),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,131,PLUTARCHUS Biogr. et Phil.,De esu carnium i (993a–996c),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,132,PLUTARCHUS Biogr. et Phil.,De esu carnium ii (996d–999b),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,133,PLUTARCHUS Biogr. et Phil.,Platonicae quaestiones (999c–1011e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,134,PLUTARCHUS Biogr. et Phil.,De animae procreatione in Timaeo (1012b–1030c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
