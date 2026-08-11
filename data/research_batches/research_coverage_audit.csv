@@ -160,16 +160,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,088,PLUTARCHUS Biogr. et Phil.,De gloria Atheniensium (345c–351b),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,089,PLUTARCHUS Biogr. et Phil.,De Iside et Osiride (351c–384c),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,090,PLUTARCHUS Biogr. et Phil.,De E apud Delphos (384d–394c),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,091,PLUTARCHUS Biogr. et Phil.,De Pythiae oraculis (394d–409d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,092,PLUTARCHUS Biogr. et Phil.,De defectu oraculorum (409e–438d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,093,PLUTARCHUS Biogr. et Phil.,An virtus doceri possit (439a–440c),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,094,PLUTARCHUS Biogr. et Phil.,De virtute morali (440d–452d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,095,PLUTARCHUS Biogr. et Phil.,De cohibenda ira (452f–464d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,096,PLUTARCHUS Biogr. et Phil.,De tranquillitate animi (464e–477f),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,097,PLUTARCHUS Biogr. et Phil.,De fraterno amore (478a–492d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,098,PLUTARCHUS Biogr. et Phil.,De amore prolis (493a–497e),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,099,PLUTARCHUS Biogr. et Phil.,An vitiositas ad infelicitatem sufficiat (498a–500a),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,100,PLUTARCHUS Biogr. et Phil.,Animine an corporis affectiones sint peiores (500b–502a),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,091,PLUTARCHUS Biogr. et Phil.,De Pythiae oraculis (394d–409d),1,detailed_verified_3001_batch_574.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,092,PLUTARCHUS Biogr. et Phil.,De defectu oraculorum (409e–438d),1,detailed_verified_3001_batch_574.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,093,PLUTARCHUS Biogr. et Phil.,An virtus doceri possit (439a–440c),1,detailed_verified_3001_batch_574.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,094,PLUTARCHUS Biogr. et Phil.,De virtute morali (440d–452d),1,detailed_verified_3001_batch_574.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,095,PLUTARCHUS Biogr. et Phil.,De cohibenda ira (452f–464d),1,detailed_verified_3001_batch_574.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,096,PLUTARCHUS Biogr. et Phil.,De tranquillitate animi (464e–477f),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,097,PLUTARCHUS Biogr. et Phil.,De fraterno amore (478a–492d),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,098,PLUTARCHUS Biogr. et Phil.,De amore prolis (493a–497e),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,099,PLUTARCHUS Biogr. et Phil.,An vitiositas ad infelicitatem sufficiat (498a–500a),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,100,PLUTARCHUS Biogr. et Phil.,Animine an corporis affectiones sint peiores (500b–502a),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,101,PLUTARCHUS Biogr. et Phil.,De garrulitate (502b–515a),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,102,PLUTARCHUS Biogr. et Phil.,De curiositate (515b–523b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,103,PLUTARCHUS Biogr. et Phil.,De cupiditate divitiarum (523c–528b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
