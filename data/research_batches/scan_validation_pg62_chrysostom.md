@@ -8,3 +8,10 @@ Date : 2026-08-11 — **READY : 30 notices directes MPG 62**, images seules.
 - Échantillons temporaires supprimés : p.20 cols. 15–16, p.350 dans la section courte MPG 62, p.780 `SPURIA` ; grec/latin lisibles. Aucun asset/OCR local.
 
 Recommandation : transfert PDM et manifeste colonne→image obligatoire, particulièrement pour les courts segments chevauchants 723–780 ; OCR seulement interne.
+
+## Manifeste d'ingestion ciblé vérifié
+
+- Pages PDF à transférer : **14–804 incluses** (791 images), couvrant les colonnes MPG 9–780 et leurs parallèles grec/latin.
+- Pré-vol direct sur le PDF SHA-1 ci-dessus : p.14 ouvre le texte grec aux cols 9 sqq. ; p.350 a été contrôlée dans la partie centrale ; p.784 porte les cols 761–762 en grec ; p.802 porte 777–778 en grec ; p.804 clôt 779–780 avec le grec final.
+- P.12 est encore la préface latine et p.805 sqq. sont hors des bornes canoniques : elles sont exclues.
+- Aucun OCR fournisseur ; les labels `[Sp.]` et les chevauchements des courts items restent gouvernés par les colonnes imprimées.
