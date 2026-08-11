@@ -11,5 +11,5 @@ R. Hercher, *Epistolographi Graeci*, Paris, Didot, 1873.
 
 La page 106 et ses deux pages de contexte ont été contrôlées visuellement,
 puis supprimées localement. Le volume correspond à 43 notices canoniques
-citant cette édition ; leur cartographie page par page reste à compléter.
+citant cette édition ; leur cartographie est consignée dans `MAPPING.csv`.
 L'archive JP2 originale est retenue et aucun OCR fournisseur n'est ingéré.
