@@ -1,6 +1,6 @@
 # Couverture vérifiée du Canon TLG
 
-Mise à jour : 2026-08-11
+Mise à jour : 2026-08-12
 
 Le dénominateur est constitué des notices `record_type=work`; les 1 536 renvois ne sont pas comptés comme œuvres autonomes.
 
