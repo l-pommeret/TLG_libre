@@ -56,7 +56,12 @@ def anthology_attributions(path: str) -> dict[tuple[int, int], set[str]]:
     root = etree.parse(path).getroot()
     results: dict[tuple[int, int], set[str]] = {}
     for div in root.iter():
-        if not str(div.tag).endswith("div") or div.attrib.get("subtype") != "epigram":
+        # Paton volumes 2–5 encode entries as ``epigram``; volume 1 uses
+        # ``chapter`` while its CTS declaration still defines them as epigrams.
+        if (
+            not str(div.tag).endswith("div")
+            or div.attrib.get("subtype") not in {"epigram", "chapter"}
+        ):
             continue
         base = div.attrib.get("{http://www.w3.org/XML/1998/namespace}base", "")
         book = re.search(r":(\d+)$", base)
@@ -87,6 +92,7 @@ def main() -> None:
         for locus, authors in anthology_attributions(source["local_path"]).items():
             anthology_index.setdefault(locus, {})[source_urn] = authors
     records = {}
+    anthology_rejections: dict[tuple[str, str], dict[str, str]] = {}
     for filename in sorted(glob.glob("data/research_batches/*.csv")):
         try:
             rows = csv.DictReader(Path(filename).open(encoding="utf-8"))
@@ -109,6 +115,13 @@ def main() -> None:
                             continue
                         loci = anthology_loci(canon[target]["bibliographic_notice"])
                         if not loci:
+                            anthology_rejections[target] = {
+                                "tlg_author_id": target[0], "tlg_work_id": target[1],
+                                "required_loci": "", "unresolved_loci": "",
+                                "observed_attributions": "",
+                                "reason": "NO_PARSEABLE_AG_LOCUS_IN_CANON_NOTICE",
+                                "evidence_file": filename,
+                            }
                             continue
                         expected_author = f"tlg-{target[0]}"
                         matching_sources = {
@@ -119,6 +132,24 @@ def main() -> None:
                             for locus in loci
                         }
                         if not all(matching_sources.values()):
+                            unresolved = [locus for locus, sources in matching_sources.items() if not sources]
+                            observed = {
+                                f"{book}.{number}": sorted(set().union(*anthology_index.get((book, number), {}).values()))
+                                for book, number in unresolved
+                            }
+                            anthology_rejections[target] = {
+                                "tlg_author_id": target[0], "tlg_work_id": target[1],
+                                "required_loci": ";".join(f"{book}.{number}" for book, number in loci),
+                                "unresolved_loci": ";".join(
+                                    f"{book}.{number}" for book, number in unresolved
+                                ),
+                                "observed_attributions": ";".join(
+                                    f"{locus}={'|'.join(values) if values else 'MISSING'}"
+                                    for locus, values in observed.items()
+                                ),
+                                "reason": "LOCUS_MISSING_OR_TLG_ATTRIBUTION_MISMATCH",
+                                "evidence_file": filename,
+                            }
                             continue
                         relationship = "VERIFIED_ANTHOLOGY_LOCUS_AND_ATTRIBUTION"
                         verification_scope = "all Canon AG loci present with matching TEI tlg author key"
@@ -180,6 +211,24 @@ def main() -> None:
     with output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader(); writer.writerows(records[key] for key in sorted(records))
+    accepted_anthology = {
+        (row["tlg_author_id"], row["tlg_work_id"])
+        for row in records.values()
+        if row["relationship"] == "VERIFIED_ANTHOLOGY_LOCUS_AND_ATTRIBUTION"
+    }
+    rejection_path = Path("data/open_text_anthology_rejections.csv")
+    rejection_fields = (
+        "tlg_author_id", "tlg_work_id", "required_loci", "unresolved_loci",
+        "observed_attributions", "reason", "evidence_file",
+    )
+    with rejection_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=rejection_fields, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(
+            anthology_rejections[key]
+            for key in sorted(anthology_rejections)
+            if key not in accepted_anthology
+        )
     print(f"verified_alternate_aliases={len(records)} target_keys={len({key[:2] for key in records})}")
 
 
