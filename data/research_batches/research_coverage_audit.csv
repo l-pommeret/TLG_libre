@@ -150,16 +150,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,078,PLUTARCHUS Biogr. et Phil.,Conjugalia praecepta (138a–146a),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,079,PLUTARCHUS Biogr. et Phil.,Septem sapientium convivium (146b– PLUTARCHUS 164d),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,080,PLUTARCHUS Biogr. et Phil.,De superstitione (164e–171f),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,081,PLUTARCHUS Biogr. et Phil.,Regum et imperatorum apophthegmata [Sp.?] (172b–208a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,082,PLUTARCHUS Biogr. et Phil.,Apophthegmata Laconica [Sp.?] (208b– 242d),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,083,PLUTARCHUS Biogr. et Phil.,Mulierum virtutes (242e–263c),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,084,PLUTARCHUS Biogr. et Phil.,Aetia Romana et Graeca (263d–304f),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,085,PLUTARCHUS Biogr. et Phil.,Parallela minora [Sp.] (305a–316b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,086,PLUTARCHUS Biogr. et Phil.,De fortuna Romanorum (316c–326c),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,087,PLUTARCHUS Biogr. et Phil.,De Alexandri magni fortuna aut virtute (326d–345b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,088,PLUTARCHUS Biogr. et Phil.,De gloria Atheniensium (345c–351b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,089,PLUTARCHUS Biogr. et Phil.,De Iside et Osiride (351c–384c),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,090,PLUTARCHUS Biogr. et Phil.,De E apud Delphos (384d–394c),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,081,PLUTARCHUS Biogr. et Phil.,Regum et imperatorum apophthegmata [Sp.?] (172b–208a),1,detailed_verified_3001_batch_572.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,082,PLUTARCHUS Biogr. et Phil.,Apophthegmata Laconica [Sp.?] (208b– 242d),1,detailed_verified_3001_batch_572.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,083,PLUTARCHUS Biogr. et Phil.,Mulierum virtutes (242e–263c),1,detailed_verified_3001_batch_572.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,084,PLUTARCHUS Biogr. et Phil.,Aetia Romana et Graeca (263d–304f),1,detailed_verified_3001_batch_572.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,085,PLUTARCHUS Biogr. et Phil.,Parallela minora [Sp.] (305a–316b),1,detailed_verified_3001_batch_572.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,086,PLUTARCHUS Biogr. et Phil.,De fortuna Romanorum (316c–326c),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,087,PLUTARCHUS Biogr. et Phil.,De Alexandri magni fortuna aut virtute (326d–345b),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,088,PLUTARCHUS Biogr. et Phil.,De gloria Atheniensium (345c–351b),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,089,PLUTARCHUS Biogr. et Phil.,De Iside et Osiride (351c–384c),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,090,PLUTARCHUS Biogr. et Phil.,De E apud Delphos (384d–394c),1,detailed_verified_3001_batch_573.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,091,PLUTARCHUS Biogr. et Phil.,De Pythiae oraculis (394d–409d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,092,PLUTARCHUS Biogr. et Phil.,De defectu oraculorum (409e–438d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,093,PLUTARCHUS Biogr. et Phil.,An virtus doceri possit (439a–440c),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
