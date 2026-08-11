@@ -1,0 +1,26 @@
+tlg_id,result,source,notes
+2319.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,historical predecessor; inspect before use; no OCR
+2320.001,EDITION_IDENTIFIED,FGrH #458,no OCR
+2321.001,EDITION_IDENTIFIED,FGrH #459,no OCR
+2322.001,EDITION_IDENTIFIED,FGrH #460,no OCR
+2322.002,EDITION_IDENTIFIED,FGrH #460,no OCR
+2322.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2324.001,EDITION_IDENTIFIED,FGrH #462,no OCR
+2325.001,EDITION_IDENTIFIED,FGrH #463,no OCR
+2326.001,EDITION_IDENTIFIED,FGrH #464,no OCR
+2326.002,EDITION_IDENTIFIED,FGrH #464,no OCR
+2326.003,EDITION_IDENTIFIED,canonical bibliography,locate lawful source; no OCR
+2326.004,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2327.001,EDITION_IDENTIFIED,FGrH #465,no OCR
+2328.001,EDITION_IDENTIFIED,FGrH #467,no OCR
+2328.002,EDITION_IDENTIFIED,FGrH #467,no OCR
+2328.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2330.001,EDITION_IDENTIFIED,FGrH #470,no OCR
+2330.002,EDITION_IDENTIFIED,FGrH #470,no OCR
+2330.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2331.001,EDITION_IDENTIFIED,FGrH #472,no OCR
+2331.002,EDITION_IDENTIFIED,FGrH #472,no OCR
+2331.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2332.001,EDITION_IDENTIFIED,FGrH #473,no OCR
+2333.001,EDITION_IDENTIFIED,FGrH #474,no OCR
+2333.002,EDITION_IDENTIFIED,canonical bibliography,locate lawful source; no OCR

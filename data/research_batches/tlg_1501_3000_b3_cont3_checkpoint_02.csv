@@ -1,0 +1,26 @@
+tlg_id,result,source,notes
+2333.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG; inspect exact volume/pages; no OCR
+2334.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,historical predecessor; inspect before use; no OCR
+2334.002,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,historical predecessor; inspect before use; no OCR
+2335.001,EDITION_IDENTIFIED,FGrH #475,no OCR
+2336.001,EDITION_IDENTIFIED,FGrH #476 / canonical bibliography,locate lawful source; no OCR
+2336.001,EDITION_IDENTIFIED,canonical bibliography,duplicate canon notice; no OCR
+2336.001,EDITION_IDENTIFIED,canonical bibliography,duplicate canon notice; no OCR
+2336.002,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG alternative; inspect; no OCR
+2336.002,EDITION_IDENTIFIED,canonical bibliography,duplicate canon notice; no OCR
+2336.003,EDITION_IDENTIFIED,canonical bibliography,locate lawful source; no OCR
+2336.004,EDITION_IDENTIFIED,canonical bibliography,locate lawful source; no OCR
+2336.005,EDITION_IDENTIFIED,FGrH #476,no OCR
+2336.006,EDITION_IDENTIFIED,FGrH #476,no OCR
+2336.007,EDITION_IDENTIFIED,canonical bibliography,locate lawful source; no OCR
+2336.008,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG alternative; inspect; no OCR
+2338.001,EDITION_IDENTIFIED,FGrH #477,no OCR
+2338.002,EDITION_IDENTIFIED,FGrH #477,no OCR
+2339.001,EDITION_IDENTIFIED,FGrH #478,no OCR
+2339.002,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG alternative; inspect; no OCR
+2340.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,historical predecessor; inspect before use; no OCR
+2340.001,EDITION_IDENTIFIED,canonical bibliography,duplicate canon notice; no OCR
+2341.001,EDITION_IDENTIFIED,FGrH #479,no OCR
+2341.002,EDITION_IDENTIFIED,FGrH #479,no OCR
+2341.003,SCAN_CANDIDATE,https://archive.org/search?query=title%3A%22Fragmenta+historicorum+graecorum%22,historical FHG alternative; inspect; no OCR
+2342.001,EDITION_IDENTIFIED,FGrH #480,no OCR
