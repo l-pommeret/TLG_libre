@@ -40,3 +40,7 @@ Ne pas transférer le volume complet : les pages sont déduites de la pagination
 | 4110.016 | 1249–1252 | 651–652 |
 
 Les chevauchements de feuillet (4110.020/.021) sont intentionnels; dédupliquer lors du transfert. Les segments non listés, notamment préfaces, autres auteurs et pages de garde, sont hors cible.
+
+### Contrôle grec par segment (garde-fou de dispatch)
+
+Chaque segment consolidé a fait l'objet d'une vue temporaire supplémentaire, inspectée puis supprimée : p. fichier **100** (cols. 187–188, Nilus grec; segment 47–305), p. **580** (1107–1108, Nilus grec; 573–626), p. **644** (1235–1236, titre et incipit grec de l'*Institutio*; 644–646) et p. **651** (1249–1250, texte grec des *Capita paraenetica*; 651–652). Le manifeste est donc prêt pour un transfert strictement segmenté.

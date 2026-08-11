@@ -22,3 +22,7 @@ Le repère stable observé est `col. = 2 × page_fichier − 9`; les bornes incl
 | 9023.016 | *De subditorum officiis* | 496–548 | 252–278 |
 
 Chevauchements aux cols. 373 et 404 : dédupliquer les pages 191 et 206 au transfert. **Rendement : 8 notices**. Recommandation : ingérer seulement p. 112–227 et 252–278 (avec p. 217–218 et 228–251 exclues), jamais le volume complet.
+
+### Contrôle grec par segment (garde-fou de dispatch)
+
+Une page grecque temporaire a été inspectée dans chaque segment disjoint et supprimée : p. fichier **112** (cols. 215–216, titre/incipit de la *Laudatio*; segment 112–216), p. **220** (431–432, grec continu; 219–227) et p. **253** (497–498, *De subditorum officiis* grec; 252–278). Ces contrôles confirment que les trois plages prêtes au dispatch contiennent bien le texte grec ciblé.
