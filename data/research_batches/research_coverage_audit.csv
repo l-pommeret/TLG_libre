@@ -11980,18 +11980,18 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4441,002,Manuel STRABOROMANUS Rhet.,Consolatio ad Irenem imperatricem,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4441,003,Manuel STRABOROMANUS Rhet.,Carmina,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4442,001,Joannes PLUSIADENUS Hymnograph. et,Θρῆνος τῆς Θεοτόκου,1,detailed_verified_3001_batch_533.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4442,002,Joannes PLUSIADENUS Hymnograph. et,Κανὼν εἰς τὸν ἅγιον Θωμᾶν τὸν Ἀγχίνουν,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4442,003,Joannes PLUSIADENUS Hymnograph. et,"Disceptatio de differentiis inter graecos et latinos et synodo Florentina, MPG 159: 960–1024. Cod: 12,440: Homilet., Theol",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4442,002,Joannes PLUSIADENUS Hymnograph. et,Κανὼν εἰς τὸν ἅγιον Θωμᾶν τὸν Ἀγχίνουν,1,detailed_verified_3001_batch_534.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4442,003,Joannes PLUSIADENUS Hymnograph. et,"Disceptatio de differentiis inter graecos et latinos et synodo Florentina, MPG 159: 960–1024. Cod: 12,440: Homilet., Theol",1,detailed_verified_3001_batch_534.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4443,001,Constantinus MELITENIOTES Theol.,"Orationes antirrheticae adversus tomum Gregorii II Cyprii (e cod. Paris. gr. 1303, ff. 82–143v)",1,tlg_0001_1500_b5_cont156_checkpoint_01_4443_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4443,002,Constantinus MELITENIOTES Theol.,"Orationes de processione spiritus sancti, MPG 141: 1032–1273. Cod: 53,454: Orat., Theol",1,tlg_0001_1500_b5_cont157_checkpoint_01_4443_002.csv,OPEN_SCAN_READY_FOR_OWN_OCR,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4444,001,Nicolaus SECUNDINUS Epist. et Transl.,Epistula consolatoria ad amicum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4444,002,Nicolaus SECUNDINUS Epist. et Transl.,Epistula ad Matthaeum Asanem Palaeologum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4444,003,Nicolaus SECUNDINUS Epist. et Transl.,"Epistula ad Andronicum Callistum, MPG 161: 691–696. Cod: 1,387: Epist",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4444,004,Nicolaus SECUNDINUS Epist. et Transl.,Translatio sermonis Juliani Cesarini,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4445,001,Georgius SCYLITZES Poeta,Epigramma,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4445,002,Georgius SCYLITZES Poeta,Acoluthia,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4445,003,Georgius SCYLITZES Poeta,Canones in sanctos Demetrium et Georgium,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4445,004,Georgius SCYLITZES Poeta,Versus dedicatorii,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4444,001,Nicolaus SECUNDINUS Epist. et Transl.,Epistula consolatoria ad amicum,1,detailed_verified_3001_batch_534.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4444,002,Nicolaus SECUNDINUS Epist. et Transl.,Epistula ad Matthaeum Asanem Palaeologum,1,detailed_verified_3001_batch_534.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4444,003,Nicolaus SECUNDINUS Epist. et Transl.,"Epistula ad Andronicum Callistum, MPG 161: 691–696. Cod: 1,387: Epist",1,detailed_verified_3001_batch_534.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4444,004,Nicolaus SECUNDINUS Epist. et Transl.,Translatio sermonis Juliani Cesarini,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4445,001,Georgius SCYLITZES Poeta,Epigramma,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4445,002,Georgius SCYLITZES Poeta,Acoluthia,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4445,003,Georgius SCYLITZES Poeta,Canones in sanctos Demetrium et Georgium,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4445,004,Georgius SCYLITZES Poeta,Versus dedicatorii,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4446,001,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Job (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4446,002,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Ezechielem (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4446,003,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Danielem (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
