@@ -15,3 +15,5 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 1673,001,7.21;7.22;7.60,7.21;7.22;7.60,7.21-7.22+7.60=tlg-0211,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_834.csv
 0183,001,9.602,9.602,9.602=tlg-0182 Euenus Grammaticus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_04.csv
 0196,001,7.167,7.167,7.167=tlg-0173 Dioscorides,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_132.csv
+4060,001,9.597,9.597,9.597=tlg-4058 Cometas Chartularius,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b32_batch_0004.csv
+0131,001,7.50,7.50,7.50=tlg-0552,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b11_batch_0003.csv
