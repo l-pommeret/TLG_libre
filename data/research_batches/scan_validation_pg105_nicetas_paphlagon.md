@@ -16,3 +16,9 @@
 | 5272.001 ; 5445.003 | 864–925 ; 940–976 |
 
 Dédupliquer les colonnes communes et associer 2705.024/5278.001 à leur même locus. Rendement READY : 13 notices à correspondance directe, droits explicites et qualité contrôlée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original a été archivé sans réencodage sous `scans/volumes/pg105-nicetas-paphlagon/pg105-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 54 130 720 octets et son SHA-256 LFS vérifié est `b9ec3a6fdafbd80bf9280e48113d597e394e807ef40d32bcac7aea8dd4247939`.
+
+L’ancienne archive de 1 204 142 080 octets, constituée de rendus redondants des mêmes 716 pages, a été retirée de HF après vérification de la nouvelle copie. La couverture canonique et les trois contrôles grecs restent inchangés, avec un gain net d’environ 1,15 Go. Aucun OCR fournisseur n’a été extrait ni conservé.
