@@ -14,7 +14,10 @@ case "$TARGET_PATH" in
 esac
 test -d "$TARGET_PATH" || { echo "metadata directory does not exist" >&2; exit 2; }
 test ! -e "$TARGET_PATH/images" || { echo "images already exist" >&2; exit 2; }
-[[ "$EXPECTED_SHA1" =~ ^[0-9a-f]{40}$ ]] || { echo "invalid SHA-1" >&2; exit 2; }
+test "${#EXPECTED_SHA1}" -eq 40 || { echo "invalid SHA-1 length" >&2; exit 2; }
+case "$EXPECTED_SHA1" in
+  *[!0-9a-f]*) echo "invalid SHA-1 characters" >&2; exit 2 ;;
+esac
 [[ "$EXPECTED_COUNT" =~ ^[0-9]+$ ]] || { echo "invalid image count" >&2; exit 2; }
 
 stage="$(mktemp -d)"
