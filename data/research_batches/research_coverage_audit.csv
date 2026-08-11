@@ -100,16 +100,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,028,PLUTARCHUS Biogr. et Phil.,Titus Flamininus,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,029,PLUTARCHUS Biogr. et Phil.,Comparatio Philopoemenis et Titi Flaminini,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,030,PLUTARCHUS Biogr. et Phil.,Pyrrhus,1,detailed_verified_3001_batch_561.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,031,PLUTARCHUS Biogr. et Phil.,Marius,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,032,PLUTARCHUS Biogr. et Phil.,Lysander,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,033,PLUTARCHUS Biogr. et Phil.,Sulla,0,,,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,034,PLUTARCHUS Biogr. et Phil.,Comparatio Lysandri et Sullae,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,035,PLUTARCHUS Biogr. et Phil.,Cimon,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,036,PLUTARCHUS Biogr. et Phil.,Lucullus,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,037,PLUTARCHUS Biogr. et Phil.,Comparatio Cimonis et Luculli,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,038,PLUTARCHUS Biogr. et Phil.,Nicias,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,039,PLUTARCHUS Biogr. et Phil.,Crassus,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,040,PLUTARCHUS Biogr. et Phil.,Comparatio Niciae et Crassi,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,031,PLUTARCHUS Biogr. et Phil.,Marius,1,detailed_verified_3001_batch_562.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,032,PLUTARCHUS Biogr. et Phil.,Lysander,1,detailed_verified_3001_batch_562.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,033,PLUTARCHUS Biogr. et Phil.,Sulla,1,detailed_verified_3001_batch_562.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,034,PLUTARCHUS Biogr. et Phil.,Comparatio Lysandri et Sullae,1,detailed_verified_3001_batch_562.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,035,PLUTARCHUS Biogr. et Phil.,Cimon,1,detailed_verified_3001_batch_562.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,036,PLUTARCHUS Biogr. et Phil.,Lucullus,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,037,PLUTARCHUS Biogr. et Phil.,Comparatio Cimonis et Luculli,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,038,PLUTARCHUS Biogr. et Phil.,Nicias,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,039,PLUTARCHUS Biogr. et Phil.,Crassus,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,040,PLUTARCHUS Biogr. et Phil.,Comparatio Niciae et Crassi,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,041,PLUTARCHUS Biogr. et Phil.,Eumenes,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,042,PLUTARCHUS Biogr. et Phil.,Sertorius,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,043,PLUTARCHUS Biogr. et Phil.,Comparatio Eumenis et Sertorii,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
