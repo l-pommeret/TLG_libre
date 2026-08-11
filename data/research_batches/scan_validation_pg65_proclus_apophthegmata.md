@@ -53,3 +53,9 @@ Les rendus représentent début, milieu et fin de l’étendue utile 16–852. L
 ## Recommandation
 
 **READY, haut rendement : 18 notices exactes**, dont l’intégralité de la collection canonique *Apophthegmata* et quinze unités Proclus. Le volume PDM de 78 MiB est transférable en entier ; conserver licence, URL et SHA-1, puis ne traiter que les images originales avec l’OCR du projet.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 81 392 703 octets, 690 pages.
+- SHA-256 local et distant : `ab7c89101fd3ea12066ae462a8f90f852be3a36275599b81b70e251a64bee589`.
+- Ancien tar de 503 121 920 octets retiré après vérification distante, récupérable dans l'historique HF.
