@@ -12294,16 +12294,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5010,023,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholia vetera et recentiora Demetrii Triclinii) (e cod. Neapol. II.F.31),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,024,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora) (e cod. Mediceo),1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5011,001,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia ad epigrammata arithmetica in Anthologia Graeca,1,detailed_verified_3001_batch_553.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5011,002,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia in Anthologiam Graecam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5012,001,SCHOLIA IN APOLLONIUM RHODI-,Scholia in Apollonii Rhodii Argonautica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,001,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,002,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (P. Berol. 5865),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,003,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,004,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e codd. Palat. gr. 40 (P) + Paris gr. 2860),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,005,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e cod. Perusino A 35),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5013,006,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e cod. Paris gr. 2728),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5014,001,SCHOLIA IN ARISTOPHANEM,Scholia in Acharnenses (scholia vetera et recentiora Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5014,002,SCHOLIA IN ARISTOPHANEM,Scholia in equites (scholia vetera et recentiora Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5011,002,SCHOLIA IN ANTHOLOGIAM GRAE-,Scholia in Anthologiam Graecam,1,detailed_verified_3001_batch_554.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5012,001,SCHOLIA IN APOLLONIUM RHODI-,Scholia in Apollonii Rhodii Argonautica (scholia vetera),1,detailed_verified_3001_batch_554.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,001,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera),1,detailed_verified_3001_batch_554.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,002,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (P. Berol. 5865),1,detailed_verified_3001_batch_554.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,003,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera),1,detailed_verified_3001_batch_554.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,004,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e codd. Palat. gr. 40 (P) + Paris gr. 2860),1,detailed_verified_3001_batch_555.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,005,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e cod. Perusino A 35),1,detailed_verified_3001_batch_555.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5013,006,SCHOLIA IN ARATUM,Scholia in Aratum (scholia vetera) (e cod. Paris gr. 2728),1,detailed_verified_3001_batch_555.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5014,001,SCHOLIA IN ARISTOPHANEM,Scholia in Acharnenses (scholia vetera et recentiora Triclinii),1,detailed_verified_3001_batch_555.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5014,002,SCHOLIA IN ARISTOPHANEM,Scholia in equites (scholia vetera et recentiora Triclinii),1,detailed_verified_3001_batch_555.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5014,003,SCHOLIA IN ARISTOPHANEM,Scholia in nubes (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5014,004,SCHOLIA IN ARISTOPHANEM,Scholia in nubes (scholia scholiorumque partes editionis Aldinae propria),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5014,005,SCHOLIA IN ARISTOPHANEM,"Scholia in nubes (scholia recentiora Eustathii, Thomae Magistri et Triclinii)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
