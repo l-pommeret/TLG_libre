@@ -170,16 +170,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,098,PLUTARCHUS Biogr. et Phil.,De amore prolis (493a–497e),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,099,PLUTARCHUS Biogr. et Phil.,An vitiositas ad infelicitatem sufficiat (498a–500a),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,100,PLUTARCHUS Biogr. et Phil.,Animine an corporis affectiones sint peiores (500b–502a),1,detailed_verified_3001_batch_575.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,101,PLUTARCHUS Biogr. et Phil.,De garrulitate (502b–515a),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,102,PLUTARCHUS Biogr. et Phil.,De curiositate (515b–523b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,103,PLUTARCHUS Biogr. et Phil.,De cupiditate divitiarum (523c–528b),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,104,PLUTARCHUS Biogr. et Phil.,De vitioso pudore (528c–536d),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,105,PLUTARCHUS Biogr. et Phil.,De invidia et odio (536e–538e),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,106,PLUTARCHUS Biogr. et Phil.,De laude ipsius (539a–547f),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,107,PLUTARCHUS Biogr. et Phil.,De sera numinis vindicta (548a–568a),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,108,PLUTARCHUS Biogr. et Phil.,De fato [Sp.] (568b–574f),0,,,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,109,PLUTARCHUS Biogr. et Phil.,De genio Socratis (575a–598f),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,110,PLUTARCHUS Biogr. et Phil.,De exilio (599a–607f),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,101,PLUTARCHUS Biogr. et Phil.,De garrulitate (502b–515a),1,detailed_verified_3001_batch_576.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,102,PLUTARCHUS Biogr. et Phil.,De curiositate (515b–523b),1,detailed_verified_3001_batch_576.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,103,PLUTARCHUS Biogr. et Phil.,De cupiditate divitiarum (523c–528b),1,detailed_verified_3001_batch_576.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,104,PLUTARCHUS Biogr. et Phil.,De vitioso pudore (528c–536d),1,detailed_verified_3001_batch_576.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,105,PLUTARCHUS Biogr. et Phil.,De invidia et odio (536e–538e),1,detailed_verified_3001_batch_576.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,106,PLUTARCHUS Biogr. et Phil.,De laude ipsius (539a–547f),1,detailed_verified_3001_batch_577.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,107,PLUTARCHUS Biogr. et Phil.,De sera numinis vindicta (548a–568a),1,detailed_verified_3001_batch_577.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,108,PLUTARCHUS Biogr. et Phil.,De fato [Sp.] (568b–574f),1,detailed_verified_3001_batch_577.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_02.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,109,PLUTARCHUS Biogr. et Phil.,De genio Socratis (575a–598f),1,detailed_verified_3001_batch_577.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,110,PLUTARCHUS Biogr. et Phil.,De exilio (599a–607f),1,detailed_verified_3001_batch_577.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,111,PLUTARCHUS Biogr. et Phil.,Consolatio ad uxorem (608a–612b),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,112,PLUTARCHUS Biogr. et Phil.,Quaestiones convivales (612c–748d),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,113,PLUTARCHUS Biogr. et Phil.,Amatorius (748e–771e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
