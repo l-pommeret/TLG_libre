@@ -54,9 +54,9 @@ python3 scripts/apply_text_verification.py
 
 Au 11 août 2026, la vue Canon contient 13 765 notices d'œuvres, hors 1 536
 renvois : 1 709 (12,42 %) ont un texte grec ouvert vérifié sous le même
-identifiant TLG et 123 (0,89 %) supplémentaires ont une édition alternative
+identifiant TLG et 132 (0,96 %) supplémentaires ont une édition alternative
 ouverte vérifiée. La couverture textuelle directement exploitable est donc de
-1 832 notices (13,31 %). Les
+1 841 notices (13,37 %). Les
 deux catégories restent séparées afin de ne pas présenter une édition
 alternative comme l'édition bibliographique exacte du Canon.
 
