@@ -2,7 +2,7 @@
 
 ## Décision
 
-**REVIEW — concordance bibliographique et qualité confirmées, mais droits non documentés.** Le candidat est le volume I de l'édition K. Müller, Paris, Didot, 1855, et non le volume II (1861). L'identifiant `geographigraeci03mlgoog` était absent de `data/scan_sources.csv` et de `scans/` au contrôle du 11 août 2026. La page IA ne fournit ni `rights`, ni `licenseurl`, ni statut de copyright : il ne doit donc pas passer à la récupération tant qu'une base de droits explicite n'aura pas été trouvée, malgré son édition exacte et son excellente qualité technique.
+**READY — concordance, droits et grec vérifiés sur la copie distribuée.** Le candidat est le volume I de l'édition K. Müller, Paris, Didot, 1855, et non le volume II (1861). Wikimedia Commons distribue désormais la copie complète de 746 pages sous déclaration explicite de domaine public. Les onze plages canoniques ont été converties en cinq plages PDF discontinues et les 22 pages de début/fin ont été rendues depuis ce fichier précis : elles confirment le grec et l'apparat latin dans chaque segment.
 
 ## Concordance avec le canon
 
@@ -33,13 +33,14 @@ Le champ `bibliographic_notice` de `data/canon_coverage.csv` associe expliciteme
 | Original distinct | aucun paquet d'images original distinct publié dans les métadonnées |
 | Données de numérisation | `geographigraeci03mlgoog_scandata.xml` ; SHA-1 `42c9e679b83d8170d35c1c1902a9970ffe4610f6` ; 243 753 octets |
 | PPI / qualité déclarée | 600 ppi ; rendu net, mise en page et grec lisibles dans les trois échantillons |
-| Droits | `rights`, `licenseurl` et `possible-copyright-status` absents des métadonnées : preuve de droit explicite manquante |
+| Copie distribuée | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geographi_graeci_minores.E_codicibus_recognovit_prolegomenis_annotatione_..._(IA_geographigraeci03mlgoog).pdf), 57 736 863 octets, 746 pages, SHA-1 `922d69a87d36954f4d3c53f0d373320938b8987d` |
+| Droits | Wikimedia Commons : domaine public, œuvre antérieure à 1931 et fichier déclaré sans restriction connue |
 | OCR / archive | aucun OCR employé et aucune archive JP2/PDF téléchargée |
 
 ## Contrôle visuel temporaire
 
-Trois JPEG BookReader à distance ont été consultés, sans conservation locale : `n273` (p. 111, début d'Agatharchide, texte grec/latin net), `n590` (p. 426, fin de l'*Anonymus de ambitu Ponti*, texte net) et `n736` (p. 572, en-tête « Marciani Heracleensis » puis *Menippi Fragmenta*, texte net). Les fichiers temporaires ont été supprimés après contrôle; aucun fichier image ne subsiste dans le dépôt.
+Les pages PDF 163/176, 177/258, 259/272, 273/356, 358/399, 419/467, 566/587, 588/590, 591/678, 679/726 et 736/737 ont été rendues temporairement depuis la copie Commons. Elles correspondent exactement aux onze débuts/fins imprimés et confirment le grec dans chaque segment. Les fichiers temporaires sont supprimés après contrôle; aucun fichier image ne subsiste dans le dépôt.
 
 ## Action recommandée
 
-Conserver ce volume comme candidat exact à haut rendement (11 notices) et rechercher une déclaration de domaine public ou une licence explicite de la source. Une fois ce seul verrou résolu, la concordance d'édition, l'intégrité (SHA-1), la taille inférieure à 500 Mo et la qualité à 600 ppi permettent une promotion à `READY`.
+Ingérer uniquement les pages PDF 163–356, 358–399, 419–467, 566–726 et 736–737 vers HF. Ne pas importer les préfaces, tables ni lacunes canoniques. Le manifeste ciblé se trouve dans `scans/volumes/muller-geographi-graeci-minores-v1-1855/`.
