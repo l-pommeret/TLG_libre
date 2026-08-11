@@ -52,16 +52,25 @@ python3 scripts/build_open_text_aliases.py
 python3 scripts/apply_text_verification.py
 ```
 
-Au 11 août 2026, la vue Canon contient 15 301 notices : 1 709 (11,17 %)
-ont un texte grec ouvert vérifié sous le même identifiant TLG et 67 (0,44 %)
-supplémentaires ont une édition alternative ouverte vérifiée. La couverture
-textuelle directement exploitable est donc de 1 776 notices (11,61 %). Les
+Au 11 août 2026, la vue Canon contient 13 765 notices d'œuvres, hors 1 536
+renvois : 1 709 (12,42 %) ont un texte grec ouvert vérifié sous le même
+identifiant TLG et 67 (0,49 %) supplémentaires ont une édition alternative
+ouverte vérifiée. La couverture textuelle directement exploitable est donc de
+1 776 notices (12,90 %). Les
 deux catégories restent séparées afin de ne pas présenter une édition
 alternative comme l'édition bibliographique exacte du Canon.
 
 `open_text_aliases.csv` conserve la preuve reliant une notice du Canon à une
 édition alternative dont le TEI, le grec, l'URN, la licence et la somme SHA-256
 ont été vérifiés localement.
+
+`scan_work_coverage.csv` relie les scans déjà archivés sur Hugging Face aux
+notices exactes du Canon. `coverage_summary.md` croise ensuite texte et scan :
+
+```sh
+python3 scripts/build_scan_work_coverage.py
+python3 scripts/build_coverage_summary.py
+```
 
 Les checkouts sous `sources/upstream/` sont des copies de travail clairsemées
 liées aux révisions amont. Ils ne doivent pas être modifiés : toute correction
