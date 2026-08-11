@@ -12274,16 +12274,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5009,002,SCHOLIA IN AESCHINEM,Scholia in Aeschinem,1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,001,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia vetera),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,002,SCHOLIA IN AESCHYLUM,Scholia prototricliniana in Aeschylum (scholia recentiora),1,detailed_verified_3001_batch_549.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5010,003,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia recentiora Demetrii Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,004,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,005,SCHOLIA IN AESCHYLUM,Scholia in Prometheum vinctum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,006,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera et recentiora Thomae Magistri et Demetrii Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,007,SCHOLIA IN AESCHYLUM,Scholia in Prometheum vinctum (scholia recentiora Thomae Magistri et Demetrii Triclinii) (e cod. Neapol. II.F.31),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,008,SCHOLIA IN AESCHYLUM,Scholia in Septem contra Thebas (scholia recentiora Demetrii Triclinii),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,009,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,010,SCHOLIA IN AESCHYLUM,Scholia et glossae in Persas (scholia vetera et recentiora Thomae Magistri et Demetrii Triclinii) (e cod. Laur. 31.8),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,011,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera) (e cod. Mediceo 32.9),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5010,012,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5010,003,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia recentiora Demetrii Triclinii),1,detailed_verified_3001_batch_550.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,004,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera),1,detailed_verified_3001_batch_550.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,005,SCHOLIA IN AESCHYLUM,Scholia in Prometheum vinctum (scholia vetera),1,detailed_verified_3001_batch_550.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,006,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera et recentiora Thomae Magistri et Demetrii Triclinii),1,detailed_verified_3001_batch_550.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,007,SCHOLIA IN AESCHYLUM,Scholia in Prometheum vinctum (scholia recentiora Thomae Magistri et Demetrii Triclinii) (e cod. Neapol. II.F.31),1,detailed_verified_3001_batch_550.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,008,SCHOLIA IN AESCHYLUM,Scholia in Septem contra Thebas (scholia recentiora Demetrii Triclinii),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,009,SCHOLIA IN AESCHYLUM,Scholia in Aeschylum (scholia recentiora),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,010,SCHOLIA IN AESCHYLUM,Scholia et glossae in Persas (scholia vetera et recentiora Thomae Magistri et Demetrii Triclinii) (e cod. Laur. 31.8),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,011,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia vetera) (e cod. Mediceo 32.9),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5010,012,SCHOLIA IN AESCHYLUM,Scholia in Persas (scholia recentiora),1,detailed_verified_3001_batch_551.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5010,014,SCHOLIA IN AESCHYLUM,Scholia in Septem contra Thebas (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5010,017,SCHOLIA IN AESCHYLUM,Scholia in Eumenides (scholion recentius),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5010,018,SCHOLIA IN AESCHYLUM,Scholia et glossae in Prometheum vinctum (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
