@@ -225,7 +225,7 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0009,001,SAPPHO Lyr.,Fragmenta,1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0009,002,SAPPHO Lyr.,"Epigrammata, AG: 6.269(?); 7.489, 505. Q: 71: Epigr",1,detailed_verified_3001_batch_585.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0009,003,SAPPHO Lyr.,Fragmenta,1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
-0009,004,SAPPHO Lyr.,Fragmentis addenda,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
+0009,004,SAPPHO Lyr.,Fragmentis addenda,1,detailed_verified_3001_batch_586.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,001,ISOCRATES Orat.,In Euthynum (orat. 21),1,tlg_0001_1500_b5_cont7_checkpoint_02_3401_001_0010_003.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,002,ISOCRATES Orat.,In Callimachum (orat. 18),1,tlg_0001_1500_b5_cont7_checkpoint_02_3401_001_0010_003.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,003,ISOCRATES Orat.,In Lochitem (orat. 20),1,tlg_0001_1500_b5_cont7_checkpoint_02_3401_001_0010_003.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
@@ -257,15 +257,15 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0010,029,ISOCRATES Orat.,Ad Antipatrum (epist. 4),1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_03_checkpoint_01.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,030,ISOCRATES Orat.,Ad Philippum (epist. 3),1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_03_checkpoint_01.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,031,ISOCRATES Orat.,Fragmenta,1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,EDITION_IDENTIFIED,1,range_inferred_batch_03_checkpoint_01.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
-0011,001,SOPHOCLES Trag.,Trachiniae,0,,,1,range_inferred_batch_03_checkpoint_01.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,002,SOPHOCLES Trag.,Antigone,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,003,SOPHOCLES Trag.,Ajax,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,004,SOPHOCLES Trag.,Oedipus Tyrannus,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,005,SOPHOCLES Trag.,Electra,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,006,SOPHOCLES Trag.,Philoctetes,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,007,SOPHOCLES Trag.,Oedipus Coloneus,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,008,SOPHOCLES Trag.,Fragmenta,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0011,009,SOPHOCLES Trag.,Fragmenta,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
+0011,001,SOPHOCLES Trag.,Trachiniae,1,detailed_verified_3001_batch_586.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_01.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,002,SOPHOCLES Trag.,Antigone,1,detailed_verified_3001_batch_586.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,003,SOPHOCLES Trag.,Ajax,1,detailed_verified_3001_batch_586.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,004,SOPHOCLES Trag.,Oedipus Tyrannus,1,detailed_verified_3001_batch_586.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,005,SOPHOCLES Trag.,Electra,1,detailed_verified_3001_batch_587.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,006,SOPHOCLES Trag.,Philoctetes,1,detailed_verified_3001_batch_587.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,007,SOPHOCLES Trag.,Oedipus Coloneus,1,detailed_verified_3001_batch_587.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,008,SOPHOCLES Trag.,Fragmenta,1,detailed_verified_3001_batch_587.csv,PARTIAL_OPEN_TEXT_AVAILABLE,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0011,009,SOPHOCLES Trag.,Fragmenta,1,detailed_verified_3001_batch_587.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0011,010,SOPHOCLES Trag.,Fragmenta,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
 0011,011,SOPHOCLES Trag.,Ajax,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
 0011,012,SOPHOCLES Trag.,Electra,0,,,1,range_inferred_batch_03_checkpoint_02.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
