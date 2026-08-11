@@ -130,16 +130,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,058,PLUTARCHUS Biogr. et Phil.,Antonius,1,detailed_verified_3001_batch_567.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,059,PLUTARCHUS Biogr. et Phil.,Comparatio Demetrii et Antonii,1,detailed_verified_3001_batch_567.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,060,PLUTARCHUS Biogr. et Phil.,Dion,1,detailed_verified_3001_batch_567.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,061,PLUTARCHUS Biogr. et Phil.,Brutus,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,062,PLUTARCHUS Biogr. et Phil.,Comparatio Dionis et Bruti,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,063,PLUTARCHUS Biogr. et Phil.,Aratus,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,064,PLUTARCHUS Biogr. et Phil.,Artaxerxes,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,065,PLUTARCHUS Biogr. et Phil.,Galba,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,066,PLUTARCHUS Biogr. et Phil.,Otho,0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,067,PLUTARCHUS Biogr. et Phil.,De liberis educandis [Sp.] (1a–14c),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,068,PLUTARCHUS Biogr. et Phil.,Quomodo adolescens poetas audire debeat (14d–37b),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,069,PLUTARCHUS Biogr. et Phil.,De recta ratione audiendi (37b–48d),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,070,PLUTARCHUS Biogr. et Phil.,Quomodo adulator ab amico internoscatur (48e–74e),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,061,PLUTARCHUS Biogr. et Phil.,Brutus,1,detailed_verified_3001_batch_568.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,062,PLUTARCHUS Biogr. et Phil.,Comparatio Dionis et Bruti,1,detailed_verified_3001_batch_568.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,063,PLUTARCHUS Biogr. et Phil.,Aratus,1,detailed_verified_3001_batch_568.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,064,PLUTARCHUS Biogr. et Phil.,Artaxerxes,1,detailed_verified_3001_batch_568.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,065,PLUTARCHUS Biogr. et Phil.,Galba,1,detailed_verified_3001_batch_568.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,066,PLUTARCHUS Biogr. et Phil.,Otho,1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,067,PLUTARCHUS Biogr. et Phil.,De liberis educandis [Sp.] (1a–14c),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,068,PLUTARCHUS Biogr. et Phil.,Quomodo adolescens poetas audire debeat (14d–37b),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,069,PLUTARCHUS Biogr. et Phil.,De recta ratione audiendi (37b–48d),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,070,PLUTARCHUS Biogr. et Phil.,Quomodo adulator ab amico internoscatur (48e–74e),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,071,PLUTARCHUS Biogr. et Phil.,Quomodo quis suos in virtute sentiat profectus (75a–86a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,072,PLUTARCHUS Biogr. et Phil.,De capienda ex inimicis utilitate (86b– 92f),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,073,PLUTARCHUS Biogr. et Phil.,De amicorum multitudine (93a–97b),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
