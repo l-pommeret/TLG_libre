@@ -12,3 +12,6 @@ Richter, 1780.
 
 Les vues correspondant aux pages 501–508 ont été contrôlées puis
 supprimées localement. Aucun OCR fournisseur n'est ingéré.
+- Plage conservée : vues `n537–n544`, correspondant exactement aux pages
+  canoniques 501–508 de Mélampous (8 images). Les 557 vues hors cible ont été
+  retirées du dépôt.

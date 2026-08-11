@@ -2,7 +2,7 @@
 
 ## Décision
 
-**READY.** `BIUSante_150173` est absent de `data/scan_sources.csv` et de `scans/` au contrôle du 11 août 2026. C'est l'édition de J. G. F. Franz (Altenburg, 1780) prescrite exactement par le canon pour TLG 1365.001, aux pp. 501–508. Les trois pages contrôlées portent le titre de Mélampous, les bornes 501, 504 et 508, et le grec avec traduction/notes latines. La licence Etalab est explicite. Le paquet image fait 361 Mo : l'ingestion image-only du volume entier est recommandée, plutôt qu'une découpe ciblée.
+**READY ciblé.** `BIUSante_150173` fournit l'édition de J. G. F. Franz (Altenburg, 1780) prescrite exactement par le canon pour TLG 1365.001, aux pp. 501–508. Les trois pages contrôlées portent le titre de Mélampous, les bornes 501, 504 et 508, et le grec avec traduction/notes latines. La licence Etalab est explicite. Seules les vues `n537–n544` doivent être conservées; le reste du volume est hors cible.
 
 ## Concordance
 
@@ -31,4 +31,4 @@
 
 ## Action
 
-Ajouter comme source `REMOTE_ONLY` **READY** pour TLG 1365.001. Vu la taille de 361 Mo, les droits explicites et l'exactitude de l'édition, planifier l'ingestion image-only du volume complet (et non seulement pp. 501–508), sans aucun dérivé OCR.
+Source `REMOTE_ONLY` **READY** pour TLG 1365.001, limitée aux huit vues `n537–n544`. Ne jamais réingérer le volume complet; aucun dérivé OCR.
