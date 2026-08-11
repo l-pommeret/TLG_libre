@@ -35,3 +35,9 @@ Les trois vues temporaires `n204` (cols. 397–398, début des *Poemata dogmatic
 ## Action proposée
 
 Ingestion **image-only READY depuis Commons PDM** pour 2022.059–062, par les colonnes imprimées de la table (vérifier les numéros de pages propres au fichier Commons). Le duplicat IA ne sert qu’à fixer la pagination et la qualité, pas comme preuve autonome de licence. Laisser 2022.057–058 en REVIEW jusqu’à établissement de leurs loci.
+
+## Compaction HF vérifiée
+
+- PDF image-only Commons transféré sous `scans/volumes/pg37-gregory-nazianzen/pg37-original-image-only.pdf` : 100 503 252 octets, 974 pages.
+- SHA-256 local et distant : `7ad53d25e9fd8b15218267c90d452e42dec881eb23f2802a92db8f74037eb7d1`.
+- Le tar redondant de 638 668 800 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
