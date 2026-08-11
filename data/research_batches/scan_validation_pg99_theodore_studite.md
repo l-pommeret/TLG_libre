@@ -15,3 +15,9 @@
 | 2714.011 ; 5320.002 ; 4527.001 | 1813–1824 ; 1704–1720 ; 1825–1849 |
 
 Les clés 2714.014/.015/.017–.022 sont sans locus MPG99 dans le canon et ne sont pas incluses. Découper selon les colonnes imprimées, en dédupliquant les frontières ; 2714.028/5320.002 partagent exactement 1704–1720. Rendement READY : 10 notices directes, droits explicites et qualité contrôlée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg99-theodore-studite/pg99-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 98 674 895 octets et son SHA-256 LFS vérifié est `486a9f407e7df0ec41b68733f2fd5493faf214cc8dd76f60faa61b3b2655c9e9`.
+
+L’ancienne archive de 729 937 920 octets, constituée de rendus redondants, a été retirée de HF après validation de cette copie native. Les 960 pages, les dix mappings et les contrôles grecs des pages 20, 500 et 900 sont inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
