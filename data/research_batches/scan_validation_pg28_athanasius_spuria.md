@@ -81,3 +81,9 @@ Ces contrôles couvrent début, milieu et fin de l’étendue 29–1644. La rés
 ## Recommandation
 
 **READY, rendement maximal : 47 notices MPG directes pour 93 MiB.** Transfert direct autorisé au titre du PDM explicite, avec conservation URL/licence/SHA-1 et création d’un manifeste colonne→image. Les pages seules sont à utiliser, l’OCR étant réalisé exclusivement par le projet.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg28-athanasius-spuria/pg28-original-image-only.pdf` : 97 254 718 octets, 842 pages.
+- SHA-256 local et distant : `07e4f263a7aa3e88fee398c0115b37c3c758b328037f53d4b3e8cadf60dbeffb`.
+- Le tar redondant de 624 732 160 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
