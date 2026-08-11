@@ -16,3 +16,9 @@
 | 3057.003 | 1260–1288 |
 
 Dédupliquer les loci partagés (3395.001–002 et 3099.004/.009). Rendement READY : 7 notices directes, droits explicites et qualité validée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg120-byzantine/pg120-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 84 702 330 octets et son SHA-256 LFS vérifié est `7c9d7e5828af3e5a5414e595390eaf80ff0bc8e6ba7810b1e910794981c1bdee`.
+
+Ce PDF complet est plus petit que le dérivé ciblé estimé à 119 Mo ; il conserve donc les 724 pages originales tout en remplaçant l’archive JPEG redondante de 526 295 040 octets. Les cinq segments canoniques ont chacun une preuve grecque dans le manifeste de compaction. Aucun OCR fournisseur n’a été extrait ni conservé.
