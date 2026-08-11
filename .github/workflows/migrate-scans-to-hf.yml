@@ -40,3 +40,4 @@ jobs:
           --shard-index ${{ matrix.shard }}
           --shard-count 16
           --batch-size 50
+          --local-blobs

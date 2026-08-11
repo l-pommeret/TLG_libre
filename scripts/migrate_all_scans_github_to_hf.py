@@ -63,6 +63,8 @@ def main() -> None:
     parser.add_argument("--repo-id", default="Zual/TLG_libre_scans")
     parser.add_argument("--github-repo", default="l-pommeret/TLG_libre")
     parser.add_argument("--revision", default="HEAD")
+    parser.add_argument("--local-blobs", action="store_true",
+                        help="Materialize this shard through partial-clone Git transport instead of the REST blob API")
     args = parser.parse_args()
     if not 0 <= args.shard_index < args.shard_count:
         raise SystemExit("invalid shard index")
@@ -71,6 +73,17 @@ def main() -> None:
     known = set(api.list_repo_files(args.repo_id, repo_type="dataset"))
     manifests = sorted(Path("scans").glob("**/SHA1SUMS"))
     roots = [p.parent for p in manifests if stable_shard(p.parent.as_posix(), args.shard_count) == args.shard_index]
+    if args.local_blobs:
+        patterns = [
+            "/scripts/migrate_all_scans_github_to_hf.py",
+            "/scans/**/README.md",
+            "/scans/**/SHA1SUMS",
+            *(f"/{root}/**" for root in roots),
+        ]
+        subprocess.run(
+            ["git", "sparse-checkout", "set", "--no-cone", "--stdin"],
+            input="\n".join(patterns) + "\n", text=True, check=True,
+        )
     github = requests.Session()
     github.headers.update({"Authorization": f"Bearer {os.environ['SOURCE_GITHUB_TOKEN']}", "Accept": "application/vnd.github+json"})
 
@@ -117,8 +130,11 @@ def main() -> None:
             if remote_path in known:
                 skipped += 1
                 continue
-            oid = git_blob_oid(remote_path, args.revision)
-            content = fetch_github_blob(github, args.github_repo, oid)
+            if args.local_blobs:
+                content = Path(remote_path).read_bytes()
+            else:
+                oid = git_blob_oid(remote_path, args.revision)
+                content = fetch_github_blob(github, args.github_repo, oid)
             actual = hashlib.sha1(content).hexdigest()
             if actual != expected:
                 raise RuntimeError(f"GitHub SHA-1 mismatch for {remote_path}: {actual} != {expected}")
