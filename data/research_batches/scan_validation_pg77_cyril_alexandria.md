@@ -15,3 +15,9 @@
 | 2778.002, .004 | 1389–1412 ; 1313–1348 |
 
 4090.179 ne fournit pas de locus MPG77 dans le canon et est exclu. Sélectionner les images par colonnes imprimées et dédupliquer les bornes communes. Rendement READY : 15 notices directes, droits explicites et qualité contrôlée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg77-cyril-alexandria/pg77-original-image-only.pdf` : 101 113 771 octets, 822 pages.
+- SHA-256 local et distant : `f93b65fcf355feb9db89d3dfb469b49badb8bfeddb9adeaf68145ea289f3611c`.
+- Le tar redondant de 625 694 720 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
