@@ -15,3 +15,9 @@
 | 2062.282–287 | 755–760 ; 759–764 ; 763–766 ; 765–768 ; 771–774 ; 773–776 |
 
 Découper sur les colonnes imprimées et dédupliquer les frontières communes. Rendement READY : 20 notices à correspondance MPG directe, droits explicites et qualité validée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg60-chrysostom/pg60-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 102 185 610 octets et son SHA-256 LFS vérifié est `40110e19bb80cd23af00bec4b1c971566eb32ca6ea13cfe52df8fe004e3daf37`.
+
+L’ancienne archive JPEG de 661 002 240 octets a été retirée après validation de cette copie native. Les 787 pages, les 20 mappings et les contrôles grecs des pages 20, 300 et 400 restent inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
