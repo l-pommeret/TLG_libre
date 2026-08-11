@@ -8,6 +8,8 @@ on:
       end_page: {description: Last one-based PDF page, required: true, type: number}
       target_path: {description: Existing scan directory below scans/, required: true, type: string}
       expected_count: {description: Expected number of JPEG images, required: true, type: number}
+      scope_manifest: {description: Exact canonical page range(s) covered, required: true, type: string}
+      greek_sample_evidence: {description: Visual samples inside every segment explicitly confirming Greek, required: true, type: string}
 
 permissions:
   contents: write
@@ -29,6 +31,11 @@ jobs:
             !/${{ inputs.target_path }}/images/
       - name: Install PDF image renderer
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Require scoped Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+        run: scripts/validate_greek_ingest_evidence.sh
       - name: Download PDF and extract selected pages
         env:
           SOURCE_URL: ${{ inputs.source_url }}

@@ -23,6 +23,14 @@ on:
         description: Expected number of JPEG images
         required: true
         type: number
+      scope_manifest:
+        description: Exact canonical leaf range covered
+        required: true
+        type: string
+      greek_sample_evidence:
+        description: Visual samples inside the range explicitly confirming Greek
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -42,6 +50,11 @@ jobs:
             /scripts/
             /${{ inputs.target_path }}/*
             !/${{ inputs.target_path }}/images/
+      - name: Require scoped Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+        run: scripts/validate_greek_ingest_evidence.sh
       - name: Download and verify selected source pages
         env:
           IA_IDENTIFIER: ${{ inputs.ia_identifier }}

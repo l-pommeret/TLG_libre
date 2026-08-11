@@ -23,6 +23,18 @@ on:
         description: Expected number of image files
         required: true
         type: number
+      scope_manifest:
+        description: Why the entire archive is canonical Greek scope
+        required: true
+        type: string
+      greek_sample_evidence:
+        description: Must document first middle and last Greek samples
+        required: true
+        type: string
+      whole_volume_greek_verified:
+        description: Confirm every volume section is in Greek canonical scope
+        required: true
+        type: boolean
 
 permissions:
   contents: write
@@ -42,6 +54,13 @@ jobs:
             /scripts/
             /${{ inputs.target_path }}/*
             !/${{ inputs.target_path }}/images/
+      - name: Require whole-volume Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+          WHOLE_VOLUME_MODE: "true"
+          WHOLE_VOLUME_GREEK_VERIFIED: ${{ inputs.whole_volume_greek_verified }}
+        run: scripts/validate_greek_ingest_evidence.sh
       - name: Download, verify, and extract source images
         env:
           IA_IDENTIFIER: ${{ inputs.ia_identifier }}

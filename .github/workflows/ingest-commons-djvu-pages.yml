@@ -8,6 +8,8 @@ on:
       end_page: {description: Last one-based DjVu page, required: true, type: number}
       target_path: {description: Existing scan directory below scans/, required: true, type: string}
       expected_count: {description: Expected number of JPEG images, required: true, type: number}
+      scope_manifest: {description: Exact canonical page range(s) covered, required: true, type: string}
+      greek_sample_evidence: {description: Visual samples inside every segment explicitly confirming Greek, required: true, type: string}
 permissions:
   contents: write
 jobs:
@@ -25,6 +27,11 @@ jobs:
             /scripts/
             /${{ inputs.target_path }}/*
             !/${{ inputs.target_path }}/images/
+      - name: Require scoped Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+        run: scripts/validate_greek_ingest_evidence.sh
       - name: Install DjVu renderer
         run: sudo apt-get update && sudo apt-get install -y djvulibre-bin libjpeg-turbo-progs
       - name: Download DjVu and extract selected pages
