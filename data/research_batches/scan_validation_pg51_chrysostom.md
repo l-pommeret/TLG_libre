@@ -14,3 +14,9 @@
 | 2062.141 | 41–48 |
 
 Les astérisques de la pagination imprimée (17*) doivent être préservés et les colonnes communes dédupliquées au découpage. Rendement : 25 notices à édition-locus directs, droits explicites et qualité validée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 46 102 582 octets, 388 pages.
+- SHA-256 local et distant : `1ccb67f650d98aea281707cc512712a73a63a7d87a87ae78fead390f379859cb`.
+- Ancien tar de 305 059 840 octets retiré après vérification distante, récupérable dans l'historique HF.
