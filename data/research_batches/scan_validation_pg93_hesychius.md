@@ -14,3 +14,9 @@
 | 2865.002–006, .009 | 477–628 ; 628–725 ; 725–761 ; 761–773 ; 773–780 ; 780 |
 
 2274.004 et 2865.001 sont sans locus MPG93 dans le canon. Découper sur les colonnes imprimées, dédupliquer les bornes. Rendement READY : 12 notices exactes.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg93-hesychius/pg93-original-image-only.pdf` : 111 047 486 octets, 915 pages.
+- SHA-256 local et distant : `34920386a8cff8ef5e89500afdc05863ccec96e8bb837e7d4afc40be79b36828`.
+- Le tar redondant de 663 101 440 octets a été supprimé après vérification distante ; il reste récupérable via l'historique HF.
