@@ -54,6 +54,15 @@ Les checkouts sous `sources/upstream/` sont des copies de travail clairsemées
 liées aux révisions amont. Ils ne doivent pas être modifiés : toute correction
 ou transformation devra être écrite dans un emplacement dérivé distinct.
 
+## Scans en attente de notre OCR
+
+`scan_sources.csv` recense les éditions dont les images ont été sécurisées.
+`storage_status=REMOTE_ONLY` signifie que les images sont présentes dans le
+dépôt GitHub mais volontairement exclues du checkout local. Les notices,
+sommes de contrôle, métadonnées et fichiers `scandata.xml` restent locaux.
+`ocr_source_used=no` confirme qu'aucun OCR proposé par le fournisseur n'a été
+ingéré.
+
 Reconstruction :
 
 ```sh
