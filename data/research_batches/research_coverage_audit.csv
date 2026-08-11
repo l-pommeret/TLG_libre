@@ -12117,20 +12117,20 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4531,001,CONSTANTINUS NICAEANUS Rhet.,Oratio consolatoria ad imperatorem Joannem III Ducam (e cod. Scorial. gr. 265 [Y II 10]),1,tlg_3001_4500_b33_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4531,002,CONSTANTINUS NICAEANUS Rhet.,Oratio,1,tlg_3001_4500_b33_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4532,001,Lucas CHRYSOBERGES Scr. Eccl.,Questiones et responsiones,1,tlg_3001_4500_b31_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4533,001,THEODORUS Scr. Eccl.,"Brevis commentatio de divinae liturgiae symbolis ac mysteriis, MPG 140: 417–468. Cod: 9,769: Eccl",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4534,001,THEODORUS Alaniensis Scr. Eccl.,"Sermo epistolaris, MPG 140: 388–413. Cod: 5,161: Epist",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4534,002,THEODORUS Alaniensis Scr. Eccl.,Oratio in Germanum patriarcham (e cod. Oxon. Barocc. 131),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4535,001,ROMANUS II Poeta,Monodia in imperatricem Eudociam (Bertham),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4533,001,THEODORUS Scr. Eccl.,"Brevis commentatio de divinae liturgiae symbolis ac mysteriis, MPG 140: 417–468. Cod: 9,769: Eccl",1,detailed_verified_3001_batch_546.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4534,001,THEODORUS Alaniensis Scr. Eccl.,"Sermo epistolaris, MPG 140: 388–413. Cod: 5,161: Epist",1,detailed_verified_3001_batch_546.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4534,002,THEODORUS Alaniensis Scr. Eccl.,Oratio in Germanum patriarcham (e cod. Oxon. Barocc. 131),1,detailed_verified_3001_batch_546.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4535,001,ROMANUS II Poeta,Monodia in imperatricem Eudociam (Bertham),1,detailed_verified_3001_batch_546.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4536,001,LUCAS Episcopus Bovae Scr. Eccl.,Epistulae (e cod. Par. suppl. gr. 407),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4536,002,LUCAS Episcopus Bovae Scr. Eccl.,Oratio (e cod. Par. suppl. gr. 407),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4536,003,LUCAS Episcopus Bovae Scr. Eccl.,Testamentum (e cod. Par. suppl. gr. 407) (BHG [Novum Auctarium] 2236),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4537,001,Georgius BABUSCOMITA Epist.,Epistulae,1,tlg_3001_4500_b21_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4538,001,Theodorus PEDIASIMUS Hagiogr.,Laudatio ad sanctum Josephum Hymnographum (BHG 947),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4538,002,Theodorus PEDIASIMUS Hagiogr.,Ἔκφρασις περὶ τοῦ Ἱεροῦ τῶν Φερρῶν,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4538,003,Theodorus PEDIASIMUS Hagiogr.,Miracula utriusque s. Theodori (BHG 1773),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4538,004,Theodorus PEDIASIMUS Hagiogr.,Encomium ad solem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4538,005,Theodorus PEDIASIMUS Hagiogr.,Εἰς τὴν τοῦ θέρους ὥραν ἐγκώμιον,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4538,006,Theodorus PEDIASIMUS Hagiogr.,Epistulae,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4538,001,Theodorus PEDIASIMUS Hagiogr.,Laudatio ad sanctum Josephum Hymnographum (BHG 947),1,detailed_verified_3001_batch_546.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4538,002,Theodorus PEDIASIMUS Hagiogr.,Ἔκφρασις περὶ τοῦ Ἱεροῦ τῶν Φερρῶν,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4538,003,Theodorus PEDIASIMUS Hagiogr.,Miracula utriusque s. Theodori (BHG 1773),1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4538,004,Theodorus PEDIASIMUS Hagiogr.,Encomium ad solem,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4538,005,Theodorus PEDIASIMUS Hagiogr.,Εἰς τὴν τοῦ θέρους ὥραν ἐγκώμιον,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4538,006,Theodorus PEDIASIMUS Hagiogr.,Epistulae,1,detailed_verified_3001_batch_547.csv,CANDIDATE_SCAN_EXACT_EDITION_UNSAMPLED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4538,007,Theodorus PEDIASIMUS Hagiogr.,Versus heroici,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4539,001,ZACHARIAS Chalchedonius Phil.,De tempore,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4540,001,PHILOTHEUS Monachus Scr. Eccl.,"De mandatis domini [Dub.] (fort. auctore Philotheo Coccino) (CPG 7865), MPG 154: 729–745. Cod: Theol. Cf. et Philotheus COCCINUS Theol. (3251)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
