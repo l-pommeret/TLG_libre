@@ -43,3 +43,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0165,001,6.243;6.245;9.60;9.219;9.405;9.776,9.60;9.219;9.405;9.776,6.243+6.245=tlg-0163 Diodorus; remaining loci=tlg-0165,TWO_CANON_LOCI_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
 4044,001,6.27;9.659;10.16;16.32b;16.221;16.233,6.27;9.659;10.16;16.221;16.233,16.32b absent from author record tlg-4044 and no passage page,INCOMPLETE_CANON_LOCUS_COVERAGE,data/research_batches/detailed_verified_3001_batch_443.csv
 4056,001,5.86;9.140;9.753;9.754,5.86;9.140;9.753;9.754,all loci=tlg-4057 Claudianus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b31_batch_0003.csv
+0174,001,6.267;6.358;7.173;7.227;7.475;7.733;12.36;16.158,6.267;6.358;7.173;7.227;7.475;7.733;16.158,12.36=tlg-0137 Asclepiades; remaining loci=tlg-0174,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
