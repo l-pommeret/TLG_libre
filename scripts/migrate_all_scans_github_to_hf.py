@@ -8,11 +8,13 @@ import json
 import os
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 from urllib.parse import quote
 
 import requests
 from huggingface_hub import CommitOperationAdd, HfApi
+from huggingface_hub.errors import HfHubHTTPError
 
 
 def stable_shard(value: str, count: int) -> int:
@@ -97,21 +99,36 @@ def main() -> None:
         if not operations:
             return
         try:
-            api.create_commit(repo_id=args.repo_id, repo_type="dataset", operations=operations,
-                              commit_message=f"Migrate scan shard {args.shard_index + 1}/{args.shard_count}")
-            info = api.get_paths_info(args.repo_id, paths=[p for p, _, _ in expected_after_commit], repo_type="dataset")
-            sizes = {item.path: item.size for item in info}
+            for attempt in range(20):
+                try:
+                    api.create_commit(repo_id=args.repo_id, repo_type="dataset", operations=operations,
+                                      commit_message=f"Migrate scan shard {args.shard_index + 1}/{args.shard_count}")
+                    break
+                except HfHubHTTPError as error:
+                    if error.response is None or error.response.status_code != 429 or attempt == 19:
+                        raise
+                    delay = int(error.response.headers.get("Retry-After", "300")) + 5
+                    print(json.dumps({"shard": args.shard_index, "rate_limited": True,
+                                      "retry_in_seconds": delay, "attempt": attempt + 1}), flush=True)
+                    time.sleep(delay)
+            sizes = {}
+            paths = [p for p, _, _ in expected_after_commit]
+            for offset in range(0, len(paths), 100):
+                info = api.get_paths_info(args.repo_id, paths=paths[offset:offset + 100], repo_type="dataset")
+                sizes.update({item.path: item.size for item in info})
             for path, expected, size in expected_after_commit:
                 if sizes.get(path) != size:
                     raise RuntimeError(f"HF size mismatch for {path}: {sizes.get(path)} != {size}")
                 known.add(path)
-            sample_path, sample_sha1, _ = expected_after_commit[0]
-            if public_remote_sha1(args.repo_id, sample_path) != sample_sha1:
-                raise RuntimeError(f"HF remote sample SHA-1 mismatch for {sample_path}")
+            if expected_after_commit:
+                sample_path, sample_sha1, _ = expected_after_commit[0]
+                if public_remote_sha1(args.repo_id, sample_path) != sample_sha1:
+                    raise RuntimeError(f"HF remote sample SHA-1 mismatch for {sample_path}")
             migrated += len(expected_after_commit)
             commits += 1
             print(json.dumps({"shard": args.shard_index, "commit": commits,
-                              "uploaded": len(expected_after_commit), "sample_sha1_verified": sample_path}), flush=True)
+                              "uploaded": len(expected_after_commit),
+                              "sample_sha1_verified": sample_path if expected_after_commit else None}), flush=True)
         finally:
             for temporary in temporary_paths:
                 temporary.unlink(missing_ok=True)
@@ -147,7 +164,7 @@ def main() -> None:
             del content
             if len(expected_after_commit) >= args.batch_size:
                 flush()
-        flush()
+    flush()
 
     print(json.dumps({"shard": args.shard_index, "roots": len(roots), "migrated": migrated,
                       "skipped": skipped, "commits": commits, "temporary_images_retained": 0}), flush=True)

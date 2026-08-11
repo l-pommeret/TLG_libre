@@ -39,5 +39,5 @@ jobs:
           python scripts/migrate_all_scans_github_to_hf.py
           --shard-index ${{ matrix.shard }}
           --shard-count 16
-          --batch-size 50
+          --batch-size 1000
           --local-blobs
