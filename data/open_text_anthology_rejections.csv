@@ -12,3 +12,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 1620,001,9.7;9.8;9.9,9.7;9.8;9.9,9.7-9.9=tlg-1621 Polyaenus Sardianus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_814.csv
 7000,001,,,,NO_PARSEABLE_AG_LOCUS_IN_CANON_NOTICE,data/research_batches/tlg_3001_4500_b6_batch_0002.csv
 1649,005,7.746,7.746,7.746=Pythagoras,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_826.csv
+1673,001,7.21;7.22;7.60,7.21;7.22;7.60,7.21-7.22+7.60=tlg-0211,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_834.csv
