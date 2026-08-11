@@ -1,0 +1,18 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0627" xml:lang="grc" urn="urn:cts:greekLit:tlg0627.tlg002">
+  <ti:title xml:lang="lat">De aere, aquis, locis</ti:title>
+  
+  <ti:edition urn="urn:cts:greekLit:tlg0627.tlg002.perseus-grc2" workUrn="urn:cts:greekLit:tlg0627.tlg002" xml:lang="grc">
+    <ti:label xml:lang="grc">Περὶ ἀέρων, ὑδάτων, τόπων</ti:label>
+    <ti:description xml:lang="eng">Hippocrates, Vol. 1. Jones, William Henry Samuel, editor. London: William Heinemann Ltd.; Cambridge, MA: Harvard University Press, 1923 (printing).</ti:description>
+  </ti:edition>
+  
+  <ti:translation urn="urn:cts:greekLit:tlg0627.tlg002.perseus-eng3" workUrn="urn:cts:greekLit:tlg0627.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">Airs, Waters, and Places</ti:label>
+    <ti:description xml:lang="eng">Hippocrates, The Genuine Works of Hippocrates, Vol. 1. Adams, Francis, translator. New York: William Wood and Company, 1886.</ti:description>
+  </ti:translation>
+  
+  <ti:translation urn="urn:cts:greekLit:tlg0627.tlg002.perseus-eng4" workUrn="urn:cts:greekLit:tlg0627.tlg002" xml:lang="eng">
+    <ti:label xml:lang="eng">Airs Waters Places</ti:label>
+    <ti:description xml:lang="eng">Hippocrates, Vol. 1. Jones, William Henry Samuel, translator. London: William Heinemann Ltd.; Cambridge, MA: Harvard University Press, 1923 (printing).</ti:description>
+  </ti:translation>
+</ti:work>

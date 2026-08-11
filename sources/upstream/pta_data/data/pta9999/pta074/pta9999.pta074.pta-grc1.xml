@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistula Pauli ad Colossenses</title>
+            <editor>The Greek New Testament: SBL Edition</editor>
+            <respStmt>
+               <persName xml:id="JJM">Joey McCollum</persName>
+               <resp>Corrected and converted to TEI XML </resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:id="AvS">Annette von Stockhausen</persName>
+               <resp>Conversion to CTS-compliant PTA TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Logos Bible Software and the Society of Biblical Literature</publisher>
+            <distributor>Patristic Text Archive</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Copyright © 2010 by the Society of Biblical Literature and Logos Bible Software under the Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+            <date>2010</date>
+            <idno type="PTA">pta9999.pta074</idno>
+            <idno type="TLG">tlg0031.tlg012</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="ECM" type="book">
+                  <title>Novum Testamentum Graecum: Editio Critica Maior</title>
+                  <editor>The Institute for New Testament Textual Research</editor>
+                  <biblScope unit="volume" n="4">4: Catholic Letters</biblScope>
+                  <editor>Barbara Aland</editor>
+                  <editor>Kurt Aland</editor>
+                  <editor>Gerd Mink</editor>
+                  <editor>Holger Strutwolf</editor>
+                  <editor>Klaus Wachtel</editor>
+                  <pubPlace>Stuttgart</pubPlace>
+                  <publisher>Deutsche Bibelgesellschaft</publisher>
+                  <date>1997–2005</date>
+               </bibl>
+               <bibl xml:id="Greeven" type="book">
+                  <editor>Albert Huck</editor>
+                  <title xml:lang="ger">Synopse der drei ersten Evangelien</title>
+                  <title xml:lang="eng">Synopsis of the First Three Gospels</title>
+                  <edition n="13">13th ed. fundamentally revised by Heinrich Greeven</edition>
+                  <pubPlace>Tübingen</pubPlace>
+                  <publisher>Mohr Siebeck</publisher>
+                  <date>1981</date>
+               </bibl>
+               <bibl xml:id="Holmes" type="book">
+                  <editor role="General_Editor">Michael W. Holmes</editor>
+                  <title>The Greek New Testament: SBL Edition</title>
+                  <pubPlace>Atlanta, GA</pubPlace>
+                  <publisher>Society of Biblical Literature</publisher>
+                  <pubPlace>Bellingham, WA</pubPlace>
+                  <publisher>Logos Bible Software</publisher>
+                  <date>2010</date>
+               </bibl>
+               <bibl xml:id="NA" type="book">
+                  <editor role="General_Editor">Kurt Aland</editor>
+                  <editor role="General_Editor">Matthew Black</editor>
+                  <editor role="General_Editor">Carlo M. Martini</editor>
+                  <editor role="General_Editor">Bruce M. Metzger</editor>
+                  <editor role="General_Editor">Allen Wikgren</editor>
+                  <title>Novum Testamentum Graece</title>
+                  <edition n="27">27</edition>
+                  <pubPlace>Stuttgart</pubPlace>
+                  <publisher>Deutsche Bibelgesellschaft</publisher>
+                  <date>1979</date>
+               </bibl>
+               <bibl xml:id="NIV" type="book">
+                  <editor>Richard J. Goodrich</editor>
+                  <editor>Albert L. Lukaszewski</editor>
+                  <title>A Reader's Greek New Testament</title>
+                  <pubPlace>Grand Rapids, MI</pubPlace>
+                  <publisher>Zondervan</publisher>
+                  <date>2003</date>
+               </bibl>
+               <bibl xml:id="RP" type="book">
+                  <editor>Maurice A. Robinson</editor>
+                  <editor>William G. Pierpont</editor>
+                  <title>The New Testament in the Original Greek: Byzantine Textform</title>
+                  <pubPlace>Southborough, MA</pubPlace>
+                  <publisher>Chilton</publisher>
+                  <date>2005</date>
+               </bibl>
+               <bibl xml:id="TR" type="book">
+                  <editor>F. H. A. Scrivener</editor>
+                  <title>Η ΚΑΙΝΗ ΔΙΑΘΗΚΗ, Novum Testamentum: Textus Stephanici A.D. 1550</title>
+                  <edition n="4">4th ed., corrected by E. Nestle</edition>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Bell</publisher>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Deighton, Bell</publisher>
+                  <date>1906</date>
+               </bibl>
+               <bibl xml:id="Treg" type="book">
+                  <editor>Samuel Prideaux Tregelles</editor>
+                  <title>The Greek New Testament, Edited from Ancient Authorities, with their Various Readings in Full, and the Latin Version of Jerome</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Bagster</publisher>
+                  <publisher>Stewart</publisher>
+                  <date>1857–1879</date>
+               </bibl>
+               <bibl xml:id="Tregmarg" type="book">
+                  <editor>Samuel Prideaux Tregelles</editor>
+                  <title>The Greek New Testament, Edited from Ancient Authorities, with their Various Readings in Full, and the Latin Version of Jerome</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Bagster</publisher>
+                  <publisher>Stewart</publisher>
+                  <date>1857–1879</date>
+               </bibl>
+               <bibl xml:id="WH" type="book">
+                  <editor>Brooke Foss Westcott</editor>
+                  <editor>Fenton John Anthony Hort</editor>
+                  <title>The New Testament in the Original Greek</title>
+                  <biblScope unit="volume" n="1">1: Text</biblScope>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Macmillan</publisher>
+                  <date>1881</date>
+               </bibl>
+               <bibl xml:id="WHapp" type="book">
+                  <editor>Brooke Foss Westcott</editor>
+                  <editor>Fenton John Anthony Hort</editor>
+                  <title>The New Testament in the Original Greek</title>
+                  <biblScope unit="volume" n="2">2: Introduction and Appendix</biblScope>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Macmillan</publisher>
+                  <date>1882</date>
+               </bibl>
+               <bibl xml:id="WHmarg" type="book">
+                  <editor>Brooke Foss Westcott</editor>
+                  <editor>Fenton John Anthony Hort</editor>
+                  <title>The New Testament in the Original Greek</title>
+                  <biblScope unit="volume" n="1">1: Text</biblScope>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Macmillan</publisher>
+                  <date>1881</date>
+               </bibl>
+               <bibl xml:id="WHspur" type="book">
+                  <editor>Brooke Foss Westcott</editor>
+                  <editor>Fenton John Anthony Hort</editor>
+                  <title>The New Testament in the Original Greek</title>
+                  <biblScope unit="volume" n="1">1: Text</biblScope>
+                  <pubPlace>Cambridge</pubPlace>
+                  <publisher>Macmillan</publisher>
+                  <date>1881</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="verse"
+                         matchPattern="(.+).(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+            <cRefPattern n="chapter"
+                         matchPattern="(.+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+         </refsDecl>
+         <refsDecl xml:id="biblical">
+            <cRefPattern matchPattern="(.+):(.+):([0-9]+):([0-9]+)[\-\.]*[0-9]*"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2$3,$4/$1">
+               <p>For references to the Septuagint LXX is used as abbreviation, for references to the New Testament NA is used as abbreviation for the version, for references to the Vulgata Vg is used as abbrevation, for references to the Peshitta PES is used as abbrevation, for references to the Hexapla Hexapla is used as abbreviation.</p>
+               <p>Noted are references to a biblical book, chapter, verse, sc. LXX:Gn:1:1; also possible: LXX:Gn:1:1-3 for a sequence of verses or LXX:Gn:1:1.3 for two verses not following each other.</p>
+               <p>The following abbreviations are used: Gn, Ex, Lv, Num, Dt, Jos, Judg, Rt, 1Sa, 2Sa, 1Ko, 2Ko, 1Chr, 2Chr, 3Esr, Esr, Est, Jdt, Tob, 1Mak, 2Mak, 3Mak, 4Mak, Ps, Oden, Prov, Eccl, Song, Job, Wis, Sir, PsSal, Hos, Am, Mi, Joel, Ob, Jon, Nah, Hab, Zeph, Hag, Sach, Mal, Is, Jr, Bar, Lam, EpistJer, Hes, Sus, Dn, Bel; Mt, Mk, Lk, Jn, Act, Rom, 1Cor, 2Cor, Gal, Eph, Phil, Col, 1Th, 2Th, 1Tim, 2Tim, Tt, Phm, Heb, Jak, 1P, 2P, 1Jn, 2Jn, 3Jn, Jud, Rev.</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(.+):(.+):([0-9]+)[\-\.]*[0-9]*"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2$3/$1">
+               <p>Noted are references to a biblical book and chapter, sc. LXX:Gn:1; also possible: LXX:Gn:1-3 for a sequence of chapters or LXX:Gn:1.3 for two chapters not following each other.</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(.+):(.+)"
+                         replacementPattern="https://www.bibelwissenschaft.de/bibelstelle/$2/$1">
+               <p>Noted are references to a biblical book, sc. LXX:Gn.</p>
+            </cRefPattern>
+         </refsDecl>
+         <refsDecl xml:id="pta">
+            <cRefPattern matchPattern="(.+)" replacementPattern="https://pta.bbaw.de/text/$1">
+               <p>References to PTA-CTS-URNs</p>
+            </cRefPattern>
+         </refsDecl>
+         <refsDecl xml:id="perseus">
+            <cRefPattern matchPattern="(.+)"
+                         replacementPattern="https://scaife.perseus.org/reader/$1">
+               <p>References to Perseus-CTS-URNs</p>
+            </cRefPattern>
+         </refsDecl>
+         <editorialDecl>
+            <interpretation>
+               <p>
+        This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+    </p>
+               <p xml:id="biblical-quotations" ana="not-annotated not-identified">
+        Biblical quotations are not annotated and not referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
+    </p>
+               <p xml:id="other-references" ana="not-annotated not-identified">
+        Other references are not annotated and not referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3rd edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
+    </p>
+               <p xml:id="persons" ana="not-annotated not-identified">
+        Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+    </p>
+               <p xml:id="groups" ana="not-annotated not-identified">
+        Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+    </p>
+               <p xml:id="places" ana="not-annotated not-identified">
+        Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+    </p>
+               <p xml:id="text-analysis" ana="not-tagged not-analyzed">Words are not tagged and not analyzed.</p>
+            </interpretation>
+            <normalization>
+               <p><!--Usage of capitalisation, ν-ephelkystikon, σ: οὕτως, Iota subscriptum/adscriptum, Trema, Enclitics, apostroph/elisions, number signs, splitting of words, nomina sacra, ...--></p>
+            </normalization>
+            <punctuation>
+               <p><!--Usage (and/or normalisation) of full stop, comma, semicolon, question mark, dash and parenthesis--></p>
+            </punctuation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="comphistsem">
+               <bibl>
+        Text Type Classification by <ref target="https://www.comphistsem.org/46.html">"Computational Historical Semantics</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="editionstatus">
+               <bibl>
+        Patristic Text Archive Status of edition
+    </bibl>
+               <category xml:id="critical-edition">
+                  <catDesc>
+        Critical edition in which the text-critical variants have been encoded.
+        </catDesc>
+               </category>
+               <category xml:id="critical-edition-no-app">
+                  <catDesc>
+        Critical edition in which the text-critical variants have not been encoded, e.g. because it is a retro-digitisation of a printed critical edition and for copyright reasons the apparatus cannot be included in the retro-digitisation.
+        </catDesc>
+               </category>
+               <category xml:id="critical-edition-outdated">
+                  <catDesc>
+            Edition which notes text-critical variants, but does not, for example, comprehensively include the manuscripts.
+        </catDesc>
+               </category>
+               <category xml:id="pre-critical-edition">
+                  <catDesc>
+            Pre-modern editions (e.g. editions in the Patrologia Graeca or Latina)
+        </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="annotationstatus">
+               <bibl>
+        Patristic Text Archive Status of annotation
+    </bibl>
+               <category xml:id="fully-annotated">
+                  <catDesc>
+        All instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+        </catDesc>
+               </category>
+               <category xml:id="partially-annotated">
+                  <catDesc>
+        Some instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+        </catDesc>
+               </category>
+               <category xml:id="not-annotated">
+                  <catDesc>
+        No instances of a phenomenon (e.g. biblical quotations, persons, places) are encoded with the respective element.
+        </catDesc>
+               </category>
+               <category xml:id="fully-identified">
+                  <catDesc>
+        All encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+        </catDesc>
+               </category>
+               <category xml:id="partially-identified">
+                  <catDesc>
+        Some encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data
+        </catDesc>
+               </category>
+               <category xml:id="not-identified">
+                  <catDesc>
+        No encoded instances of a phenomenon (e.g. biblical quotations, persons, places) are identified with the respective norm data.
+        </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="analysisstatus">
+               <bibl>Patristic Text Archive Status of linguistic analysis</bibl>
+               <category xml:id="automatically-tagged">
+                  <catDesc>Words are automatically tagged.</catDesc>
+               </category>
+               <category xml:id="manually-tagged">
+                  <catDesc>Words are manually tagged.</catDesc>
+               </category>
+               <category xml:id="not-tagged">
+                  <catDesc>Words are not tagged.</catDesc>
+               </category>
+               <category xml:id="automatically-analyzed">
+                  <catDesc>Words are automatically analyzed.</catDesc>
+               </category>
+               <category xml:id="manually-analyzed">
+                  <catDesc>Words are manually analyzed.</catDesc>
+               </category>
+               <category xml:id="not-analyzed">
+                  <catDesc>Words are not analyzed.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <schemaRef key="v3"
+                    url="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#comphistsem">
+               <term>Biblical</term>
+            </keywords>
+            <keywords scheme="#editionstatus">
+               <term>metacritical-edition-with-app</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2023-05-22" who="#AvS">
+          Updated file to comply with version 3.0 of <ref target="https://github.com/PatristicTextArchive/Schema">TEI-PTA-Schema</ref>
+         </change>
+         <change when="2022-06-29" who="#AvS">Added missing final verses in chapter; moved wit attrib from 1st rdg to lem, del 1st rdg; corr resp. #WHspur; add type=omission where applicable</change>
+         <change when="2021-11-24" who="#AvS">Converted to PTA/CapiTainS</change>
+         <change when="2021" who="#JJM">Corrected and converted to TEI XML, cf. https://github.com/jjmccollum/sblgnt-tei/blob/main/SBL_Errata.txt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="praefatio" xml:lang="eng">
+            <p>Cf. the <ref target="https://sblgnt.com/about/introduction/">Introduction to the SBL Greek New Testament by Michael Holmes</ref>.</p>
+         </div>
+         <div type="edition"
+              xml:lang="grc"
+              n="urn:cts:pta:pta9999.pta074.pta-grc1">
+            <head>
+               <title>
+                  <w>ΠΡΟΣ</w>
+                  <w>ΚΟΛΟΣΣΑΕΙΣ</w>
+               </title>
+            </head>
+            <div type="textpart" subtype="chapter" n="1">
+               <div type="textpart" subtype="verse" n="1">
+                  <ab>
+                     <w>Παῦλος</w>
+                     <w>ἀπόστολος</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>Χριστοῦ</w>
+                           <w>Ἰησοῦ</w>
+                        </lem>
+                        <rdg source="#RP">Ἰησοῦ Χριστοῦ</rdg>
+                     </app>
+                     <w>διὰ</w>
+                     <w>θελήματος</w>
+                     <w>θεοῦ</w>
+                     <w>καὶ</w>
+                     <w>Τιμόθεος</w>
+                     <w>ὁ</w>
+                     <w>ἀδελφὸς</w>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="2">
+                  <ab>
+                     <w>τοῖς</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>Κολοσσαῖς</w>
+                        </lem>
+                        <rdg source="#Treg #RP">Κολασσαῖς</rdg>
+                     </app>
+                     <w>ἁγίοις</w>
+                     <w>καὶ</w>
+                     <w>πιστοῖς</w>
+                     <w>ἀδελφοῖς</w>
+                     <w>ἐν</w>
+                     <w>Χριστῷ</w>
+                     <pc>·</pc>
+                     <w>χάρις</w>
+                     <w>ὑμῖν</w>
+                     <w>καὶ</w>
+                     <w>εἰρήνη</w>
+                     <w>ἀπὸ</w>
+                     <w>θεοῦ</w>
+                     <w>πατρὸς</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἡμῶν</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ κυρίου Ἰησοῦ Χριστοῦ</rdg>
+                     </app>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="3">
+                  <ab>
+                     <w>Εὐχαριστοῦμεν</w>
+                     <w>τῷ</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>θεῷ</w>
+                        </lem>
+                        <rdg source="#Treg #RP">+ καὶ</rdg>
+                     </app>
+                     <w>πατρὶ</w>
+                     <w>τοῦ</w>
+                     <w>κυρίου</w>
+                     <w>ἡμῶν</w>
+                     <w>Ἰησοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <w>πάντοτε</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV #RP">
+                           <w>περὶ</w>
+                        </lem>
+                        <rdg source="#Treg">ὑπὲρ</rdg>
+                     </app>
+                     <w>ὑμῶν</w>
+                     <w>προσευχόμενοι</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="4">
+                  <ab>
+                     <w>ἀκούσαντες</w>
+                     <w>τὴν</w>
+                     <w>πίστιν</w>
+                     <w>ὑμῶν</w>
+                     <w>ἐν</w>
+                     <w>Χριστῷ</w>
+                     <w>Ἰησοῦ</w>
+                     <w>καὶ</w>
+                     <w>τὴν</w>
+                     <w>ἀγάπην</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἣν</w>
+                           <w>ἔχετε</w>
+                        </lem>
+                        <rdg source="#RP">τὴν</rdg>
+                     </app>
+                     <w>εἰς</w>
+                     <w>πάντας</w>
+                     <w>τοὺς</w>
+                     <w>ἁγίους</w>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="5">
+                  <ab>
+                     <w>διὰ</w>
+                     <w>τὴν</w>
+                     <w>ἐλπίδα</w>
+                     <w>τὴν</w>
+                     <w>ἀποκειμένην</w>
+                     <w>ὑμῖν</w>
+                     <w>ἐν</w>
+                     <w>τοῖς</w>
+                     <w>οὐρανοῖς</w>
+                     <pc>,</pc>
+                     <w>ἣν</w>
+                     <w>προηκούσατε</w>
+                     <w>ἐν</w>
+                     <w>τῷ</w>
+                     <w>λόγῳ</w>
+                     <w>τῆς</w>
+                     <w>ἀληθείας</w>
+                     <w>τοῦ</w>
+                     <w>εὐαγγελίου</w>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="6">
+                  <ab>
+                     <w>τοῦ</w>
+                     <w>παρόντος</w>
+                     <w>εἰς</w>
+                     <w>ὑμᾶς</w>
+                     <pc>,</pc>
+                     <w>καθὼς</w>
+                     <w>καὶ</w>
+                     <w>ἐν</w>
+                     <w>παντὶ</w>
+                     <w>τῷ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>κόσμῳ</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ</rdg>
+                     </app>
+                     <w>ἐστὶν</w>
+                     <w>καρποφορούμενον</w>
+                     <w>καὶ</w>
+                     <w>αὐξανόμενον</w>
+                     <w>καθὼς</w>
+                     <w>καὶ</w>
+                     <w>ἐν</w>
+                     <w>ὑμῖν</w>
+                     <pc>,</pc>
+                     <w>ἀφ’</w>
+                     <w>ἧς</w>
+                     <w>ἡμέρας</w>
+                     <w>ἠκούσατε</w>
+                     <w>καὶ</w>
+                     <w>ἐπέγνωτε</w>
+                     <w>τὴν</w>
+                     <w>χάριν</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <w>ἐν</w>
+                     <w>ἀληθείᾳ</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="7">
+                  <ab>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>καθὼς</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ</rdg>
+                     </app>
+                     <w>ἐμάθετε</w>
+                     <w>ἀπὸ</w>
+                     <w>Ἐπαφρᾶ</w>
+                     <w>τοῦ</w>
+                     <w>ἀγαπητοῦ</w>
+                     <w>συνδούλου</w>
+                     <w>ἡμῶν</w>
+                     <pc>,</pc>
+                     <w>ὅς</w>
+                     <w>ἐστιν</w>
+                     <w>πιστὸς</w>
+                     <w>ὑπὲρ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἡμῶν</w>
+                        </lem>
+                        <rdg source="#NA #RP">ὑμῶν</rdg>
+                     </app>
+                     <w>διάκονος</w>
+                     <w>τοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="8">
+                  <ab>
+                     <w>ὁ</w>
+                     <w>καὶ</w>
+                     <w>δηλώσας</w>
+                     <w>ἡμῖν</w>
+                     <w>τὴν</w>
+                     <w>ὑμῶν</w>
+                     <w>ἀγάπην</w>
+                     <w>ἐν</w>
+                     <w>πνεύματι</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="9">
+                  <ab>
+                     <w>Διὰ</w>
+                     <w>τοῦτο</w>
+                     <w>καὶ</w>
+                     <w>ἡμεῖς</w>
+                     <pc>,</pc>
+                     <w>ἀφ’</w>
+                     <w>ἧς</w>
+                     <w>ἡμέρας</w>
+                     <w>ἠκούσαμεν</w>
+                     <pc>,</pc>
+                     <w>οὐ</w>
+                     <w>παυόμεθα</w>
+                     <w>ὑπὲρ</w>
+                     <w>ὑμῶν</w>
+                     <w>προσευχόμενοι</w>
+                     <w>καὶ</w>
+                     <w>αἰτούμενοι</w>
+                     <w>ἵνα</w>
+                     <w>πληρωθῆτε</w>
+                     <w>τὴν</w>
+                     <w>ἐπίγνωσιν</w>
+                     <w>τοῦ</w>
+                     <w>θελήματος</w>
+                     <w>αὐτοῦ</w>
+                     <w>ἐν</w>
+                     <w>πάσῃ</w>
+                     <w>σοφίᾳ</w>
+                     <w>καὶ</w>
+                     <w>συνέσει</w>
+                     <w>πνευματικῇ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="10">
+                  <ab>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>περιπατῆσαι</w>
+                        </lem>
+                        <rdg source="#RP">+ ὑμᾶς</rdg>
+                     </app>
+                     <w>ἀξίως</w>
+                     <w>τοῦ</w>
+                     <w>κυρίου</w>
+                     <w>εἰς</w>
+                     <w>πᾶσαν</w>
+                     <w>ἀρεσκείαν</w>
+                     <w>ἐν</w>
+                     <w>παντὶ</w>
+                     <w>ἔργῳ</w>
+                     <w>ἀγαθῷ</w>
+                     <w>καρποφοροῦντες</w>
+                     <w>καὶ</w>
+                     <w>αὐξανόμενοι</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>τῇ</w>
+                           <w>ἐπιγνώσει</w>
+                        </lem>
+                        <rdg source="#RP">εἰς τὴν ἐπίγνωσιν</rdg>
+                     </app>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="11">
+                  <ab>
+                     <w>ἐν</w>
+                     <w>πάσῃ</w>
+                     <w>δυνάμει</w>
+                     <w>δυναμούμενοι</w>
+                     <w>κατὰ</w>
+                     <w>τὸ</w>
+                     <w>κράτος</w>
+                     <w>τῆς</w>
+                     <w>δόξης</w>
+                     <w>αὐτοῦ</w>
+                     <w>εἰς</w>
+                     <w>πᾶσαν</w>
+                     <w>ὑπομονὴν</w>
+                     <w>καὶ</w>
+                     <w>μακροθυμίαν</w>
+                     <w>μετὰ</w>
+                     <w>χαρᾶς</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="12">
+                  <ab>
+                     <w>εὐχαριστοῦντες</w>
+                     <w>τῷ</w>
+                     <w>πατρὶ</w>
+                     <w>τῷ</w>
+                     <w>ἱκανώσαντι</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>ὑμᾶς</w>
+                        </lem>
+                        <rdg source="#Treg #RP">ἡμᾶς</rdg>
+                     </app>
+                     <w>εἰς</w>
+                     <w>τὴν</w>
+                     <w>μερίδα</w>
+                     <w>τοῦ</w>
+                     <w>κλήρου</w>
+                     <w>τῶν</w>
+                     <w>ἁγίων</w>
+                     <w>ἐν</w>
+                     <w>τῷ</w>
+                     <w>φωτί</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="13">
+                  <ab>
+                     <w>ὃς</w>
+                     <w>ἐρρύσατο</w>
+                     <w>ἡμᾶς</w>
+                     <w>ἐκ</w>
+                     <w>τῆς</w>
+                     <w>ἐξουσίας</w>
+                     <w>τοῦ</w>
+                     <w>σκότους</w>
+                     <w>καὶ</w>
+                     <w>μετέστησεν</w>
+                     <w>εἰς</w>
+                     <w>τὴν</w>
+                     <w>βασιλείαν</w>
+                     <w>τοῦ</w>
+                     <w>υἱοῦ</w>
+                     <w>τῆς</w>
+                     <w>ἀγάπης</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="14">
+                  <ab>
+                     <w>ἐν</w>
+                     <w>ᾧ</w>
+                     <w>ἔχομεν</w>
+                     <w>τὴν</w>
+                     <w>ἀπολύτρωσιν</w>
+                     <pc>,</pc>
+                     <w>τὴν</w>
+                     <w>ἄφεσιν</w>
+                     <w>τῶν</w>
+                     <w>ἁμαρτιῶν</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="15">
+                  <ab>
+                     <w>ὅς</w>
+                     <w>ἐστιν</w>
+                     <w>εἰκὼν</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <w>τοῦ</w>
+                     <w>ἀοράτου</w>
+                     <pc>,</pc>
+                     <w>πρωτότοκος</w>
+                     <w>πάσης</w>
+                     <w>κτίσεως</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="16">
+                  <ab>
+                     <w>ὅτι</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>ἐκτίσθη</w>
+                     <w>τὰ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>πάντα</w>
+                        </lem>
+                        <rdg source="#RP">+ τὰ</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>τοῖς</w>
+                     <w>οὐρανοῖς</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>καὶ</w>
+                        </lem>
+                        <rdg source="#Treg #RP">+ τὰ</rdg>
+                     </app>
+                     <w>ἐπὶ</w>
+                     <w>τῆς</w>
+                     <w>γῆς</w>
+                     <pc>,</pc>
+                     <w>τὰ</w>
+                     <w>ὁρατὰ</w>
+                     <w>καὶ</w>
+                     <w>τὰ</w>
+                     <w>ἀόρατα</w>
+                     <pc>,</pc>
+                     <w>εἴτε</w>
+                     <w>θρόνοι</w>
+                     <w>εἴτε</w>
+                     <w>κυριότητες</w>
+                     <w>εἴτε</w>
+                     <w>ἀρχαὶ</w>
+                     <w>εἴτε</w>
+                     <w>ἐξουσίαι</w>
+                     <pc>·</pc>
+                     <w>τὰ</w>
+                     <w>πάντα</w>
+                     <w>δι’</w>
+                     <w>αὐτοῦ</w>
+                     <w>καὶ</w>
+                     <w>εἰς</w>
+                     <w>αὐτὸν</w>
+                     <w>ἔκτισται</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="17">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>αὐτός</w>
+                     <w>ἐστιν</w>
+                     <w>πρὸ</w>
+                     <w>πάντων</w>
+                     <w>καὶ</w>
+                     <w>τὰ</w>
+                     <w>πάντα</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>συνέστηκεν</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="18">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>αὐτός</w>
+                     <w>ἐστιν</w>
+                     <w>ἡ</w>
+                     <w>κεφαλὴ</w>
+                     <w>τοῦ</w>
+                     <w>σώματος</w>
+                     <w>τῆς</w>
+                     <w>ἐκκλησίας</w>
+                     <pc>·</pc>
+                     <w>ὅς</w>
+                     <app type="variants">
+                        <lem source="#Treg #NIV #RP">
+                           <w>ἐστιν</w>
+                        </lem>
+                        <rdg source="#WH">+ ἡ</rdg>
+                     </app>
+                     <w>ἀρχή</w>
+                     <pc>,</pc>
+                     <w>πρωτότοκος</w>
+                     <w>ἐκ</w>
+                     <w>τῶν</w>
+                     <w>νεκρῶν</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <w>γένηται</w>
+                     <w>ἐν</w>
+                     <w>πᾶσιν</w>
+                     <w>αὐτὸς</w>
+                     <w>πρωτεύων</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="19">
+                  <ab>
+                     <w>ὅτι</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>εὐδόκησεν</w>
+                     <w>πᾶν</w>
+                     <w>τὸ</w>
+                     <w>πλήρωμα</w>
+                     <w>κατοικῆσαι</w>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="20">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>δι’</w>
+                     <w>αὐτοῦ</w>
+                     <w>ἀποκαταλλάξαι</w>
+                     <w>τὰ</w>
+                     <w>πάντα</w>
+                     <w>εἰς</w>
+                     <w>αὐτόν</w>
+                     <pc>,</pc>
+                     <w>εἰρηνοποιήσας</w>
+                     <w>διὰ</w>
+                     <w>τοῦ</w>
+                     <w>αἵματος</w>
+                     <w>τοῦ</w>
+                     <w>σταυροῦ</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #NA #RP">
+                           <pc>[</pc>
+                           <w>δι’</w>
+                           <w>αὐτοῦ</w>
+                           <pc>]</pc>
+                        </lem>
+                        <rdg source="#Treg #NIV" type="omission"/>
+                     </app>
+                     <w>εἴτε</w>
+                     <w>τὰ</w>
+                     <w>ἐπὶ</w>
+                     <w>τῆς</w>
+                     <w>γῆς</w>
+                     <w>εἴτε</w>
+                     <w>τὰ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἐν</w>
+                        </lem>
+                        <rdg source="#RP">ἐπὶ</rdg>
+                     </app>
+                     <w>τοῖς</w>
+                     <w>οὐρανοῖς</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="21">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ὑμᾶς</w>
+                     <w>ποτε</w>
+                     <w>ὄντας</w>
+                     <w>ἀπηλλοτριωμένους</w>
+                     <w>καὶ</w>
+                     <w>ἐχθροὺς</w>
+                     <w>τῇ</w>
+                     <w>διανοίᾳ</w>
+                     <w>ἐν</w>
+                     <w>τοῖς</w>
+                     <w>ἔργοις</w>
+                     <w>τοῖς</w>
+                     <w>πονηροῖς</w>
+                     <pc>—</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="22">
+                  <ab>
+                     <w>νυνὶ</w>
+                     <w>δὲ</w>
+                     <app type="variants">
+                        <lem source="#Holmes">
+                           <w>ἀποκατηλλάγητε</w>
+                        </lem>
+                        <rdg source="#WH #Treg #NIV #RP">ἀποκατήλλαξεν</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>τῷ</w>
+                     <w>σώματι</w>
+                     <w>τῆς</w>
+                     <w>σαρκὸς</w>
+                     <w>αὐτοῦ</w>
+                     <w>διὰ</w>
+                     <w>τοῦ</w>
+                     <w>θανάτου</w>
+                     <pc>—</pc>
+                     <w>παραστῆσαι</w>
+                     <w>ὑμᾶς</w>
+                     <w>ἁγίους</w>
+                     <w>καὶ</w>
+                     <w>ἀμώμους</w>
+                     <w>καὶ</w>
+                     <w>ἀνεγκλήτους</w>
+                     <w>κατενώπιον</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="23">
+                  <ab>
+                     <w>εἴ</w>
+                     <w>γε</w>
+                     <w>ἐπιμένετε</w>
+                     <w>τῇ</w>
+                     <w>πίστει</w>
+                     <w>τεθεμελιωμένοι</w>
+                     <w>καὶ</w>
+                     <w>ἑδραῖοι</w>
+                     <w>καὶ</w>
+                     <w>μὴ</w>
+                     <w>μετακινούμενοι</w>
+                     <w>ἀπὸ</w>
+                     <w>τῆς</w>
+                     <w>ἐλπίδος</w>
+                     <w>τοῦ</w>
+                     <w>εὐαγγελίου</w>
+                     <w>οὗ</w>
+                     <w>ἠκούσατε</w>
+                     <pc>,</pc>
+                     <w>τοῦ</w>
+                     <w>κηρυχθέντος</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>πάσῃ</w>
+                        </lem>
+                        <rdg source="#RP">+ τῇ</rdg>
+                     </app>
+                     <w>κτίσει</w>
+                     <w>τῇ</w>
+                     <w>ὑπὸ</w>
+                     <w>τὸν</w>
+                     <w>οὐρανόν</w>
+                     <pc>,</pc>
+                     <w>οὗ</w>
+                     <w>ἐγενόμην</w>
+                     <w>ἐγὼ</w>
+                     <w>Παῦλος</w>
+                     <w>διάκονος</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="24">
+                  <ab>
+                     <w>Νῦν</w>
+                     <w>χαίρω</w>
+                     <w>ἐν</w>
+                     <w>τοῖς</w>
+                     <w>παθήμασιν</w>
+                     <w>ὑπὲρ</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>ἀνταναπληρῶ</w>
+                     <w>τὰ</w>
+                     <w>ὑστερήματα</w>
+                     <w>τῶν</w>
+                     <w>θλίψεων</w>
+                     <w>τοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <w>ἐν</w>
+                     <w>τῇ</w>
+                     <w>σαρκί</w>
+                     <w>μου</w>
+                     <w>ὑπὲρ</w>
+                     <w>τοῦ</w>
+                     <w>σώματος</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                     <w>ὅ</w>
+                     <w>ἐστιν</w>
+                     <w>ἡ</w>
+                     <w>ἐκκλησία</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="25">
+                  <ab>
+                     <w>ἧς</w>
+                     <w>ἐγενόμην</w>
+                     <w>ἐγὼ</w>
+                     <w>διάκονος</w>
+                     <w>κατὰ</w>
+                     <w>τὴν</w>
+                     <w>οἰκονομίαν</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <w>τὴν</w>
+                     <w>δοθεῖσάν</w>
+                     <w>μοι</w>
+                     <w>εἰς</w>
+                     <w>ὑμᾶς</w>
+                     <w>πληρῶσαι</w>
+                     <w>τὸν</w>
+                     <w>λόγον</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="26">
+                  <ab>
+                     <w>τὸ</w>
+                     <w>μυστήριον</w>
+                     <w>τὸ</w>
+                     <w>ἀποκεκρυμμένον</w>
+                     <w>ἀπὸ</w>
+                     <w>τῶν</w>
+                     <w>αἰώνων</w>
+                     <w>καὶ</w>
+                     <w>ἀπὸ</w>
+                     <w>τῶν</w>
+                     <w>γενεῶν</w>
+                     <pc>,</pc>
+                     <pc>—</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>νῦν</w>
+                        </lem>
+                        <rdg source="#RP">νυνὶ</rdg>
+                     </app>
+                     <w>δὲ</w>
+                     <w>ἐφανερώθη</w>
+                     <w>τοῖς</w>
+                     <w>ἁγίοις</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="27">
+                  <ab>
+                     <w>οἷς</w>
+                     <w>ἠθέλησεν</w>
+                     <w>ὁ</w>
+                     <w>θεὸς</w>
+                     <w>γνωρίσαι</w>
+                     <w>τί</w>
+                     <w>τὸ</w>
+                     <w>πλοῦτος</w>
+                     <w>τῆς</w>
+                     <w>δόξης</w>
+                     <w>τοῦ</w>
+                     <w>μυστηρίου</w>
+                     <w>τούτου</w>
+                     <w>ἐν</w>
+                     <w>τοῖς</w>
+                     <w>ἔθνεσιν</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὅ</w>
+                        </lem>
+                        <rdg source="#RP">ὅς</rdg>
+                     </app>
+                     <w>ἐστιν</w>
+                     <w>Χριστὸς</w>
+                     <w>ἐν</w>
+                     <w>ὑμῖν</w>
+                     <pc>,</pc>
+                     <w>ἡ</w>
+                     <w>ἐλπὶς</w>
+                     <w>τῆς</w>
+                     <w>δόξης</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="28">
+                  <ab>
+                     <w>ὃν</w>
+                     <w>ἡμεῖς</w>
+                     <w>καταγγέλλομεν</w>
+                     <w>νουθετοῦντες</w>
+                     <w>πάντα</w>
+                     <w>ἄνθρωπον</w>
+                     <w>καὶ</w>
+                     <w>διδάσκοντες</w>
+                     <w>πάντα</w>
+                     <w>ἄνθρωπον</w>
+                     <w>ἐν</w>
+                     <w>πάσῃ</w>
+                     <w>σοφίᾳ</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <w>παραστήσωμεν</w>
+                     <w>πάντα</w>
+                     <w>ἄνθρωπον</w>
+                     <w>τέλειον</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>Χριστῷ</w>
+                        </lem>
+                        <rdg source="#RP">+ Ἰησοῦ</rdg>
+                     </app>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="29">
+                  <ab>
+                     <w>εἰς</w>
+                     <w>ὃ</w>
+                     <w>καὶ</w>
+                     <w>κοπιῶ</w>
+                     <w>ἀγωνιζόμενος</w>
+                     <w>κατὰ</w>
+                     <w>τὴν</w>
+                     <w>ἐνέργειαν</w>
+                     <w>αὐτοῦ</w>
+                     <w>τὴν</w>
+                     <w>ἐνεργουμένην</w>
+                     <w>ἐν</w>
+                     <w>ἐμοὶ</w>
+                     <w>ἐν</w>
+                     <w>δυνάμει</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+               <div type="textpart" subtype="verse" n="1">
+                  <ab>
+                     <w>Θέλω</w>
+                     <w>γὰρ</w>
+                     <w>ὑμᾶς</w>
+                     <w>εἰδέναι</w>
+                     <w>ἡλίκον</w>
+                     <w>ἀγῶνα</w>
+                     <w>ἔχω</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὑπὲρ</w>
+                        </lem>
+                        <rdg source="#RP">περὶ</rdg>
+                     </app>
+                     <w>ὑμῶν</w>
+                     <w>καὶ</w>
+                     <w>τῶν</w>
+                     <w>ἐν</w>
+                     <w>Λαοδικείᾳ</w>
+                     <w>καὶ</w>
+                     <w>ὅσοι</w>
+                     <w>οὐχ</w>
+                     <w>ἑόρακαν</w>
+                     <w>τὸ</w>
+                     <w>πρόσωπόν</w>
+                     <w>μου</w>
+                     <w>ἐν</w>
+                     <w>σαρκί</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="2">
+                  <ab>
+                     <w>ἵνα</w>
+                     <w>παρακληθῶσιν</w>
+                     <w>αἱ</w>
+                     <w>καρδίαι</w>
+                     <w>αὐτῶν</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>συμβιβασθέντες</w>
+                        </lem>
+                        <rdg source="#RP">συμβιβασθέντων</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>ἀγάπῃ</w>
+                     <w>καὶ</w>
+                     <w>εἰς</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>πᾶν</w>
+                           <w>πλοῦτος</w>
+                        </lem>
+                        <rdg source="#Treg">πᾶν τὸ πλοῦτος</rdg>
+                        <rdg source="#RP">πάντα πλοῦτον</rdg>
+                     </app>
+                     <w>τῆς</w>
+                     <w>πληροφορίας</w>
+                     <w>τῆς</w>
+                     <w>συνέσεως</w>
+                     <pc>,</pc>
+                     <w>εἰς</w>
+                     <w>ἐπίγνωσιν</w>
+                     <w>τοῦ</w>
+                     <w>μυστηρίου</w>
+                     <w>τοῦ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>θεοῦ</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ πατρὸς καὶ τοῦ</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>Χριστοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="3">
+                  <ab>
+                     <w>ἐν</w>
+                     <w>ᾧ</w>
+                     <w>εἰσιν</w>
+                     <w>πάντες</w>
+                     <w>οἱ</w>
+                     <w>θησαυροὶ</w>
+                     <w>τῆς</w>
+                     <w>σοφίας</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>καὶ</w>
+                        </lem>
+                        <rdg source="#RP">+ τῆς</rdg>
+                     </app>
+                     <w>γνώσεως</w>
+                     <w>ἀπόκρυφοι</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="4">
+                  <ab>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>τοῦτο</w>
+                        </lem>
+                        <rdg source="#Treg #RP">+ δὲ</rdg>
+                     </app>
+                     <w>λέγω</w>
+                     <w>ἵνα</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>μηδεὶς</w>
+                        </lem>
+                        <rdg source="#RP">μή τις</rdg>
+                     </app>
+                     <w>ὑμᾶς</w>
+                     <w>παραλογίζηται</w>
+                     <w>ἐν</w>
+                     <w>πιθανολογίᾳ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="5">
+                  <ab>
+                     <w>εἰ</w>
+                     <w>γὰρ</w>
+                     <w>καὶ</w>
+                     <w>τῇ</w>
+                     <w>σαρκὶ</w>
+                     <w>ἄπειμι</w>
+                     <pc>,</pc>
+                     <w>ἀλλὰ</w>
+                     <w>τῷ</w>
+                     <w>πνεύματι</w>
+                     <w>σὺν</w>
+                     <w>ὑμῖν</w>
+                     <w>εἰμι</w>
+                     <pc>,</pc>
+                     <w>χαίρων</w>
+                     <w>καὶ</w>
+                     <w>βλέπων</w>
+                     <w>ὑμῶν</w>
+                     <w>τὴν</w>
+                     <w>τάξιν</w>
+                     <w>καὶ</w>
+                     <w>τὸ</w>
+                     <w>στερέωμα</w>
+                     <w>τῆς</w>
+                     <w>εἰς</w>
+                     <w>Χριστὸν</w>
+                     <w>πίστεως</w>
+                     <w>ὑμῶν</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="6">
+                  <ab>
+                     <w>Ὡς</w>
+                     <w>οὖν</w>
+                     <w>παρελάβετε</w>
+                     <w>τὸν</w>
+                     <w>Χριστὸν</w>
+                     <w>Ἰησοῦν</w>
+                     <w>τὸν</w>
+                     <w>κύριον</w>
+                     <pc>,</pc>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>περιπατεῖτε</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="7">
+                  <ab>
+                     <w>ἐρριζωμένοι</w>
+                     <w>καὶ</w>
+                     <w>ἐποικοδομούμενοι</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>καὶ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>βεβαιούμενοι</w>
+                        </lem>
+                        <rdg source="#RP">+ ἐν</rdg>
+                     </app>
+                     <w>τῇ</w>
+                     <w>πίστει</w>
+                     <w>καθὼς</w>
+                     <w>ἐδιδάχθητε</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#Treg #NIV">
+                           <w>περισσεύοντες</w>
+                        </lem>
+                        <rdg source="#WH #RP">+ ἐν αὐτῇ</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>εὐχαριστίᾳ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="8">
+                  <ab>
+                     <w>Βλέπετε</w>
+                     <w>μή</w>
+                     <w>τις</w>
+                     <w>ὑμᾶς</w>
+                     <w>ἔσται</w>
+                     <w>ὁ</w>
+                     <w>συλαγωγῶν</w>
+                     <w>διὰ</w>
+                     <w>τῆς</w>
+                     <w>φιλοσοφίας</w>
+                     <w>καὶ</w>
+                     <w>κενῆς</w>
+                     <w>ἀπάτης</w>
+                     <w>κατὰ</w>
+                     <w>τὴν</w>
+                     <w>παράδοσιν</w>
+                     <w>τῶν</w>
+                     <w>ἀνθρώπων</w>
+                     <pc>,</pc>
+                     <w>κατὰ</w>
+                     <w>τὰ</w>
+                     <w>στοιχεῖα</w>
+                     <w>τοῦ</w>
+                     <w>κόσμου</w>
+                     <w>καὶ</w>
+                     <w>οὐ</w>
+                     <w>κατὰ</w>
+                     <w>Χριστόν</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="9">
+                  <ab>
+                     <w>ὅτι</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>κατοικεῖ</w>
+                     <w>πᾶν</w>
+                     <w>τὸ</w>
+                     <w>πλήρωμα</w>
+                     <w>τῆς</w>
+                     <w>θεότητος</w>
+                     <w>σωματικῶς</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="10">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ἐστὲ</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <w>πεπληρωμένοι</w>
+                     <pc>,</pc>
+                     <w>ὅς</w>
+                     <w>ἐστιν</w>
+                     <w>ἡ</w>
+                     <w>κεφαλὴ</w>
+                     <w>πάσης</w>
+                     <w>ἀρχῆς</w>
+                     <w>καὶ</w>
+                     <w>ἐξουσίας</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="11">
+                  <ab>
+                     <w>ἐν</w>
+                     <w>ᾧ</w>
+                     <w>καὶ</w>
+                     <w>περιετμήθητε</w>
+                     <w>περιτομῇ</w>
+                     <w>ἀχειροποιήτῳ</w>
+                     <w>ἐν</w>
+                     <w>τῇ</w>
+                     <w>ἀπεκδύσει</w>
+                     <w>τοῦ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>σώματος</w>
+                        </lem>
+                        <rdg source="#RP">+ τῶν ἁμαρτιῶν</rdg>
+                     </app>
+                     <w>τῆς</w>
+                     <w>σαρκός</w>
+                     <pc>,</pc>
+                     <w>ἐν</w>
+                     <w>τῇ</w>
+                     <w>περιτομῇ</w>
+                     <w>τοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="12">
+                  <ab>
+                     <w>συνταφέντες</w>
+                     <w>αὐτῷ</w>
+                     <w>ἐν</w>
+                     <w>τῷ</w>
+                     <app type="variants">
+                        <lem source="#Treg #NIV">
+                           <w>βαπτισμῷ</w>
+                        </lem>
+                        <rdg source="#WH #RP">βαπτίσματι</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>ἐν</w>
+                     <w>ᾧ</w>
+                     <w>καὶ</w>
+                     <w>συνηγέρθητε</w>
+                     <w>διὰ</w>
+                     <w>τῆς</w>
+                     <w>πίστεως</w>
+                     <w>τῆς</w>
+                     <w>ἐνεργείας</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <w>τοῦ</w>
+                     <w>ἐγείραντος</w>
+                     <w>αὐτὸν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἐκ</w>
+                        </lem>
+                        <rdg source="#RP">+ τῶν</rdg>
+                     </app>
+                     <w>νεκρῶν</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="13">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ὑμᾶς</w>
+                     <w>νεκροὺς</w>
+                     <w>ὄντας</w>
+                     <app type="variants">
+                        <lem source="#NIV #RP">
+                           <w>ἐν</w>
+                        </lem>
+                        <rdg source="#WH #Treg" type="omission"/>
+                     </app>
+                     <w>τοῖς</w>
+                     <w>παραπτώμασιν</w>
+                     <w>καὶ</w>
+                     <w>τῇ</w>
+                     <w>ἀκροβυστίᾳ</w>
+                     <w>τῆς</w>
+                     <w>σαρκὸς</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                     <w>συνεζωοποίησεν</w>
+                     <w>ὑμᾶς</w>
+                     <w>σὺν</w>
+                     <w>αὐτῷ</w>
+                     <pc>·</pc>
+                     <w>χαρισάμενος</w>
+                     <w>ἡμῖν</w>
+                     <w>πάντα</w>
+                     <w>τὰ</w>
+                     <w>παραπτώματα</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="14">
+                  <ab>
+                     <w>ἐξαλείψας</w>
+                     <w>τὸ</w>
+                     <w>καθ’</w>
+                     <w>ἡμῶν</w>
+                     <w>χειρόγραφον</w>
+                     <w>τοῖς</w>
+                     <w>δόγμασιν</w>
+                     <w>ὃ</w>
+                     <w>ἦν</w>
+                     <w>ὑπεναντίον</w>
+                     <w>ἡμῖν</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>αὐτὸ</w>
+                     <w>ἦρκεν</w>
+                     <w>ἐκ</w>
+                     <w>τοῦ</w>
+                     <w>μέσου</w>
+                     <w>προσηλώσας</w>
+                     <w>αὐτὸ</w>
+                     <w>τῷ</w>
+                     <w>σταυρῷ</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="15">
+                  <ab>
+                     <w>ἀπεκδυσάμενος</w>
+                     <w>τὰς</w>
+                     <w>ἀρχὰς</w>
+                     <w>καὶ</w>
+                     <w>τὰς</w>
+                     <w>ἐξουσίας</w>
+                     <w>ἐδειγμάτισεν</w>
+                     <w>ἐν</w>
+                     <w>παρρησίᾳ</w>
+                     <pc>,</pc>
+                     <w>θριαμβεύσας</w>
+                     <w>αὐτοὺς</w>
+                     <w>ἐν</w>
+                     <w>αὐτῷ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="16">
+                  <ab>
+                     <w>Μὴ</w>
+                     <w>οὖν</w>
+                     <w>τις</w>
+                     <w>ὑμᾶς</w>
+                     <w>κρινέτω</w>
+                     <w>ἐν</w>
+                     <w>βρώσει</w>
+                     <app type="variants">
+                        <lem source="#Treg #RP">
+                           <w>ἢ</w>
+                        </lem>
+                        <rdg source="#WH #NIV">καὶ</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>πόσει</w>
+                     <w>ἢ</w>
+                     <w>ἐν</w>
+                     <w>μέρει</w>
+                     <w>ἑορτῆς</w>
+                     <w>ἢ</w>
+                     <w>νουμηνίας</w>
+                     <w>ἢ</w>
+                     <w>σαββάτων</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="17">
+                  <ab>
+                     <w>ἅ</w>
+                     <w>ἐστιν</w>
+                     <w>σκιὰ</w>
+                     <w>τῶν</w>
+                     <w>μελλόντων</w>
+                     <pc>,</pc>
+                     <w>τὸ</w>
+                     <w>δὲ</w>
+                     <w>σῶμα</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>τοῦ</w>
+                        </lem>
+                        <rdg source="#RP" type="omission"/>
+                     </app>
+                     <w>Χριστοῦ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="18">
+                  <ab>
+                     <w>μηδεὶς</w>
+                     <w>ὑμᾶς</w>
+                     <w>καταβραβευέτω</w>
+                     <w>θέλων</w>
+                     <w>ἐν</w>
+                     <w>ταπεινοφροσύνῃ</w>
+                     <w>καὶ</w>
+                     <w>θρησκείᾳ</w>
+                     <w>τῶν</w>
+                     <w>ἀγγέλων</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἃ</w>
+                        </lem>
+                        <rdg source="#RP">+ μὴ</rdg>
+                     </app>
+                     <w>ἑόρακεν</w>
+                     <w>ἐμβατεύων</w>
+                     <pc>,</pc>
+                     <w>εἰκῇ</w>
+                     <w>φυσιούμενος</w>
+                     <w>ὑπὸ</w>
+                     <w>τοῦ</w>
+                     <w>νοὸς</w>
+                     <w>τῆς</w>
+                     <w>σαρκὸς</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="19">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>οὐ</w>
+                     <w>κρατῶν</w>
+                     <w>τὴν</w>
+                     <w>κεφαλήν</w>
+                     <pc>,</pc>
+                     <w>ἐξ</w>
+                     <w>οὗ</w>
+                     <w>πᾶν</w>
+                     <w>τὸ</w>
+                     <w>σῶμα</w>
+                     <w>διὰ</w>
+                     <w>τῶν</w>
+                     <w>ἁφῶν</w>
+                     <w>καὶ</w>
+                     <w>συνδέσμων</w>
+                     <w>ἐπιχορηγούμενον</w>
+                     <w>καὶ</w>
+                     <w>συμβιβαζόμενον</w>
+                     <w>αὔξει</w>
+                     <w>τὴν</w>
+                     <w>αὔξησιν</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="20">
+                  <ab>
+                     <w>Εἰ</w>
+                     <w>ἀπεθάνετε</w>
+                     <w>σὺν</w>
+                     <w>Χριστῷ</w>
+                     <w>ἀπὸ</w>
+                     <w>τῶν</w>
+                     <w>στοιχείων</w>
+                     <w>τοῦ</w>
+                     <w>κόσμου</w>
+                     <pc>,</pc>
+                     <w>τί</w>
+                     <w>ὡς</w>
+                     <w>ζῶντες</w>
+                     <w>ἐν</w>
+                     <w>κόσμῳ</w>
+                     <w>δογματίζεσθε</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="21">
+                  <ab>
+                     <w>Μὴ</w>
+                     <w>ἅψῃ</w>
+                     <w>μηδὲ</w>
+                     <w>γεύσῃ</w>
+                     <w>μηδὲ</w>
+                     <w>θίγῃς</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="22">
+                  <ab>
+                     <w>ἅ</w>
+                     <w>ἐστιν</w>
+                     <w>πάντα</w>
+                     <w>εἰς</w>
+                     <w>φθορὰν</w>
+                     <w>τῇ</w>
+                     <w>ἀποχρήσει</w>
+                     <pc>,</pc>
+                     <w>κατὰ</w>
+                     <w>τὰ</w>
+                     <w>ἐντάλματα</w>
+                     <w>καὶ</w>
+                     <w>διδασκαλίας</w>
+                     <w>τῶν</w>
+                     <w>ἀνθρώπων</w>
+                     <pc>;</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="23">
+                  <ab>
+                     <w>ἅτινά</w>
+                     <w>ἐστιν</w>
+                     <w>λόγον</w>
+                     <w>μὲν</w>
+                     <w>ἔχοντα</w>
+                     <w>σοφίας</w>
+                     <w>ἐν</w>
+                     <w>ἐθελοθρησκίᾳ</w>
+                     <w>καὶ</w>
+                     <w>ταπεινοφροσύνῃ</w>
+                     <w>καὶ</w>
+                     <w>ἀφειδίᾳ</w>
+                     <w>σώματος</w>
+                     <pc>,</pc>
+                     <w>οὐκ</w>
+                     <w>ἐν</w>
+                     <w>τιμῇ</w>
+                     <w>τινι</w>
+                     <w>πρὸς</w>
+                     <w>πλησμονὴν</w>
+                     <w>τῆς</w>
+                     <w>σαρκός</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+               <div type="textpart" subtype="verse" n="1">
+                  <ab>
+                     <w>Εἰ</w>
+                     <w>οὖν</w>
+                     <w>συνηγέρθητε</w>
+                     <w>τῷ</w>
+                     <w>Χριστῷ</w>
+                     <pc>,</pc>
+                     <w>τὰ</w>
+                     <w>ἄνω</w>
+                     <w>ζητεῖτε</w>
+                     <pc>,</pc>
+                     <w>οὗ</w>
+                     <w>ὁ</w>
+                     <w>Χριστός</w>
+                     <w>ἐστιν</w>
+                     <w>ἐν</w>
+                     <w>δεξιᾷ</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <w>καθήμενος</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="2">
+                  <ab>
+                     <w>τὰ</w>
+                     <w>ἄνω</w>
+                     <w>φρονεῖτε</w>
+                     <pc>,</pc>
+                     <w>μὴ</w>
+                     <w>τὰ</w>
+                     <w>ἐπὶ</w>
+                     <w>τῆς</w>
+                     <w>γῆς</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="3">
+                  <ab>
+                     <w>ἀπεθάνετε</w>
+                     <w>γάρ</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>ἡ</w>
+                     <w>ζωὴ</w>
+                     <w>ὑμῶν</w>
+                     <w>κέκρυπται</w>
+                     <w>σὺν</w>
+                     <w>τῷ</w>
+                     <w>Χριστῷ</w>
+                     <w>ἐν</w>
+                     <w>τῷ</w>
+                     <w>θεῷ</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="4">
+                  <ab>
+                     <w>ὅταν</w>
+                     <w>ὁ</w>
+                     <w>Χριστὸς</w>
+                     <w>φανερωθῇ</w>
+                     <pc>,</pc>
+                     <w>ἡ</w>
+                     <w>ζωὴ</w>
+                     <app type="variants">
+                        <lem source="#Treg #NIV">
+                           <w>ὑμῶν</w>
+                        </lem>
+                        <rdg source="#WH #RP">ἡμῶν</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>τότε</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <w>σὺν</w>
+                     <w>αὐτῷ</w>
+                     <w>φανερωθήσεσθε</w>
+                     <w>ἐν</w>
+                     <w>δόξῃ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="5">
+                  <ab>
+                     <w>Νεκρώσατε</w>
+                     <w>οὖν</w>
+                     <w>τὰ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NA">
+                           <w>μέλη</w>
+                        </lem>
+                        <rdg source="#NIV #RP">+ ὑμῶν</rdg>
+                     </app>
+                     <w>τὰ</w>
+                     <w>ἐπὶ</w>
+                     <w>τῆς</w>
+                     <w>γῆς</w>
+                     <pc>,</pc>
+                     <w>πορνείαν</w>
+                     <pc>,</pc>
+                     <w>ἀκαθαρσίαν</w>
+                     <pc>,</pc>
+                     <w>πάθος</w>
+                     <pc>,</pc>
+                     <w>ἐπιθυμίαν</w>
+                     <w>κακήν</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>τὴν</w>
+                     <w>πλεονεξίαν</w>
+                     <w>ἥτις</w>
+                     <w>ἐστὶν</w>
+                     <w>εἰδωλολατρία</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="6">
+                  <ab>
+                     <w>δι’</w>
+                     <w>ἃ</w>
+                     <w>ἔρχεται</w>
+                     <w>ἡ</w>
+                     <w>ὀργὴ</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <app type="variants">
+                        <lem source="#NA #RP">
+                           <w>ἐπὶ</w>
+                           <w>τοὺς</w>
+                           <w>υἱοὺς</w>
+                           <w>τῆς</w>
+                           <w>ἀπειθείας</w>
+                        </lem>
+                        <rdg source="#WH #Treg #NIV" type="omission"/>
+                     </app>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="7">
+                  <ab>
+                     <w>ἐν</w>
+                     <w>οἷς</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <w>περιεπατήσατέ</w>
+                     <w>ποτε</w>
+                     <w>ὅτε</w>
+                     <w>ἐζῆτε</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>τούτοις</w>
+                        </lem>
+                        <rdg source="#RP">αὐτοῖς</rdg>
+                     </app>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="8">
+                  <ab>
+                     <w>νυνὶ</w>
+                     <w>δὲ</w>
+                     <w>ἀπόθεσθε</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <w>τὰ</w>
+                     <w>πάντα</w>
+                     <pc>,</pc>
+                     <w>ὀργήν</w>
+                     <pc>,</pc>
+                     <w>θυμόν</w>
+                     <pc>,</pc>
+                     <w>κακίαν</w>
+                     <pc>,</pc>
+                     <w>βλασφημίαν</w>
+                     <pc>,</pc>
+                     <w>αἰσχρολογίαν</w>
+                     <w>ἐκ</w>
+                     <w>τοῦ</w>
+                     <w>στόματος</w>
+                     <w>ὑμῶν</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="9">
+                  <ab>
+                     <w>μὴ</w>
+                     <w>ψεύδεσθε</w>
+                     <w>εἰς</w>
+                     <w>ἀλλήλους</w>
+                     <pc>·</pc>
+                     <w>ἀπεκδυσάμενοι</w>
+                     <w>τὸν</w>
+                     <w>παλαιὸν</w>
+                     <w>ἄνθρωπον</w>
+                     <w>σὺν</w>
+                     <w>ταῖς</w>
+                     <w>πράξεσιν</w>
+                     <w>αὐτοῦ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="10">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ἐνδυσάμενοι</w>
+                     <w>τὸν</w>
+                     <w>νέον</w>
+                     <w>τὸν</w>
+                     <w>ἀνακαινούμενον</w>
+                     <w>εἰς</w>
+                     <w>ἐπίγνωσιν</w>
+                     <w>κατ’</w>
+                     <w>εἰκόνα</w>
+                     <w>τοῦ</w>
+                     <w>κτίσαντος</w>
+                     <w>αὐτόν</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="11">
+                  <ab>
+                     <w>ὅπου</w>
+                     <w>οὐκ</w>
+                     <w>ἔνι</w>
+                     <w>Ἕλλην</w>
+                     <w>καὶ</w>
+                     <w>Ἰουδαῖος</w>
+                     <pc>,</pc>
+                     <w>περιτομὴ</w>
+                     <w>καὶ</w>
+                     <w>ἀκροβυστία</w>
+                     <pc>,</pc>
+                     <w>βάρβαρος</w>
+                     <pc>,</pc>
+                     <w>Σκύθης</w>
+                     <pc>,</pc>
+                     <w>δοῦλος</w>
+                     <pc>,</pc>
+                     <w>ἐλεύθερος</w>
+                     <pc>,</pc>
+                     <w>ἀλλὰ</w>
+                     <app type="variants">
+                        <lem source="#Treg #NIV #RP">
+                           <w>τὰ</w>
+                        </lem>
+                        <rdg source="#WH" type="omission"/>
+                     </app>
+                     <w>πάντα</w>
+                     <w>καὶ</w>
+                     <w>ἐν</w>
+                     <w>πᾶσιν</w>
+                     <w>Χριστός</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="12">
+                  <ab>
+                     <w>Ἐνδύσασθε</w>
+                     <w>οὖν</w>
+                     <w>ὡς</w>
+                     <w>ἐκλεκτοὶ</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>,</pc>
+                     <w>ἅγιοι</w>
+                     <w>καὶ</w>
+                     <w>ἠγαπημένοι</w>
+                     <pc>,</pc>
+                     <w>σπλάγχνα</w>
+                     <w>οἰκτιρμοῦ</w>
+                     <pc>,</pc>
+                     <w>χρηστότητα</w>
+                     <pc>,</pc>
+                     <w>ταπεινοφροσύνην</w>
+                     <pc>,</pc>
+                     <w>πραΰτητα</w>
+                     <pc>,</pc>
+                     <w>μακροθυμίαν</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="13">
+                  <ab>
+                     <w>ἀνεχόμενοι</w>
+                     <w>ἀλλήλων</w>
+                     <w>καὶ</w>
+                     <w>χαριζόμενοι</w>
+                     <w>ἑαυτοῖς</w>
+                     <w>ἐάν</w>
+                     <w>τις</w>
+                     <w>πρός</w>
+                     <w>τινα</w>
+                     <w>ἔχῃ</w>
+                     <w>μομφήν</w>
+                     <pc>·</pc>
+                     <w>καθὼς</w>
+                     <w>καὶ</w>
+                     <w>ὁ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>κύριος</w>
+                        </lem>
+                        <rdg source="#RP">Χριστὸς</rdg>
+                     </app>
+                     <w>ἐχαρίσατο</w>
+                     <w>ὑμῖν</w>
+                     <w>οὕτως</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="14">
+                  <ab>
+                     <w>ἐπὶ</w>
+                     <w>πᾶσιν</w>
+                     <w>δὲ</w>
+                     <w>τούτοις</w>
+                     <w>τὴν</w>
+                     <w>ἀγάπην</w>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὅ</w>
+                        </lem>
+                        <rdg source="#RP">ἥτις</rdg>
+                     </app>
+                     <w>ἐστιν</w>
+                     <w>σύνδεσμος</w>
+                     <w>τῆς</w>
+                     <w>τελειότητος</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="15">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ἡ</w>
+                     <w>εἰρήνη</w>
+                     <w>τοῦ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>Χριστοῦ</w>
+                        </lem>
+                        <rdg source="#RP">θεοῦ</rdg>
+                     </app>
+                     <w>βραβευέτω</w>
+                     <w>ἐν</w>
+                     <w>ταῖς</w>
+                     <w>καρδίαις</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                     <w>εἰς</w>
+                     <w>ἣν</w>
+                     <w>καὶ</w>
+                     <w>ἐκλήθητε</w>
+                     <w>ἐν</w>
+                     <w>ἑνὶ</w>
+                     <w>σώματι</w>
+                     <pc>·</pc>
+                     <w>καὶ</w>
+                     <w>εὐχάριστοι</w>
+                     <w>γίνεσθε</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="16">
+                  <ab>
+                     <w>ὁ</w>
+                     <w>λόγος</w>
+                     <w>τοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <w>ἐνοικείτω</w>
+                     <w>ἐν</w>
+                     <w>ὑμῖν</w>
+                     <w>πλουσίως</w>
+                     <w>ἐν</w>
+                     <w>πάσῃ</w>
+                     <w>σοφίᾳ</w>
+                     <pc>·</pc>
+                     <w>διδάσκοντες</w>
+                     <w>καὶ</w>
+                     <w>νουθετοῦντες</w>
+                     <w>ἑαυτοὺς</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ψαλμοῖς</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὕμνοις</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>ᾠδαῖς</w>
+                     <w>πνευματικαῖς</w>
+                     <app type="variants">
+                        <lem source="#WH #RP">
+                           <w>ἐν</w>
+                        </lem>
+                        <rdg source="#Treg #NIV">+ τῇ</rdg>
+                     </app>
+                     <w>χάριτι</w>
+                     <pc>,</pc>
+                     <w>ᾄδοντες</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ταῖς</w>
+                           <w>καρδίαις</w>
+                        </lem>
+                        <rdg source="#RP">τῇ καρδίᾳ</rdg>
+                     </app>
+                     <w>ὑμῶν</w>
+                     <w>τῷ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>θεῷ</w>
+                        </lem>
+                        <rdg source="#RP">κυρίῳ</rdg>
+                     </app>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="17">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>πᾶν</w>
+                     <app type="variants">
+                        <lem source="#Treg #NIV #RP">
+                           <w>ὅ</w>
+                           <w>τι</w>
+                        </lem>
+                        <rdg source="#WH">ὅτι</rdg>
+                     </app>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἐὰν</w>
+                        </lem>
+                        <rdg source="#RP">ἂν</rdg>
+                     </app>
+                     <w>ποιῆτε</w>
+                     <w>ἐν</w>
+                     <w>λόγῳ</w>
+                     <w>ἢ</w>
+                     <w>ἐν</w>
+                     <w>ἔργῳ</w>
+                     <pc>,</pc>
+                     <w>πάντα</w>
+                     <w>ἐν</w>
+                     <w>ὀνόματι</w>
+                     <w>κυρίου</w>
+                     <w>Ἰησοῦ</w>
+                     <pc>,</pc>
+                     <w>εὐχαριστοῦντες</w>
+                     <w>τῷ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>θεῷ</w>
+                        </lem>
+                        <rdg source="#RP">+ καὶ</rdg>
+                     </app>
+                     <w>πατρὶ</w>
+                     <w>δι’</w>
+                     <w>αὐτοῦ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="18">
+                  <ab>
+                     <w>Αἱ</w>
+                     <w>γυναῖκες</w>
+                     <pc>,</pc>
+                     <w>ὑποτάσσεσθε</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>τοῖς</w>
+                        </lem>
+                        <rdg source="#RP">+ ἰδίοις</rdg>
+                     </app>
+                     <w>ἀνδράσιν</w>
+                     <pc>,</pc>
+                     <w>ὡς</w>
+                     <w>ἀνῆκεν</w>
+                     <w>ἐν</w>
+                     <w>κυρίῳ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="19">
+                  <ab>
+                     <w>οἱ</w>
+                     <w>ἄνδρες</w>
+                     <pc>,</pc>
+                     <w>ἀγαπᾶτε</w>
+                     <w>τὰς</w>
+                     <w>γυναῖκας</w>
+                     <w>καὶ</w>
+                     <w>μὴ</w>
+                     <w>πικραίνεσθε</w>
+                     <w>πρὸς</w>
+                     <w>αὐτάς</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="20">
+                  <ab>
+                     <w>Τὰ</w>
+                     <w>τέκνα</w>
+                     <pc>,</pc>
+                     <w>ὑπακούετε</w>
+                     <w>τοῖς</w>
+                     <w>γονεῦσιν</w>
+                     <w>κατὰ</w>
+                     <w>πάντα</w>
+                     <pc>,</pc>
+                     <w>τοῦτο</w>
+                     <w>γὰρ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>εὐάρεστόν</w>
+                           <w>ἐστιν</w>
+                        </lem>
+                        <rdg source="#RP">ἐστιν εὐάρεστον</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>κυρίῳ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="21">
+                  <ab>
+                     <w>οἱ</w>
+                     <w>πατέρες</w>
+                     <pc>,</pc>
+                     <w>μὴ</w>
+                     <w>ἐρεθίζετε</w>
+                     <w>τὰ</w>
+                     <w>τέκνα</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <w>μὴ</w>
+                     <w>ἀθυμῶσιν</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="22">
+                  <ab>
+                     <w>οἱ</w>
+                     <w>δοῦλοι</w>
+                     <pc>,</pc>
+                     <w>ὑπακούετε</w>
+                     <w>κατὰ</w>
+                     <w>πάντα</w>
+                     <w>τοῖς</w>
+                     <w>κατὰ</w>
+                     <w>σάρκα</w>
+                     <w>κυρίοις</w>
+                     <pc>,</pc>
+                     <w>μὴ</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #RP">
+                           <w>ὀφθαλμοδουλίαις</w>
+                        </lem>
+                        <rdg source="#NIV">ὀφθαλμοδουλίᾳ</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>ὡς</w>
+                     <w>ἀνθρωπάρεσκοι</w>
+                     <pc>,</pc>
+                     <w>ἀλλ’</w>
+                     <w>ἐν</w>
+                     <w>ἁπλότητι</w>
+                     <w>καρδίας</w>
+                     <pc>,</pc>
+                     <w>φοβούμενοι</w>
+                     <w>τὸν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>κύριον</w>
+                        </lem>
+                        <rdg source="#RP">θεόν</rdg>
+                     </app>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="23">
+                  <ab>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὃ</w>
+                        </lem>
+                        <rdg source="#RP">καὶ πᾶν ὃ τι</rdg>
+                     </app>
+                     <w>ἐὰν</w>
+                     <w>ποιῆτε</w>
+                     <pc>,</pc>
+                     <w>ἐκ</w>
+                     <w>ψυχῆς</w>
+                     <w>ἐργάζεσθε</w>
+                     <pc>,</pc>
+                     <w>ὡς</w>
+                     <w>τῷ</w>
+                     <w>κυρίῳ</w>
+                     <w>καὶ</w>
+                     <w>οὐκ</w>
+                     <w>ἀνθρώποις</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="24">
+                  <ab>
+                     <w>εἰδότες</w>
+                     <w>ὅτι</w>
+                     <w>ἀπὸ</w>
+                     <w>κυρίου</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἀπολήμψεσθε</w>
+                        </lem>
+                        <rdg source="#RP">λήψεσθε</rdg>
+                     </app>
+                     <w>τὴν</w>
+                     <w>ἀνταπόδοσιν</w>
+                     <w>τῆς</w>
+                     <w>κληρονομίας</w>
+                     <pc>·</pc>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>τῷ</w>
+                        </lem>
+                        <rdg source="#RP">+ γὰρ</rdg>
+                     </app>
+                     <w>κυρίῳ</w>
+                     <w>Χριστῷ</w>
+                     <w>δουλεύετε</w>
+                     <pc>·</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="25">
+                  <ab>
+                     <w>ὁ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>γὰρ</w>
+                        </lem>
+                        <rdg source="#RP">δὲ</rdg>
+                     </app>
+                     <w>ἀδικῶν</w>
+                     <w>κομίσεται</w>
+                     <w>ὃ</w>
+                     <w>ἠδίκησεν</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>οὐκ</w>
+                     <w>ἔστιν</w>
+                     <w>προσωπολημψία</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+               <div type="textpart" subtype="verse" n="1">
+                  <ab>
+                     <w>οἱ</w>
+                     <w>κύριοι</w>
+                     <pc>,</pc>
+                     <w>τὸ</w>
+                     <w>δίκαιον</w>
+                     <w>καὶ</w>
+                     <w>τὴν</w>
+                     <w>ἰσότητα</w>
+                     <w>τοῖς</w>
+                     <w>δούλοις</w>
+                     <w>παρέχεσθε</w>
+                     <pc>,</pc>
+                     <w>εἰδότες</w>
+                     <w>ὅτι</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <w>ἔχετε</w>
+                     <w>κύριον</w>
+                     <w>ἐν</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>οὐρανῷ</w>
+                        </lem>
+                        <rdg source="#RP">οὐρανοῖς</rdg>
+                     </app>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="2">
+                  <ab>
+                     <w>Τῇ</w>
+                     <w>προσευχῇ</w>
+                     <w>προσκαρτερεῖτε</w>
+                     <pc>,</pc>
+                     <w>γρηγοροῦντες</w>
+                     <w>ἐν</w>
+                     <w>αὐτῇ</w>
+                     <w>ἐν</w>
+                     <w>εὐχαριστίᾳ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="3">
+                  <ab>
+                     <w>προσευχόμενοι</w>
+                     <w>ἅμα</w>
+                     <w>καὶ</w>
+                     <w>περὶ</w>
+                     <w>ἡμῶν</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <w>ὁ</w>
+                     <w>θεὸς</w>
+                     <w>ἀνοίξῃ</w>
+                     <w>ἡμῖν</w>
+                     <w>θύραν</w>
+                     <w>τοῦ</w>
+                     <w>λόγου</w>
+                     <pc>,</pc>
+                     <w>λαλῆσαι</w>
+                     <w>τὸ</w>
+                     <w>μυστήριον</w>
+                     <w>τοῦ</w>
+                     <w>Χριστοῦ</w>
+                     <pc>,</pc>
+                     <w>δι’</w>
+                     <w>ὃ</w>
+                     <w>καὶ</w>
+                     <w>δέδεμαι</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="4">
+                  <ab>
+                     <w>ἵνα</w>
+                     <w>φανερώσω</w>
+                     <w>αὐτὸ</w>
+                     <w>ὡς</w>
+                     <w>δεῖ</w>
+                     <w>με</w>
+                     <w>λαλῆσαι</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="5">
+                  <ab>
+                     <w>Ἐν</w>
+                     <w>σοφίᾳ</w>
+                     <w>περιπατεῖτε</w>
+                     <w>πρὸς</w>
+                     <w>τοὺς</w>
+                     <w>ἔξω</w>
+                     <pc>,</pc>
+                     <w>τὸν</w>
+                     <w>καιρὸν</w>
+                     <w>ἐξαγοραζόμενοι</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="6">
+                  <ab>
+                     <w>ὁ</w>
+                     <w>λόγος</w>
+                     <w>ὑμῶν</w>
+                     <w>πάντοτε</w>
+                     <w>ἐν</w>
+                     <w>χάριτι</w>
+                     <pc>,</pc>
+                     <w>ἅλατι</w>
+                     <w>ἠρτυμένος</w>
+                     <pc>,</pc>
+                     <w>εἰδέναι</w>
+                     <w>πῶς</w>
+                     <w>δεῖ</w>
+                     <w>ὑμᾶς</w>
+                     <w>ἑνὶ</w>
+                     <w>ἑκάστῳ</w>
+                     <w>ἀποκρίνεσθαι</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="7">
+                  <ab>
+                     <w>Τὰ</w>
+                     <w>κατ’</w>
+                     <w>ἐμὲ</w>
+                     <w>πάντα</w>
+                     <w>γνωρίσει</w>
+                     <w>ὑμῖν</w>
+                     <w>Τυχικὸς</w>
+                     <w>ὁ</w>
+                     <w>ἀγαπητὸς</w>
+                     <w>ἀδελφὸς</w>
+                     <w>καὶ</w>
+                     <w>πιστὸς</w>
+                     <w>διάκονος</w>
+                     <w>καὶ</w>
+                     <w>σύνδουλος</w>
+                     <w>ἐν</w>
+                     <w>κυρίῳ</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="8">
+                  <ab>
+                     <w>ὃν</w>
+                     <w>ἔπεμψα</w>
+                     <w>πρὸς</w>
+                     <w>ὑμᾶς</w>
+                     <w>εἰς</w>
+                     <w>αὐτὸ</w>
+                     <w>τοῦτο</w>
+                     <w>ἵνα</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>γνῶτε</w>
+                        </lem>
+                        <rdg source="#RP">γνῷ</rdg>
+                     </app>
+                     <w>τὰ</w>
+                     <w>περὶ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ἡμῶν</w>
+                        </lem>
+                        <rdg source="#RP">ὑμῶν</rdg>
+                     </app>
+                     <w>καὶ</w>
+                     <w>παρακαλέσῃ</w>
+                     <w>τὰς</w>
+                     <w>καρδίας</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="9">
+                  <ab>
+                     <w>σὺν</w>
+                     <w>Ὀνησίμῳ</w>
+                     <w>τῷ</w>
+                     <w>πιστῷ</w>
+                     <w>καὶ</w>
+                     <w>ἀγαπητῷ</w>
+                     <w>ἀδελφῷ</w>
+                     <pc>,</pc>
+                     <w>ὅς</w>
+                     <w>ἐστιν</w>
+                     <w>ἐξ</w>
+                     <w>ὑμῶν</w>
+                     <pc>·</pc>
+                     <w>πάντα</w>
+                     <w>ὑμῖν</w>
+                     <w>γνωρίσουσιν</w>
+                     <w>τὰ</w>
+                     <w>ὧδε</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="10">
+                  <ab>
+                     <w>Ἀσπάζεται</w>
+                     <w>ὑμᾶς</w>
+                     <w>Ἀρίσταρχος</w>
+                     <w>ὁ</w>
+                     <w>συναιχμάλωτός</w>
+                     <w>μου</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>Μᾶρκος</w>
+                     <w>ὁ</w>
+                     <w>ἀνεψιὸς</w>
+                     <w>Βαρναβᾶ</w>
+                     <pc>(</pc>
+                     <w>περὶ</w>
+                     <w>οὗ</w>
+                     <w>ἐλάβετε</w>
+                     <w>ἐντολάς</w>
+                     <pc>,</pc>
+                     <w>ἐὰν</w>
+                     <w>ἔλθῃ</w>
+                     <w>πρὸς</w>
+                     <w>ὑμᾶς</w>
+                     <w>δέξασθε</w>
+                     <w>αὐτόν</w>
+                     <pc>)</pc>
+                     <pc>,</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="11">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>Ἰησοῦς</w>
+                     <w>ὁ</w>
+                     <w>λεγόμενος</w>
+                     <w>Ἰοῦστος</w>
+                     <pc>,</pc>
+                     <w>οἱ</w>
+                     <w>ὄντες</w>
+                     <w>ἐκ</w>
+                     <w>περιτομῆς</w>
+                     <pc>,</pc>
+                     <w>οὗτοι</w>
+                     <w>μόνοι</w>
+                     <w>συνεργοὶ</w>
+                     <w>εἰς</w>
+                     <w>τὴν</w>
+                     <w>βασιλείαν</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>,</pc>
+                     <w>οἵτινες</w>
+                     <w>ἐγενήθησάν</w>
+                     <w>μοι</w>
+                     <w>παρηγορία</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="12">
+                  <ab>
+                     <w>ἀσπάζεται</w>
+                     <w>ὑμᾶς</w>
+                     <w>Ἐπαφρᾶς</w>
+                     <w>ὁ</w>
+                     <w>ἐξ</w>
+                     <w>ὑμῶν</w>
+                     <pc>,</pc>
+                     <w>δοῦλος</w>
+                     <app type="variants">
+                        <lem source="#RP">
+                           <w>Χριστοῦ</w>
+                        </lem>
+                        <rdg source="#WH #Treg #NIV">+ Ἰησοῦ</rdg>
+                     </app>
+                     <pc>,</pc>
+                     <w>πάντοτε</w>
+                     <w>ἀγωνιζόμενος</w>
+                     <w>ὑπὲρ</w>
+                     <w>ὑμῶν</w>
+                     <w>ἐν</w>
+                     <w>ταῖς</w>
+                     <w>προσευχαῖς</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>σταθῆτε</w>
+                        </lem>
+                        <rdg source="#RP">στῆτε</rdg>
+                     </app>
+                     <w>τέλειοι</w>
+                     <w>καὶ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>πεπληροφορημένοι</w>
+                        </lem>
+                        <rdg source="#RP">πεπληρωμένοι</rdg>
+                     </app>
+                     <w>ἐν</w>
+                     <w>παντὶ</w>
+                     <w>θελήματι</w>
+                     <w>τοῦ</w>
+                     <w>θεοῦ</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="13">
+                  <ab>
+                     <w>μαρτυρῶ</w>
+                     <w>γὰρ</w>
+                     <w>αὐτῷ</w>
+                     <w>ὅτι</w>
+                     <w>ἔχει</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>πολὺν</w>
+                           <w>πόνον</w>
+                        </lem>
+                        <rdg source="#RP">ζῆλον πολὺν</rdg>
+                     </app>
+                     <w>ὑπὲρ</w>
+                     <w>ὑμῶν</w>
+                     <w>καὶ</w>
+                     <w>τῶν</w>
+                     <w>ἐν</w>
+                     <w>Λαοδικείᾳ</w>
+                     <w>καὶ</w>
+                     <w>τῶν</w>
+                     <w>ἐν</w>
+                     <w>Ἱεραπόλει</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="14">
+                  <ab>
+                     <w>ἀσπάζεται</w>
+                     <w>ὑμᾶς</w>
+                     <w>Λουκᾶς</w>
+                     <w>ὁ</w>
+                     <w>ἰατρὸς</w>
+                     <w>ὁ</w>
+                     <w>ἀγαπητὸς</w>
+                     <w>καὶ</w>
+                     <w>Δημᾶς</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="15">
+                  <ab>
+                     <w>ἀσπάσασθε</w>
+                     <w>τοὺς</w>
+                     <w>ἐν</w>
+                     <w>Λαοδικείᾳ</w>
+                     <w>ἀδελφοὺς</w>
+                     <w>καὶ</w>
+                     <app type="variants">
+                        <lem source="#WH #NIV">
+                           <w>Νύμφαν</w>
+                           <w>καὶ</w>
+                           <w>τὴν</w>
+                           <w>κατ’</w>
+                           <w>οἶκον</w>
+                           <w>αὐτῆς</w>
+                        </lem>
+                        <rdg source="#Treg">Νυμφᾶν καὶ … οἶκον αὐτῶν</rdg>
+                        <rdg source="#RP">Νυμφᾶν καὶ … οἶκον αὐτοῦ</rdg>
+                     </app>
+                     <w>ἐκκλησίαν</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="16">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>ὅταν</w>
+                     <w>ἀναγνωσθῇ</w>
+                     <w>παρ’</w>
+                     <w>ὑμῖν</w>
+                     <w>ἡ</w>
+                     <w>ἐπιστολή</w>
+                     <pc>,</pc>
+                     <w>ποιήσατε</w>
+                     <w>ἵνα</w>
+                     <w>καὶ</w>
+                     <w>ἐν</w>
+                     <w>τῇ</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>Λαοδικέων</w>
+                        </lem>
+                        <rdg source="#RP">Λαοδικαίων</rdg>
+                     </app>
+                     <w>ἐκκλησίᾳ</w>
+                     <w>ἀναγνωσθῇ</w>
+                     <pc>,</pc>
+                     <w>καὶ</w>
+                     <w>τὴν</w>
+                     <w>ἐκ</w>
+                     <w>Λαοδικείας</w>
+                     <w>ἵνα</w>
+                     <w>καὶ</w>
+                     <w>ὑμεῖς</w>
+                     <w>ἀναγνῶτε</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="17">
+                  <ab>
+                     <w>καὶ</w>
+                     <w>εἴπατε</w>
+                     <w>Ἀρχίππῳ</w>
+                     <pc>·</pc>
+                     <w>Βλέπε</w>
+                     <w>τὴν</w>
+                     <w>διακονίαν</w>
+                     <w>ἣν</w>
+                     <w>παρέλαβες</w>
+                     <w>ἐν</w>
+                     <w>κυρίῳ</w>
+                     <pc>,</pc>
+                     <w>ἵνα</w>
+                     <w>αὐτὴν</w>
+                     <w>πληροῖς</w>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="verse" n="18">
+                  <ab>
+                     <w>Ὁ</w>
+                     <w>ἀσπασμὸς</w>
+                     <w>τῇ</w>
+                     <w>ἐμῇ</w>
+                     <w>χειρὶ</w>
+                     <w>Παύλου</w>
+                     <pc>.</pc>
+                     <w>μνημονεύετέ</w>
+                     <w>μου</w>
+                     <w>τῶν</w>
+                     <w>δεσμῶν</w>
+                     <pc>.</pc>
+                     <w>ἡ</w>
+                     <w>χάρις</w>
+                     <w>μεθ’</w>
+                     <app type="variants">
+                        <lem source="#WH #Treg #NIV">
+                           <w>ὑμῶν</w>
+                        </lem>
+                        <rdg source="#RP">+ Ἀμήν</rdg>
+                     </app>
+                     <pc>.</pc>
+                  </ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg007" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
+   <ti:title xml:lang="eng">Oedipus at Colonus</ti:title>
+   
+   <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg007" urn="urn:cts:greekLit:tlg0011.tlg007.perseus-grc2">
+      <ti:label xml:lang="grc">Οἰδίπους ἐπὶ Κολωνῷ</ti:label>
+      <ti:description xml:lang="eng">Sophocles, Volume 1. Storr, Francis, editor. London; New York: William Heinemann Ltd.; The Macmillan Company, 1912.</ti:description>
+   </ti:edition>
+   
+   <ti:translation urn="urn:cts:greekLit:tlg0011.tlg007.perseus-eng2" xml:lang="eng" workUrn="urn:cts:greekLit:tlg0011.tlg007">
+      <ti:label xml:lang="eng">Oedipus at Colonus</ti:label>
+      <ti:description xml:lang="eng">Sophocles the plays and fragments, Part 2: The Oedipus at Colonus. Jebb, Richard Claverhouse, Sir, translator. Cambridge: Cambridge University Press, 1889. (Modernized by Perseus.)</ti:description>
+   </ti:translation>
+  
+</ti:work>

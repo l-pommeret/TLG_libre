@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg003" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
+   <ti:title xml:lang="eng">Ajax</ti:title>
+   <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg003" urn="urn:cts:greekLit:tlg0011.tlg003.perseus-grc2">
+      <ti:label xml:lang="grc">Αἴας</ti:label>
+      <ti:description xml:lang="eng">Sophocles, Volume 2. Storr, Francis, editor. London; New York: William Heinemann Ltd.; The Macmillan Company, 1913.</ti:description>
+   </ti:edition>
+   <ti:translation urn="urn:cts:greekLit:tlg0011.tlg003.perseus-eng2" xml:lang="eng" workUrn="urn:cts:greekLit:tlg0011.tlg003">
+      <ti:label xml:lang="eng">Ajax</ti:label>
+      <ti:description xml:lang="eng">Sophocles the plays and fragments, Part 7: The Ajax. Jebb, Richard Claverhouse, Sir, translator. Cambridge: Cambridge University Press, 1891. (Modernized by Perseus.)</ti:description>
+   </ti:translation>
+  
+</ti:work>

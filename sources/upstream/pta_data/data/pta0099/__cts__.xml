@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:textgroup
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+  xmlns:gnd="http://d-nb.info/standards/elementset/gnd#" 
+  xmlns:wd="http://www.wikidata.org/ontology#"
+  urn="urn:cts:pta:pta0099">
+  <ti:groupname xml:lang="eng">Catenae</ti:groupname>
+  <ti:groupname xml:lang="deu">Katenen</ti:groupname>
+  <ti:groupname xml:lang="ita">Catene</ti:groupname>
+  <ti:groupname xml:lang="fra">Catenae</ti:groupname>  
+  <cpt:structured-metadata>
+    <gnd:gndIdentifier>4213028-1</gnd:gndIdentifier>
+    <wd:Item>Q638762</wd:Item>
+  </cpt:structured-metadata>
+</ti:textgroup>

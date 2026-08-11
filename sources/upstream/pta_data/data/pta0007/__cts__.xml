@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:textgroup
+  xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+  xmlns:gnd="http://d-nb.info/standards/elementset/gnd#" 
+  xmlns:wd="http://www.wikidata.org/ontology#"
+  urn="urn:cts:pta:pta0007">
+  <ti:groupname xml:lang="eng">Origen</ti:groupname>
+  <ti:groupname xml:lang="deu">Origenes</ti:groupname>
+  <ti:groupname xml:lang="ita">Origene</ti:groupname>
+  <ti:groupname xml:lang="fra">Origène</ti:groupname>
+  <cpt:structured-metadata>
+    <gnd:gndIdentifier>118590235</gnd:gndIdentifier>
+    <wd:Item>Q170472</wd:Item>
+  </cpt:structured-metadata>
+</ti:textgroup>

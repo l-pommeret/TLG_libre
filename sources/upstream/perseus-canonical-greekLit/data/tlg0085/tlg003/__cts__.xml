@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0085" projid="greekLit:tlg003" urn="urn:cts:greekLit:tlg0085.tlg003" xml:lang="grc">
+            
+   <ti:title xml:lang="eng">Prometheus Bound</ti:title>
+            
+   <ti:edition projid="greekLit:perseus-grc2" workUrn="urn:cts:greekLit:tlg0085.tlg003" urn="urn:cts:greekLit:tlg0085.tlg003.perseus-grc2" xml:lang="grc">
+                
+      <ti:label xml:lang="grc">Προμηθεὺς δεσμώτης</ti:label>
+      <ti:description xml:lang="eng">Aeschylus, Volume 1. Smyth, Herbert Weir, editor. London; New York: 
+         William Heinemann; G.P. Putnam's Sons, 1922.</ti:description>
+   </ti:edition>
+        
+   <ti:title xml:lang="eng">Prometheus Bound</ti:title>
+      
+   <ti:translation projid="greekLit:perseus-eng2" urn="urn:cts:greekLit:tlg0085.tlg003.perseus-eng2" xml:lang="eng" workUrn="urn:cts:greekLit:tlg0085.tlg003">        
+      <ti:label xml:lang="eng">Prometheus Bound</ti:label>    
+      <ti:description xml:lang="eng">Aeschylus, Volume 1. Smyth, Herbert Weir, translator. London; New York: 
+         William Heinemann; G.P. Putnam's Sons, 1922. (Modernized by Perseus.)</ti:description>
+      <ti:memberof collection="Perseus:collection:Greco-Roman"/>
+      
+   </ti:translation>
+    
+</ti:work>

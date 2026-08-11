@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0012" projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0012.tlg001" xml:lang="grc">
+            
+   <ti:title xml:lang="eng">Iliad</ti:title>
+            
+   <ti:translation urn="urn:cts:greekLit:tlg0012.tlg001.perseus-eng3" xml:lang="eng" workUrn="urn:cts:greekLit:tlg0012.tlg001"> 
+      <ti:label xml:lang="eng">Iliad</ti:label>
+      <ti:description xml:lang="eng">Homer. The Iliad, Volume 1-2. Murray, A. T. (Augustus Taber), translator.
+      London: William Heinmann; New York: G.P. Putnam's Sons, 1924-1925.</ti:description>
+   </ti:translation>
+   
+   <ti:translation urn="urn:cts:greekLit:tlg0012.tlg001.perseus-eng4" xml:lang="eng" workUrn="urn:cts:greekLit:tlg0012.tlg001">
+      <ti:label xml:lang="eng">Iliad</ti:label>
+      <ti:description xml:lang="eng">Homer. The Iliad of Homer, rendered into English prose for the use of those who cannot read the
+         original. Butler, Samuel, 1835-1902, translator.  London: Longmans, Green, and Co, 1898.</ti:description>
+   </ti:translation>
+        
+   <ti:edition urn="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2" workUrn="urn:cts:greekLit:tlg0012.tlg001" xml:lang="grc">
+      <ti:label xml:lang="grc">Ἰλιάς</ti:label>
+      <ti:description xml:lang="mul">Homer.  Homeri Opera, Volumes 1-2. Monro, D. B. (David Binning), editor; Allen, Thomas W. (Thomas William), editor.  Oxford: Clarendon Press, 1908-1920.</ti:description>                              
+   </ti:edition>
+        
+</ti:work>
