@@ -22,3 +22,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 4040,011,9.203,9.203,9.203=tlg-9016,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_433.csv
 1640,001,7.314,7.314,7.314=tlg-0363 Claudius Ptolemaeus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_821.csv
 4048,001,16.379,16.379,16.379=tlg-4049 Thomas,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_444.csv
+4049,001,16.315,16.315,16.315=tlg-4048 Thomas,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_444.csv
