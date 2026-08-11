@@ -9,4 +9,5 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 3041,001,9.200;9.201;9.202;9.203;15.12,9.200;9.201;9.202;9.203;15.12,9.200=tlg-9016;9.201=tlg-9016;9.202=tlg-9016;9.203=tlg-9016;15.12=tlg-9016,LOCUS_MISSING_OR_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_0001_1500_b5_cont15_checkpoint_02_3205_003_3041_001.csv
 0497,005,9.359,9.359,9.359=tlg-1595; Canon alternative Plato Comicus remains disputed,PRIMARY_AUTHOR_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_703.csv
 1104,001,5.49,5.49,5.49=Tudicius Gallus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_776.csv
+1620,001,9.7;9.8;9.9,9.7;9.8;9.9,9.7-9.9=tlg-1621 Polyaenus Sardianus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_814.csv
 7000,001,,,,NO_PARSEABLE_AG_LOCUS_IN_CANON_NOTICE,data/research_batches/tlg_3001_4500_b6_batch_0002.csv
