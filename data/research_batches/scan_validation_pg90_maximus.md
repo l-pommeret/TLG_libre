@@ -47,3 +47,9 @@ La source est plus définie que les volumes Commons précédents (~189 ppi) et l
 ## Recommandation
 
 Transfert **READY** du volume PDM pour les trois notices MPG exactes ; conserver URL, licence et SHA-1, et ne traiter que les images originales par l’OCR du projet. Les cinq zones `REVIEW` sont utiles comme édition historique mais exigent une étiquette d’alternative et, si l’objectif est le texte canonique, une collation avant diffusion.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg90-maximus/pg90-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 101 154 494 octets et son SHA-256 LFS vérifié est `c11141ce78ac3ffc04073a8cc27d83ff17fb0c3ac522c222bf5d4eeba2c9290c`.
+
+L’ancienne archive JPEG de 576 133 120 octets a été retirée après validation de cette copie native. Les 757 pages, les trois mappings exacts et les contrôles grecs des pages 60, 450 et 742 restent inchangés ; les cinq correspondances historiques demeurent seulement `REVIEW`. Aucun OCR fournisseur n’a été extrait ni conservé.
