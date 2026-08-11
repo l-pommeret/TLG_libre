@@ -15,3 +15,9 @@
 | 3173.002 | 309–344 |
 
 Les clés 2102.x03/.x05/.x06, 1443.x01, 2934.015/.x02 ne donnent pas un locus MPG95 dans le canon et sont exclues. Les bornes de colonnes communes doivent être dédupliquées. Rendement READY : 19 notices exactes, licence explicite et pages visuellement validées.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg95-john-damascene/pg95-original-image-only.pdf` : 88 078 720 octets, 834 pages.
+- SHA-256 local et distant : `7011ed3df79c46b3dfd44f2ed9cd4fa3caf7532860821fc7df20a335e2d0ed30`.
+- Le tar redondant de 610 304 000 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
