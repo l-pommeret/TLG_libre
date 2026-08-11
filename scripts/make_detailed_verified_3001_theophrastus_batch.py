@@ -1,0 +1,11 @@
+import csv
+FIELDS='tlg_author_id tlg_work_id author_heading work_title canonical_edition sources_tested open_text_result open_text_url open_text_license scan_result scan_url scan_rights confidence proposed_status next_action notes last_checked'.split()
+def build(output,works):
+ canon={(r['tlg_author_id'],r['tlg_work_id']):r for r in csv.DictReader(open('data/canon_coverage.csv',encoding='utf-8'))};matches=list(csv.DictReader(open('data/corpus_matches.csv',encoding='utf-8')));checks=list(csv.DictReader(open('data/text_verification.csv',encoding='utf-8')))
+ with open(output,'w',newline='',encoding='utf-8') as h:
+  w=csv.DictWriter(h,fieldnames=FIELDS,lineterminator='\n');w.writeheader()
+  for work in works:
+   s=canon[('0093',work)];c=[r for r in matches if r['tlg_author_id']=='0093' and r['tlg_work_id']==work];v=[r for r in checks if r['tlg_author_id']=='0093' and r['tlg_work_id']==work and r['automated_check']=='AUTOMATED_TEI_CHECK_PASSED'];row={f:'' for f in FIELDS};row.update(tlg_author_id='0093',tlg_work_id=work,author_heading=s['author_heading'],work_title=s['work_title'],canonical_edition=s['bibliographic_notice'],sources_tested='Exact Canon notice; local First1K/Perseus Theophrastus registries, TEI source metadata and fragment boundaries.',scan_result='No separate scan promoted.',last_checked='2026-08-11')
+   if c and v: row.update(open_text_result='Complete licensed Greek text verified in an open historical edition; it is an alternative to the exact modern edition cited by the Canon.',open_text_url=c[0]['text_url'],open_text_license='CC BY-SA 4.0',confidence='high',proposed_status='OPEN_TEXT_COMPLETE_ALTERNATE_EDITION',next_action='Prepare licensed TEI while preserving exact source-edition provenance.',notes=f"Exact work URN {c[0]['cts_urn']}; {v[0]['greek_characters']} Greek characters; automated check passed; no OCR/images used.")
+   else: row.update(open_text_result='No complete licensed Greek transcription matching this exact separate Canon edition or fragment item was verified.',confidence='medium',proposed_status='NO_COMPLETE_OPEN_TEXT',next_action='Map the item to a historical edition or its primary witnesses.',notes='No neighbouring Theophrastus TEI extended beyond its own work boundaries; no OCR/images used.')
+   w.writerow(row)

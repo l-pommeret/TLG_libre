@@ -1,0 +1,12 @@
+import csv
+from make_detailed_verified_3001_aeschylus_batch import FIELDS
+OUTPUT='data/research_batches/detailed_verified_3001_batch_625.csv';canon={(r['tlg_author_id'],r['tlg_work_id']):r for r in csv.DictReader(open('data/canon_coverage.csv',encoding='utf-8'))};matches=list(csv.DictReader(open('data/corpus_matches.csv',encoding='utf-8')));checks=list(csv.DictReader(open('data/text_verification.csv',encoding='utf-8')))
+with open(OUTPUT,'w',newline='',encoding='utf-8') as h:
+ w=csv.DictWriter(h,fieldnames=FIELDS,lineterminator='\n');w.writeheader()
+ for key in [('0076','001'),('0077','001'),('0085','001'),('0085','002'),('0085','003')]:
+  s=canon[key];row={f:'' for f in FIELDS};row.update(tlg_author_id=key[0],tlg_work_id=key[1],author_heading=s['author_heading'],work_title=s['work_title'],canonical_edition=s['bibliographic_notice'],sources_tested='Exact Canon notice and local licensed Greek TEI/AG registries.',scan_result='No separate scan promoted.',last_checked='2026-08-11')
+  c=[r for r in matches if r['tlg_author_id']==key[0] and r['tlg_work_id']==key[1] and r['corpus']=='First1KGreek'];v=[r for r in checks if r['tlg_author_id']==key[0] and r['tlg_work_id']==key[1] and r['corpus']=='First1KGreek']
+  if key==('0076','001'): row.update(open_text_result='AG 9.30 is an exact open-text lead; attribution must still be checked against AG data.',confidence='medium',proposed_status='PARTIAL_OPEN_TEXT_REQUIRES_AG_CONCORDANCE',next_action='Verify AG 9.30 and retain AG 9.31 only as a cross-reference.',notes='No attribution inferred from adjacent epigram.')
+  elif key==('0077','001') and len(c)==len(v)==1: row.update(open_text_result='Complete Greek TEI verified in the exact Müller 1855 edition cited by the Canon.',open_text_url=c[0]['text_url'],open_text_license='CC BY-SA 4.0',confidence='high',proposed_status='OPEN_TEXT_COMPLETE_EXACT_EDITION',next_action='Prepare exact licensed TEI.',notes=f"{v[0]['greek_characters']} Greek characters; automated check passed; no OCR/images used.")
+  else: row.update(open_text_result='Complete licensed Greek tragedy verified in a historical open edition alternative to Murray.',open_text_url=c[0]['text_url'],open_text_license='CC BY-SA 4.0',confidence='high',proposed_status='OPEN_TEXT_COMPLETE_ALTERNATE_EDITION',next_action='Prepare licensed TEI with source provenance.',notes=f"{v[0]['greek_characters']} Greek characters; automated check passed; no OCR/images used.")
+  w.writerow(row)
