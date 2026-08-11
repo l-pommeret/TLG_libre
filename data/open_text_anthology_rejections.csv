@@ -38,3 +38,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0274,001,9.36;9.260;9.301;16.214,9.260;9.301;16.214,9.36=tlg-0118 Antiphilus; remaining loci=tlg-0274,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_657.csv
 2680,001,12.22;12.232,12.22;12.232,12.22+12.232=tlg-0259 Scythinus Philosophus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_1501_3000_b3_cont9_checkpoint_01.csv
 1616,001,5.68;9.746;11.38,9.746;11.38,5.68=tlg-1468 Lucillius; remaining loci=tlg-1616,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_813.csv
+0102,001,6.228;6.258;7.51;7.238;7.240;7.305;7.694;9.300;9.303;9.544;10.20,6.228;6.258;7.51;7.238;7.240;7.694;9.300;9.303;9.544;10.20,7.305 assigned to author record 102 without tlg-0102; remaining loci=tlg-0102,ONE_CANON_LOCUS_IDENTIFIER_MISMATCH,data/research_batches/detailed_verified_3001_batch_638.csv
