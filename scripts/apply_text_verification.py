@@ -65,7 +65,12 @@ def main() -> None:
         alternate = aliases.get(key, [])
         if alternate:
             row["pipeline_status"] = ALTERNATE_STATUS
-            row["open_text_url"] = alternate[0]["source_url"]
+            urls = []
+            for candidate in alternate:
+                value = candidate["source_url"].strip()
+                if value and value not in urls:
+                    urls.append(value)
+            row["open_text_url"] = "; ".join(urls)
             licenses = []
             for candidate in alternate:
                 value = candidate["source_license"].replace("\n", " ").strip()

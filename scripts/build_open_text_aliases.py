@@ -80,7 +80,12 @@ def main() -> None:
         for row in csv.DictReader(Path("data/canon_coverage.csv").open(encoding="utf-8"))
         if row["record_type"] == "work"
     }
-    anthology_cache: dict[str, dict[tuple[int, int], set[str]]] = {}
+    anthology_index: dict[tuple[int, int], dict[str, set[str]]] = {}
+    for source_urn, source in passed.items():
+        if "tlg7000.tlg001" not in source_urn:
+            continue
+        for locus, authors in anthology_attributions(source["local_path"]).items():
+            anthology_index.setdefault(locus, {})[source_urn] = authors
     records = {}
     for filename in sorted(glob.glob("data/research_batches/*.csv")):
         try:
@@ -105,16 +110,33 @@ def main() -> None:
                         loci = anthology_loci(canon[target]["bibliographic_notice"])
                         if not loci:
                             continue
-                        if source["local_path"] not in anthology_cache:
-                            anthology_cache[source["local_path"]] = anthology_attributions(
-                                source["local_path"]
-                            )
-                        attributions = anthology_cache[source["local_path"]]
                         expected_author = f"tlg-{target[0]}"
-                        if not all(expected_author in attributions.get(locus, set()) for locus in loci):
+                        matching_sources = {
+                            locus: {
+                                urn for urn, authors in anthology_index.get(locus, {}).items()
+                                if expected_author in authors
+                            }
+                            for locus in loci
+                        }
+                        if not all(matching_sources.values()):
                             continue
                         relationship = "VERIFIED_ANTHOLOGY_LOCUS_AND_ATTRIBUTION"
                         verification_scope = "all Canon AG loci present with matching TEI tlg author key"
+                        for contributor_urn in sorted(set().union(*matching_sources.values())):
+                            contributor = passed[contributor_urn]
+                            key = target + (contributor_urn,)
+                            records[key] = {
+                                "tlg_author_id": target[0], "tlg_work_id": target[1],
+                                "relationship": relationship,
+                                "journal_status": status, "source_urn": contributor_urn,
+                                "source_url": verified_text_url(contributor),
+                                "source_local_path": contributor["local_path"],
+                                "source_sha256": contributor["sha256"],
+                                "source_license": contributor["tei_license"] or contributor["license"],
+                                "verification_scope": verification_scope,
+                                "evidence_file": filename,
+                            }
+                        continue
                     key = target + (source_urn,)
                     records[key] = {
                         "tlg_author_id": target[0], "tlg_work_id": target[1],
