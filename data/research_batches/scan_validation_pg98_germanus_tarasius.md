@@ -16,3 +16,9 @@
 | 3119.001 | 1481–1500 |
 
 Les autres notices candidates ne donnent pas de locus MPG98 dans le canon. Dédupliquer les frontières communes (221 et 1360/1364). Rendement READY : 9 notices exactes, droits explicites et qualité visuelle validée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg98-germanus-tarasius/pg98-original-image-only.pdf` : 103 744 495 octets, 832 pages.
+- SHA-256 local et distant : `4d8c8c698fb095a7dbf60ad25dc3a7863a281490074bc9140b3bbfd3a8d91b3c`.
+- Le tar redondant de 609 546 240 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
