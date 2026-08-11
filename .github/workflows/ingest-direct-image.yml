@@ -1,0 +1,47 @@
+name: Ingest direct source image
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url: {description: Direct HTTPS image URL, required: true, type: string}
+      target_path: {description: Existing scan directory below scans/, required: true, type: string}
+      output_name: {description: Safe output filename, required: true, type: string}
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /scripts/
+            /${{ inputs.target_path }}/*
+            !/${{ inputs.target_path }}/images/
+      - name: Download and verify direct image
+        env:
+          SOURCE_URL: ${{ inputs.source_url }}
+          TARGET_PATH: ${{ inputs.target_path }}
+          OUTPUT_NAME: ${{ inputs.output_name }}
+        run: scripts/remote_ingest_direct_image.sh
+      - name: Commit and push with conflict retry
+        env:
+          TARGET_PATH: ${{ inputs.target_path }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add --sparse "$TARGET_PATH"
+          git commit -m "Store direct source image"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push origin HEAD:main && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1
