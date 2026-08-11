@@ -12,7 +12,7 @@ DATA = {
 
 canon = {(r["tlg_author_id"], r["tlg_work_id"]): r for r in csv.DictReader(open("data/canon_coverage.csv", encoding="utf-8"))}
 with open(OUTPUT, "w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=FIELDS)
+    writer = csv.DictWriter(handle, fieldnames=FIELDS, lineterminator="\n")
     writer.writeheader()
     for key, (locus, count, note) in DATA.items():
         source = canon[key]
