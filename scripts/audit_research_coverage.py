@@ -27,7 +27,7 @@ for r in canon:
  q=(r['tlg_author_id'],r['tlg_work_id'])
  c='REVIEWED_EXPLICIT' if e[q] else ('PRIORITIZED_ONLY' if p[q] else ('REVIEWED_RANGE_INFERRED' if i[q] else 'UNREVIEWED'))
  out.append([*q,r['author_heading'],r['work_title'],e[q],'; '.join(sorted(fs[q])),'; '.join(sorted(ss[q])),p[q],'; '.join(sorted(pfs[q])),'; '.join(sorted(i[q])),c])
-with open(d/'research_coverage_audit.csv','w',newline='') as h:w=csv.writer(h);w.writerow(['tlg_author_id','tlg_work_id','author','work_title','journal_rows','journal_files','statuses','priority_rows','priority_files','inferred_range_files','coverage']);w.writerows(out)
+with open(d/'research_coverage_audit.csv','w',newline='') as h:w=csv.writer(h,lineterminator='\n');w.writerow(['tlg_author_id','tlg_work_id','author','work_title','journal_rows','journal_files','statuses','priority_rows','priority_files','inferred_range_files','coverage']);w.writerows(out)
 c=collections.Counter(x[-1] for x in out);ov=sum(bool(e[(x[0],x[1])]) and bool(i[(x[0],x[1])]) for x in out)
 (d/'research_coverage_audit_summary.md').write_text(f'# Audit de couverture\n\n- Notices work : {len(out)}\n- REVIEWED_EXPLICIT : {c["REVIEWED_EXPLICIT"]}\n- PRIORITIZED_ONLY : {c["PRIORITIZED_ONLY"]}\n- REVIEWED_RANGE_INFERRED : {c["REVIEWED_RANGE_INFERRED"]}\n- UNREVIEWED : {c["UNREVIEWED"]}\n- Chevauchements : {ov}\n- Chaînes MD invalides : {len(bad)}\n')
 print(len(out),dict(c),ov,len(bad))
