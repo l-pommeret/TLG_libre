@@ -29,3 +29,9 @@ La sélection doit suivre les **colonnes imprimées**, pas un calcul de numéro 
 | 3115.019 | le canon cite Delehaye 1905 ; il signale « Textus = MPG 116, 832–860 » | REVIEW (même texte, autre édition de référence) |
 
 **Rendement :** 27 notices à concordance édition-locus canonique directe, plus 2 réimpressions textuelles à garder séparées. Conditions READY remplies : source ouverte, droits explicites, fichier contrôlable, grec visuellement lisible et mapping précis.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 94 479 951 octets, 747 pages.
+- SHA-256 local et distant : `a882cfe49c0bd9e23d698ba6073511746f5984303f3ed5787b760b731c62f595`.
+- Ancien tar de 577 064 960 octets retiré après vérification distante, récupérable dans l'historique HF.
