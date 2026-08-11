@@ -11942,27 +11942,27 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4424,003,HISTORIA BELISARII,Recensio Ν2 (e cod. Neap. gr. III C 28),2,detailed_verified_3001_batch_257.csv; tlg_0001_1500_b5_cont4_checkpoint_03_1386_009_4065_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4424,004,HISTORIA BELISARII,Recensio ρ (e codice Paris. Suppl. gr. 1043 et Mutin. gr. 241),2,detailed_verified_3001_batch_257.csv; tlg_0001_1500_b5_cont4_checkpoint_03_1386_009_4065_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4424,005,HISTORIA BELISARII,Ῥιμάδα περὶ Βελισαρίου,2,detailed_verified_3001_batch_257.csv; tlg_0001_1500_b5_cont4_checkpoint_03_1386_009_4065_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4425,001,Joannes XENUS Biogr.,Vita e cod. Oxon. Bodl,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4425,002,Joannes XENUS Biogr.,Vita e cod. Cissamensis) (a. 1703),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4426,001,Constantinus PSALTOPULUS Rhet.,Oratio ad Michaelem Hagiotheodoritam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4425,001,Joannes XENUS Biogr.,Vita e cod. Oxon. Bodl,1,detailed_verified_3001_batch_530.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4425,002,Joannes XENUS Biogr.,Vita e cod. Cissamensis) (a. 1703),1,detailed_verified_3001_batch_530.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4426,001,Constantinus PSALTOPULUS Rhet.,Oratio ad Michaelem Hagiotheodoritam,1,detailed_verified_3001_batch_530.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,001,MARCUS Monachus Theol.,Florilegium,1,tlg_0001_1500_b5_cont30_checkpoint_01_3291_010_4427_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,002,MARCUS Monachus Theol.,Capitula e manuscripto P in fine florilegii posita,1,tlg_0001_1500_b5_cont30_checkpoint_01_3291_010_4427_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,003,MARCUS Monachus Theol.,Epistula dedicatoria,1,tlg_0001_1500_b5_cont30_checkpoint_01_3291_010_4427_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,004,MARCUS Monachus Theol.,Sermo A,1,tlg_0001_1500_b5_cont31_checkpoint_01_4427_004_4074_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,005,MARCUS Monachus Theol.,Sermo B,1,tlg_0001_1500_b5_cont31_checkpoint_01_4427_004_4074_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4427,006,MARCUS Monachus Theol.,Typicon,1,tlg_0001_1500_b5_cont31_checkpoint_01_4427_004_4074_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4428,001,Neophytus PRODROMENUS Theol.,Contra Latinos,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4428,002,Neophytus PRODROMENUS Theol.,Orationes contra Barlaam et Acindynum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4428,003,Neophytus PRODROMENUS Theol.,Questiones et responsiones,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4428,004,Neophytus PRODROMENUS Theol.,Tetrasticha iambica,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4428,005,Neophytus PRODROMENUS Theol.,Remediorum collectio alphabetica,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4428,001,Neophytus PRODROMENUS Theol.,Contra Latinos,1,detailed_verified_3001_batch_530.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4428,002,Neophytus PRODROMENUS Theol.,Orationes contra Barlaam et Acindynum,1,detailed_verified_3001_batch_530.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4428,003,Neophytus PRODROMENUS Theol.,Questiones et responsiones,1,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4428,004,Neophytus PRODROMENUS Theol.,Tetrasticha iambica,1,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4428,005,Neophytus PRODROMENUS Theol.,Remediorum collectio alphabetica,1,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4429,001,LEO Achridensis Theol.,Capita de tentationibus et affectionibus (e cod. theol. gr. Vindob. 167 fol. 69r–72v),1,tlg_0001_1500_b5_cont15_checkpoint_03_3041_002_4429_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4429,002,LEO Achridensis Theol.,Epistulae tres de azymis,1,tlg_0001_1500_b5_cont15_checkpoint_04_4429_002_2554_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4430,001,JACOBUS Monachus Epist. et Theol.,Epistulae,1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4430,002,JACOBUS Monachus Epist. et Theol.,De fide,1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4430,003,JACOBUS Monachus Epist. et Theol.,"Orationes encomiasticae in Deiparam, MPG 127: 543–700. Cod: Hagiogr",1,tlg_0001_1500_b5_cont7_checkpoint_04_0010_029_2874_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4431,001,Georgius PELAGONIUS Phil. et Theol.,Adversus Palamam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4431,001,Georgius PELAGONIUS Phil. et Theol.,Fragmenta,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4431,001,Georgius PELAGONIUS Phil. et Theol.,Adversus Palamam,2,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4431,001,Georgius PELAGONIUS Phil. et Theol.,Fragmenta,2,detailed_verified_3001_batch_531.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4431,002,Georgius PELAGONIUS Phil. et Theol.,Vita imperatoris Joannis Vatatzae [Dub.] (BHG 933),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4432,001,Joannes PICATORUS Poeta,Ρίμα θρηνητικὴ εἰς τὸν πικρὸν καὶ ἀκόρεστον Ἅδην,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4433,001,Callistus ANGELICUDES Theol.,Ref utatio Thomae Aquinae,1,tlg_3001_4500_b3_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
