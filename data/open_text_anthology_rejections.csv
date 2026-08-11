@@ -14,3 +14,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 1649,005,7.746,7.746,7.746=Pythagoras,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_826.csv
 1673,001,7.21;7.22;7.60,7.21;7.22;7.60,7.21-7.22+7.60=tlg-0211,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_834.csv
 0183,001,9.602,9.602,9.602=tlg-0182 Euenus Grammaticus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_04.csv
+0196,001,7.167,7.167,7.167=tlg-0173 Dioscorides,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_132.csv
