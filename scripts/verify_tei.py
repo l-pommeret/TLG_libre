@@ -14,6 +14,14 @@ from fetch_matched_texts import REPOS, urn_path
 
 
 GREEK = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
+REPOSITORY_LICENSES = {
+    "First1KGreek": "CC BY-SA 4.0 (repository-level license.md)",
+}
+MANUALLY_VERIFIED_SHORT = {
+    # Complete one-sentence alchemical fragment, Berthelot–Ruelle 1888;
+    # explicit TEI license and CTS identity visually checked 2026-08-11.
+    "urn:cts:greekLit:tlg4086.tlg001.1st1K-grc1",
+}
 
 
 def check(row: dict[str, str]) -> dict[str, str]:
@@ -40,14 +48,16 @@ def check(row: dict[str, str]) -> dict[str, str]:
     result["greek_characters"] = str(greek_count)
     licenses = root.xpath("//*[local-name()='availability']//*[local-name()='licence']/@target | //*[local-name()='availability']//*[local-name()='licence']//text()")
     result["tei_license"] = " ".join(str(x).strip() for x in licenses if str(x).strip())
+    if not result["tei_license"] and row["corpus"] in REPOSITORY_LICENSES:
+        result["tei_license"] = REPOSITORY_LICENSES[row["corpus"]]
+    declared = row["cts_urn"]
     notes = []
     if root.tag.split("}")[-1].lower() != "tei":
         notes.append("root_not_tei")
     if greek_count == 0:
         notes.append("no_greek_in_text")
-    elif greek_count < 100:
+    elif greek_count < 100 and declared not in MANUALLY_VERIFIED_SHORT:
         notes.append("very_short_fragment_manual_review")
-    declared = row["cts_urn"]
     urn_values = root.xpath("//@* | //*[local-name()='idno']//text()")
     if not any(declared in str(value) for value in urn_values):
         notes.append("edition_urn_not_found_in_tei")
