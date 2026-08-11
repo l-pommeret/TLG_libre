@@ -74,7 +74,11 @@ def add_deterministic(tar: tarfile.TarFile, path: Path, arcname: str) -> None:
 
 def pack_root(root: Path, destination: Path) -> tuple[str, int, int]:
     entries = parse_manifest(root / "SHA1SUMS")
-    included = [root / "README.md", root / "SHA1SUMS"]
+    # Some narrowly targeted scan roots intentionally have no per-root README.
+    # SHA1SUMS is authoritative; include README only when the root provides one.
+    included = [root / "SHA1SUMS"]
+    if (root / "README.md").is_file():
+        included.insert(0, root / "README.md")
     included.extend(root / relative for _, relative in entries)
     expected_by_path = {relative: expected for expected, relative in entries}
     digest = hashlib.sha256()
