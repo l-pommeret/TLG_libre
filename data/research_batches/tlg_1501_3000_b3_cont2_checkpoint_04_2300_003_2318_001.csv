@@ -1,0 +1,26 @@
+tlg_id,result,source,license_or_rights,next_action,notes
+2300.003,BLOCKED_RIGHTS,Supplementum Hellenisticum 1983,,seek inscription image or earlier edition,modern edition excluded
+2300.004,SCAN_CANDIDATE,https://archive.org/details/cuafragmentahist03mull,public-domain historical edition; quality uninspected,inspect FHG 3 pp.201-202,no provider OCR accepted
+2301.001,EDITION_IDENTIFIED,FGrH #435,,locate lawful FGrH access,no third-party OCR
+2302.001,EDITION_IDENTIFIED,FGrH #436,,locate lawful FGrH access,no third-party OCR
+2303.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2303.002,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2304.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2305.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2306.001,EDITION_IDENTIFIED,FGrH #442,,locate lawful FGrH access,no third-party OCR
+2306.002,EDITION_IDENTIFIED,FGrH #442,,locate lawful FGrH access,no third-party OCR
+2306.003,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori02unse,public-domain historical edition; quality uninspected,inspect FHG 2 p.43,no provider OCR accepted
+2307.001,EDITION_IDENTIFIED,FGrH #443,,locate lawful FGrH access,no third-party OCR
+2307.002,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 p.341,no provider OCR accepted
+2308.001,EDITION_IDENTIFIED,FGrH #445,,locate lawful FGrH access,no third-party OCR
+2309.001,EDITION_IDENTIFIED,FGrH #446,,locate lawful FGrH access,no third-party OCR
+2310.001,EDITION_IDENTIFIED,FGrH #447,,locate lawful FGrH access,no third-party OCR
+2311.001,EDITION_IDENTIFIED,FGrH #448,,locate lawful FGrH access,no third-party OCR
+2312.001,EDITION_IDENTIFIED,FGrH #449,,locate lawful FGrH access,no third-party OCR
+2313.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2314.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2315.001,EDITION_IDENTIFIED,FGrH #452,,locate lawful FGrH access,no third-party OCR
+2316.001,EDITION_IDENTIFIED,FGrH #454,,locate lawful FGrH access,no third-party OCR
+2317.001,EDITION_IDENTIFIED,Couvreur historical edition,,locate lawful scan,no third-party OCR
+2317.002,BLOCKED_RIGHTS,Lucarini and Moreschini 2012,,seek historical edition alternative,modern edition excluded
+2318.001,EDITION_IDENTIFIED,FGrH #456,,locate lawful FGrH access,no third-party OCR

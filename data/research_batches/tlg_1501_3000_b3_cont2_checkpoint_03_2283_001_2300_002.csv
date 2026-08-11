@@ -1,0 +1,26 @@
+tlg_id,result,source,license_or_rights,next_action,notes
+2283.001,EDITION_IDENTIFIED,FGrH #403,,locate lawful FGrH access,no third-party OCR
+2284.001,EDITION_IDENTIFIED,FGrH #404,,locate lawful FGrH access,no third-party OCR
+2284.002,EDITION_IDENTIFIED,FGrH #404,,locate lawful FGrH access,no third-party OCR
+2284.003,SCAN_CANDIDATE,https://archive.org/details/cuafragmentahist03mull,public-domain historical edition; quality uninspected,inspect FHG 3 pp.106-107,no provider OCR accepted
+2285.001,EDITION_IDENTIFIED,FGrH #405,,locate lawful FGrH access,no third-party OCR
+2286.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2287.001,SCAN_CANDIDATE,https://archive.org/details/stoicorumveterum0001arni,public-domain historical edition; quality uninspected,inspect cited locus,no provider OCR accepted
+2288.001,EDITION_IDENTIFIED,FGrH #408,,locate lawful FGrH access,no third-party OCR
+2289.001,EDITION_IDENTIFIED,FGrH #409,,locate lawful FGrH access,no third-party OCR
+2289.002,BLOCKED_RIGHTS,Mette 1978,,seek papyrus images or older witness,modern edition excluded
+2290.001,EDITION_IDENTIFIED,FGrH #412,,locate lawful FGrH access,no third-party OCR
+2291.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2292.001,EDITION_IDENTIFIED,FGrH #414,,locate lawful FGrH access,no third-party OCR
+2293.001,EDITION_IDENTIFIED,FGrH #418,,locate lawful FGrH access,no third-party OCR
+2294.001,SCAN_CANDIDATE,https://archive.org/details/stoicorumveterum0003arni,public-domain historical edition; quality uninspected,inspect cited locus,no provider OCR accepted
+2295.001,EDITION_IDENTIFIED,FGrH #422,,locate lawful FGrH access,no third-party OCR
+2296.001,EDITION_IDENTIFIED,FGrH #423,,locate lawful FGrH access,no third-party OCR
+2296.002,EDITION_IDENTIFIED,FGrH #423,,locate lawful FGrH access,no third-party OCR
+2297.001,EDITION_IDENTIFIED,FGrH #425,,locate lawful FGrH access,no third-party OCR
+2298.001,EDITION_IDENTIFIED,FGrH #426,,locate lawful FGrH access,no third-party OCR
+2298.002,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 p.441,no provider OCR accepted
+2299.001,EDITION_IDENTIFIED,FGrH #428,,locate lawful FGrH access,no third-party OCR
+2299.002,EDITION_IDENTIFIED,FGrH #428,,locate lawful FGrH access,no third-party OCR
+2300.001,EDITION_IDENTIFIED,FGrH #430,,locate lawful FGrH access,no third-party OCR
+2300.002,EDITION_IDENTIFIED,FGrH #430,,locate lawful FGrH access,no third-party OCR

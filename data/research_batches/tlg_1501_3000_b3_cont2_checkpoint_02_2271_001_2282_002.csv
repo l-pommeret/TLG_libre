@@ -1,0 +1,26 @@
+tlg_id,result,source,license_or_rights,next_action,notes
+2271.001,EDITION_IDENTIFIED,FGrH #387,,locate lawful FGrH access,no third-party OCR
+2272.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare earlier Diels witness,alternative to 1951 edition; no provider OCR
+2273.001,EDITION_IDENTIFIED,FGrH #389,,locate lawful FGrH access,no third-party OCR
+2273.002,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 p.377,no provider OCR accepted
+2274.001,EDITION_IDENTIFIED,FGrH #390 / manuscript witness,,locate historic edition or manuscript images,no third-party OCR
+2274.002,EDITION_IDENTIFIED,Flach historical edition,,locate lawful scan,no third-party OCR
+2274.003,EDITION_IDENTIFIED,Flach historical edition,,locate lawful scan,no third-party OCR
+2274.004,EDITION_IDENTIFIED,historical homily edition,,locate lawful scan,no third-party OCR
+2274.005,EDITION_IDENTIFIED,Patria Constantinopoleos historical edition,,locate lawful scan,no third-party OCR
+2274.006,EDITION_IDENTIFIED,Angelico gr. 22 witness,,locate manuscript images,no third-party OCR
+2274.007,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 pp.145-177,no provider OCR accepted
+2274.008,BLOCKED_RIGHTS,Düring 1957,,seek pre-1957 Vita Aristotelis edition,modern edition excluded
+2275.001,SCAN_CANDIDATE,https://archive.org/details/diefragmentederv01dieluoft,public-domain historical predecessor; quality uninspected,compare historical Diels part,alternative to 1951 edition; no provider OCR
+2275.001,BLOCKED_RIGHTS,Thesleff 1965,,seek earlier witness,modern edition excluded
+2275.001,BLOCKED_RIGHTS,Thesleff 1965,,seek earlier witness,modern edition excluded
+2275.001,BLOCKED_RIGHTS,Thesleff 1965,,seek earlier witness,modern edition excluded
+2276.001,EDITION_IDENTIFIED,FGrH #393,,locate lawful FGrH access,no third-party OCR
+2277.001,EDITION_IDENTIFIED,FGrH #394,,locate lawful FGrH access,no third-party OCR
+2277.002,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 p.434,no provider OCR accepted
+2279.001,EDITION_IDENTIFIED,FGrH #398,,locate lawful FGrH access,no third-party OCR
+2280.001,EDITION_IDENTIFIED,FGrH #399,,locate lawful FGrH access,no third-party OCR
+2280.002,EDITION_IDENTIFIED,FGrH #399,,locate lawful FGrH access,no third-party OCR
+2281.001,EDITION_IDENTIFIED,FGrH #400 and IG witness,,locate inscription image,no third-party OCR
+2282.001,EDITION_IDENTIFIED,FGrH #402,,locate lawful FGrH access,no third-party OCR
+2282.002,SCAN_CANDIDATE,https://archive.org/details/fragmentahistori04mueluoft,public-domain historical edition; quality uninspected,inspect FHG 4 p.445,no provider OCR accepted
