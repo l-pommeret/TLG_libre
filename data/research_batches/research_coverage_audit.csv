@@ -200,16 +200,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,129,PLUTARCHUS Biogr. et Phil.,De sollertia animalium (959a–985c),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,130,PLUTARCHUS Biogr. et Phil.,Bruta animalia ratione uti (985d–992e),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,131,PLUTARCHUS Biogr. et Phil.,De esu carnium i (993a–996c),1,detailed_verified_3001_batch_581.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,132,PLUTARCHUS Biogr. et Phil.,De esu carnium ii (996d–999b),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,133,PLUTARCHUS Biogr. et Phil.,Platonicae quaestiones (999c–1011e),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,134,PLUTARCHUS Biogr. et Phil.,De animae procreatione in Timaeo (1012b–1030c),0,,,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,135,PLUTARCHUS Biogr. et Phil.,Epitome libri de animae procreatione in Timaeo (1030d–1032f),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,136,PLUTARCHUS Biogr. et Phil.,De Stoicorum repugnantiis (1033a– 1057b),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,137,PLUTARCHUS Biogr. et Phil.,Stoicos absurdiora poetis dicere (1057c– 1058e),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,138,PLUTARCHUS Biogr. et Phil.,De communibus notitiis adversus Stoicos (1058e–1086b),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,139,PLUTARCHUS Biogr. et Phil.,Non posse suaviter vivi secundum Epicurum (1086c–1107c),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,140,PLUTARCHUS Biogr. et Phil.,Adversus Colotem (1107d–1127e),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,141,PLUTARCHUS Biogr. et Phil.,De latenter vivendo (1128a–1130e),0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,132,PLUTARCHUS Biogr. et Phil.,De esu carnium ii (996d–999b),1,detailed_verified_3001_batch_582.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,133,PLUTARCHUS Biogr. et Phil.,Platonicae quaestiones (999c–1011e),1,detailed_verified_3001_batch_582.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,134,PLUTARCHUS Biogr. et Phil.,De animae procreatione in Timaeo (1012b–1030c),1,detailed_verified_3001_batch_582.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_03.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,135,PLUTARCHUS Biogr. et Phil.,Epitome libri de animae procreatione in Timaeo (1030d–1032f),1,detailed_verified_3001_batch_582.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,136,PLUTARCHUS Biogr. et Phil.,De Stoicorum repugnantiis (1033a– 1057b),1,detailed_verified_3001_batch_582.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,137,PLUTARCHUS Biogr. et Phil.,Stoicos absurdiora poetis dicere (1057c– 1058e),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,138,PLUTARCHUS Biogr. et Phil.,De communibus notitiis adversus Stoicos (1058e–1086b),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,139,PLUTARCHUS Biogr. et Phil.,Non posse suaviter vivi secundum Epicurum (1086c–1107c),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,140,PLUTARCHUS Biogr. et Phil.,Adversus Colotem (1107d–1127e),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,141,PLUTARCHUS Biogr. et Phil.,De latenter vivendo (1128a–1130e),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,143,PLUTARCHUS Biogr. et Phil.,De libidine et aegritudine,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,144,PLUTARCHUS Biogr. et Phil.,Parsne an facultas animi sit vita passiva,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,145,PLUTARCHUS Biogr. et Phil.,Fragmenta,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
