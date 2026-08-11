@@ -27,3 +27,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0076,001,9.30,9.30,9.30=tlg-0143 Lollius Bassus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_625.csv
 0590,004,7.315;16.14,16.14,7.315=tlg-0219 Rhianus; 16.14=tlg-0590,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_749.csv
 1755,001,6.15;6.183;6.184;6.185;9.40,6.183;6.184;6.185;9.40,6.15=tlg-0113 Antipater; remaining loci=tlg-1755,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_867.csv
+0191,001,9.17;9.18;9.387,9.17;9.18,9.387=tlg-0195 Hadrianus; 9.17-9.18=tlg-0191,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_52.csv
