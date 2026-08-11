@@ -12062,24 +12062,24 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4491,003,Alexius ARISTENUS Theol.,Scholia in canones Basilii Magni,1,tlg_3001_4500_b12_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4492,001,Leontius MACHAERAS Chronogr.,Chronicon,1,tlg_0001_1500_b5_cont22_checkpoint_01_2318_001_0473_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4492,002,Leontius MACHAERAS Chronogr.,Chronicon,1,tlg_0001_1500_b5_cont22_checkpoint_01_2318_001_0473_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4493,001,Constantinus MESARITES Theol.,De praesentatione (e cod. Achriensi 28 Mosin 79) (BHG [Novum Auctarium] 1128k),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4493,001,Constantinus MESARITES Theol.,De praesentatione (e cod. Achriensi 28 Mosin 79) (BHG [Novum Auctarium] 1128k),1,detailed_verified_3001_batch_542.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4494,001,Theophanes CHRYSOBALANTES Med.,De alimentis,1,tlg_3001_4500_b31_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4494,002,Theophanes CHRYSOBALANTES Med.,Epitome de curatione morborum,1,tlg_3001_4500_b31_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4495,001,BASILIUS Metropolita Theol.,"Prologus interpretationis sanctorum XII prophetarum, MPG 111: 412–416. Cod: 991: Theol",1,tlg_3001_4500_b23_batch_0004.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4496,001,THEODORUS Episcopus Hagiogr.,"In martyrium sanctorum Ciryci et Julittae, MPG 120: 165–172. Cod: 1450: Hagiogr",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4496,001,THEODORUS Episcopus Hagiogr.,"In martyrium sanctorum Ciryci et Julittae, MPG 120: 165–172. Cod: 1450: Hagiogr",1,detailed_verified_3001_batch_542.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4497,001,Eustathius BOILAS Scr. Eccl.,Testamentum (e cod. Par. Coisl. gr. 263),1,tlg_3001_4500_b25_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4498,001,GREGORIUS REFERENDARIUS,Homilia,1,detailed_verified_3001_batch_122.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4499,001,GREGORIUS OXIENSIS Epist.,Epistulae,1,detailed_verified_3001_batch_122.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4500,001,NICOLAUS III Patriarcha Theol.,Responsio ad orthodoxos [Dub.],0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4501,001,SIMON Constantinopolitanus Epist.,Epistula ad Andronicum II Palaeologum (e cod. Sinait. gr. 1706),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4501,001,SIMON Constantinopolitanus Epist.,Apophasis megale (fragmenta),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4500,001,NICOLAUS III Patriarcha Theol.,Responsio ad orthodoxos [Dub.],1,detailed_verified_3001_batch_542.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4501,001,SIMON Constantinopolitanus Epist.,Epistula ad Andronicum II Palaeologum (e cod. Sinait. gr. 1706),2,detailed_verified_3001_batch_542.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4501,001,SIMON Constantinopolitanus Epist.,Apophasis megale (fragmenta),2,detailed_verified_3001_batch_542.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4502,001,Gregorius CARDAMES Epist.,Epistulae,1,tlg_3001_4500_b27_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4503,001,Lucas ADIALEIPTUS Hagiogr. et Theol.,Exhortatio ad virgines,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4503,357,Lucas ADIALEIPTUS Hagiogr. et Theol.,"(odd pages). Cod: 5,261: Theol",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4504,001,MICHAEL Rhetor Rhet. et Theol.,Prooemium,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4504,002,MICHAEL Rhetor Rhet. et Theol.,Orationes ad Manuelem I imperatorem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4503,001,Lucas ADIALEIPTUS Hagiogr. et Theol.,Exhortatio ad virgines,1,detailed_verified_3001_batch_543.csv,INCOMPLETE_CONTINUATION_NOTICE_NO_EXACT_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4503,357,Lucas ADIALEIPTUS Hagiogr. et Theol.,"(odd pages). Cod: 5,261: Theol",1,detailed_verified_3001_batch_543.csv,INCOMPLETE_CONTINUATION_NOTICE_NO_EXACT_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4504,001,MICHAEL Rhetor Rhet. et Theol.,Prooemium,1,detailed_verified_3001_batch_543.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4504,002,MICHAEL Rhetor Rhet. et Theol.,Orationes ad Manuelem I imperatorem,1,detailed_verified_3001_batch_543.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4505,001,Joannes DIOGENES Rhet.,Oratio ad Manuelem I imperatorem,1,tlg_3001_4500_b43_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4506,001,SERGIUS COLYBAS Rhet.,Oratio ad Isaacium Angelum imperatorem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4506,001,SERGIUS COLYBAS Rhet.,Oratio ad Isaacium Angelum imperatorem,1,detailed_verified_3001_batch_543.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4507,001,SCIZENUS Magister Rhet.,Oratio in Alexium,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4507,001,SCIZENUS Magister Rhet.,Fragmenta,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4508,001,JOANNES EPISCOPUS PRISDRIAN-,De urinis (e cod. Vind. med. gr. 8),1,tlg_0001_1500_b5_cont13_checkpoint_02_2934_084_2578_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
