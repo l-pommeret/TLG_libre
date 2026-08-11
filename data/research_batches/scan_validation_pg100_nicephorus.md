@@ -15,3 +15,9 @@
 | 3292.002–003 | 1336–1528 ; 1528–1530 |
 
 3344.003/.015 n'ont pas de locus MPG100. Dédupliquer les bornes partagées (533, 1528). Rendement READY : 10 notices exactes, droits explicites, qualité validée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg100-nicephorus/pg100-original-image-only.pdf` : 103 339 509 octets, 830 pages.
+- SHA-256 local et distant : `d9c11c1a760292bc4e660795a01afb5b0b9086e4af8377e4e2717004dc167620`.
+- Le tar redondant de 607 784 960 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
