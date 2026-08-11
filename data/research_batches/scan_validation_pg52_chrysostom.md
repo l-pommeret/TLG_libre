@@ -18,3 +18,9 @@
 | 4139.002, .010 | 827–835 ; 813–816 |
 
 Les notices 2062.344/.376 et 4139.089 n'ont pas un locus MPG52 dans leur ligne canonique : elles ne sont pas annoncées par ce mapping. Les astérisques font partie de la pagination imprimée et doivent être conservés dans le manifeste. Rendement READY : 26 concordances directes, droits explicites et qualité contrôlée.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 56 820 963 octets, 476 pages.
+- SHA-256 local et distant : `280e49dc265b516f14e25592fdd7bb6bedfff0be1f373e5efceb6976a849e2bf`.
+- Ancien tar de 364 677 120 octets retiré après vérification distante, récupérable dans l'historique HF.
