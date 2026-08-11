@@ -12014,7 +12014,7 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4460,001,LEX RHODIA,Capita legis Rhodiensium,1,tlg_0001_1500_b5_cont16_checkpoint_03_0470_001_4286_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4461,001,LEX AGRARIA,Capita legis agrariae,1,tlg_0001_1500_b5_cont16_checkpoint_03_0470_001_4286_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4462,001,ANTONIUS Episcopus Theol.,Sermones,1,tlg_3001_4500_b7_batch_0004.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4463,001,NICEPHORUS Chartophylax Epist.,Epistulae,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4463,001,NICEPHORUS Chartophylax Epist.,Epistulae,1,detailed_verified_3001_batch_538.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4464,001,Joannes CANABUTZA Astron.,Ad principem Aeni et Samothraces in Dionysium Halicarnasensem commentarius,1,tlg_3001_4500_b27_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4465,001,Joannes GLYCES XIII Patriarcha Rhet.,Epistulae,1,detailed_verified_3001_batch_74.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4465,002,Joannes GLYCES XIII Patriarcha Rhet.,De vera syntaxeos ratione,1,detailed_verified_3001_batch_74.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
@@ -12025,24 +12025,24 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4468,001,EUTHYMIUS Monachus,Chronicon Galaxidii,1,tlg_3001_4500_b55_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4469,001,Constantinus HERMONIACUS Poeta,Paraphrasis Iliadis,1,detailed_verified_3001_batch_174.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4470,001,LEO MEGISTUS Rhet.,Monodia in Georgium Palaeologum,1,tlg_0001_1500_b5_cont15_checkpoint_04_4429_002_2554_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4471,001,THEODORUS II Irenicus Epist.,"Epistula ad papam (e cod. Urbani 32, ff. 185v–191)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4471,002,THEODORUS II Irenicus Epist.,Epistula encyclica (e cod. Athon. Dionys. 274),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4472,001,Philippus MONOTROPUS Theol.,Dioptra,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4471,001,THEODORUS II Irenicus Epist.,"Epistula ad papam (e cod. Urbani 32, ff. 185v–191)",1,detailed_verified_3001_batch_538.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4471,002,THEODORUS II Irenicus Epist.,Epistula encyclica (e cod. Athon. Dionys. 274),1,detailed_verified_3001_batch_538.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4472,001,Philippus MONOTROPUS Theol.,Dioptra,1,detailed_verified_3001_batch_538.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4473,001,DIONYSIUS Monachus Hymnograph.,Capita gnostica,1,tlg_3001_4500_b44_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4474,001,THEOPHANES Metropolita Peritheorii,Vita s. Maximi Causocalybitae,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4474,001,THEOPHANES Metropolita Peritheorii,Vita s. Maximi Causocalybitae,1,detailed_verified_3001_batch_538.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4475,001,GUARINUS Veronensis Gramm.,De spiritibus (fragmentum),1,detailed_verified_3001_batch_126.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4475,002,GUARINUS Veronensis Gramm.,Epistula ad Marcellum,1,detailed_verified_3001_batch_126.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4476,001,ACACIUS SABAITA Hagiogr.,Commentarius in Andreae Cretensis canonem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4476,002,ACACIUS SABAITA Hagiogr.,Vita sancti Athanasii Athonitae (e cod. Athon. Dionys. 268),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4476,001,ACACIUS SABAITA Hagiogr.,Commentarius in Andreae Cretensis canonem,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4476,002,ACACIUS SABAITA Hagiogr.,Vita sancti Athanasii Athonitae (e cod. Athon. Dionys. 268),1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4477,001,LUCAS Archimandrita Scr. Eccl.,Recapitulatio typici monasterii Christi Salvatoris in Messenae (e cod. Mess. gr. 115),1,tlg_0001_1500_b5_cont17_checkpoint_02_5361_004_4477_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4477,002,LUCAS Archimandrita Scr. Eccl.,Synaxarium monasterii Christi Salvatoris in Messenae (e cod. Mess. gr. 115),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4477,003,LUCAS Archimandrita Scr. Eccl.,Acoluthia sanctae quadragesimae monasterii Christi Salvatoris in Messenae (e cod. Mess. gr. 115),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4477,004,LUCAS Archimandrita Scr. Eccl.,Appendices typici monasterii Christi Salvatoris in Messenae (e cod. Mess. gr. 115),1,tlg_0001_1500_b5_cont17_checkpoint_03_4477_002_0062_017.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4478,001,Stephanus SACHLICES Poeta,Carmina,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4478,001,Stephanus SACHLICES Poeta,Carmina,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4479,001,ANONYMA THEOLOGICA,Opusculum de origine schismatis,1,tlg_3001_4500_b3_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4479,002,ANONYMA THEOLOGICA,Admonitiones tres adversus Armenios,1,tlg_3001_4500_b3_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4480,001,Stephanus SGUROPULUS Poeta,Versus encomiastici ad imperatorem Alexium Comnenum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4481,001,NICETAS Thessalonicensis Hagiogr. et,Prologus in sanctum Joannem evangelistam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4480,001,Stephanus SGUROPULUS Poeta,Versus encomiastici ad imperatorem Alexium Comnenum,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4481,001,NICETAS Thessalonicensis Hagiogr. et,Prologus in sanctum Joannem evangelistam,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4481,002,NICETAS Thessalonicensis Hagiogr. et,Miracula sancti Demetrii (BHG 531m),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4482,001,VITAE SANCTI APOSTOLI MARCI,"Miracula sancti apostoli Marci (e cod. Athon. Stauron. 18, ff. 175v–189r)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 4483,001,VITAE SANCTI APOSTOLI TITI,Vita sancti apostoli Titi archiepiscopi Cretensis (e cod. Par. gr. 548 et Vat. Ottob. 411),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
