@@ -12043,20 +12043,20 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4479,002,ANONYMA THEOLOGICA,Admonitiones tres adversus Armenios,1,tlg_3001_4500_b3_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4480,001,Stephanus SGUROPULUS Poeta,Versus encomiastici ad imperatorem Alexium Comnenum,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4481,001,NICETAS Thessalonicensis Hagiogr. et,Prologus in sanctum Joannem evangelistam,1,detailed_verified_3001_batch_539.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4481,002,NICETAS Thessalonicensis Hagiogr. et,Miracula sancti Demetrii (BHG 531m),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4482,001,VITAE SANCTI APOSTOLI MARCI,"Miracula sancti apostoli Marci (e cod. Athon. Stauron. 18, ff. 175v–189r)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4483,001,VITAE SANCTI APOSTOLI TITI,Vita sancti apostoli Titi archiepiscopi Cretensis (e cod. Par. gr. 548 et Vat. Ottob. 411),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4483,002,VITAE SANCTI APOSTOLI TITI,Vita altera (e cod. Vindob. hist. 45),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4484,001,VITAE SANCTI HERACLIDIS,Vita sancti Heraclidis (e cod. Par. gr. 769 et 979),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4481,002,NICETAS Thessalonicensis Hagiogr. et,Miracula sancti Demetrii (BHG 531m),1,detailed_verified_3001_batch_540.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4482,001,VITAE SANCTI APOSTOLI MARCI,"Miracula sancti apostoli Marci (e cod. Athon. Stauron. 18, ff. 175v–189r)",1,detailed_verified_3001_batch_540.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4483,001,VITAE SANCTI APOSTOLI TITI,Vita sancti apostoli Titi archiepiscopi Cretensis (e cod. Par. gr. 548 et Vat. Ottob. 411),1,detailed_verified_3001_batch_540.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4483,002,VITAE SANCTI APOSTOLI TITI,Vita altera (e cod. Vindob. hist. 45),1,detailed_verified_3001_batch_540.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4484,001,VITAE SANCTI HERACLIDIS,Vita sancti Heraclidis (e cod. Par. gr. 769 et 979),1,detailed_verified_3001_batch_540.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4485,001,ANONYMUS NOTARIUS Epist.,Acta et epistulae,1,tlg_3001_4500_b6_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4486,001,CANONARIA,Protocanonarion sive canonarion primitivum,1,tlg_3001_4500_b27_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4486,002,CANONARIA,Deuterocanonarion (sub auctore Basilio monacho),1,tlg_3001_4500_b27_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4487,001,HORTUS SYMBOLICUS,Hortus symbolicus (e codice Oxon. Clarciano XI),2,detailed_verified_3001_batch_264.csv; tlg_0001_1500_b5_cont4_checkpoint_04_4065_004_3103_003.csv,EDITION_IDENTIFIED; NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4488,001,MERCURIUS Hymnograph. et Poeta,Carmen iambicum in sanctum Theodorum stratelatem (BHG 1753k) (e cod. Athon. Lavr. Λ 170),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4488,002,MERCURIUS Hymnograph. et Poeta,Metaphrasis passionis sanctum Theodori (BHG 1763m) (e cod. Athon. Lavr. Λ 170),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4488,003,MERCURIUS Hymnograph. et Poeta,Carmen iambicum in annuntiationem deiparae (BHG 1049b) (e cod. Athon. Lavr. Λ 170),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4488,004,MERCURIUS Hymnograph. et Poeta,Canon in sanctum Iohannem Chrysostomum (e cod. Athon. Lavr. Λ 170),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4490,001,NICOLAUS Ὁ Καταφλῶρον Rhet.,Oratio ad praefectum Athenarum (e cod. Escorial. 265 [Y II 10]),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4488,001,MERCURIUS Hymnograph. et Poeta,Carmen iambicum in sanctum Theodorum stratelatem (BHG 1753k) (e cod. Athon. Lavr. Λ 170),1,detailed_verified_3001_batch_541.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4488,002,MERCURIUS Hymnograph. et Poeta,Metaphrasis passionis sanctum Theodori (BHG 1763m) (e cod. Athon. Lavr. Λ 170),1,detailed_verified_3001_batch_541.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4488,003,MERCURIUS Hymnograph. et Poeta,Carmen iambicum in annuntiationem deiparae (BHG 1049b) (e cod. Athon. Lavr. Λ 170),1,detailed_verified_3001_batch_541.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4488,004,MERCURIUS Hymnograph. et Poeta,Canon in sanctum Iohannem Chrysostomum (e cod. Athon. Lavr. Λ 170),1,detailed_verified_3001_batch_541.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4490,001,NICOLAUS Ὁ Καταφλῶρον Rhet.,Oratio ad praefectum Athenarum (e cod. Escorial. 265 [Y II 10]),1,detailed_verified_3001_batch_541.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4491,001,Alexius ARISTENUS Theol.,Scholia in canones apostolorum,1,tlg_3001_4500_b12_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4491,002,Alexius ARISTENUS Theol.,Scholia in concilia oecumenica et localia,1,tlg_3001_4500_b12_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4491,003,Alexius ARISTENUS Theol.,Scholia in canones Basilii Magni,1,tlg_3001_4500_b12_batch_0003.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
