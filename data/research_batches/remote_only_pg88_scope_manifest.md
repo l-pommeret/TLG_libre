@@ -14,7 +14,7 @@
 | 3390.002 | 1920–1936 | 1024–1032 |
 | 3390.003 | 1937–1977 | 1033–1061 |
 
-À garder, fusionné : **244–268, 302–308, 320–595, 597–619, 984–997, 1000–1006, 1009–1061** (392 pages).
+À garder, fusionné : **244–268, 302–308, 320–595, 597–619, 984–997, 1000–1006, 1009–1061** (405 pages).
 
 ## Garde-fou grec par segment
 
@@ -22,4 +22,4 @@ Une page grecque a été ouverte et lue visuellement dans chacun des sept segmen
 
 ## Purge exacte
 
-Supprimer : **1–243, 269–301, 309–319, 596, 620–983, 998–999, 1007–1008, 1062–1093** (701 pages). Aucune image temporaire ni OCR n'est conservé après contrôle.
+Supprimer : **1–243, 269–301, 309–319, 596, 620–983, 998–999, 1007–1008, 1062–1093** (688 pages). Les 405 pages conservées et les 688 pages exclues couvrent exactement les 1 093 pages du PDF. Aucune image temporaire ni OCR n'est conservé après contrôle.
