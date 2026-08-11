@@ -24,3 +24,9 @@
 | 5295.001 | 1348–1365 | le feuillet cols. 1357–1358 est matériellement masqué ; la plage est incomplète dans cette source. |
 
 Le volume peut donc être ingéré pour les 26 notices ci-dessus, sélectionné par **colonnes imprimées**, sans la plage 1348–1365. Toute vue temporaire (quatre JPEG) a été supprimée, et aucun OCR/image/archive n'a été conservé localement.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg114-symeon-metaphrastes/pg114-original-image-only.pdf` : 90 347 679 octets, 768 pages.
+- SHA-256 local et distant : `f926b79c3a89a18aed1e4a1018dac8f6c889d800e5fa7e150ffdeebf4cc7aa80`.
+- Le tar redondant de 602 255 360 octets a été supprimé après vérification distante. L'exclusion de 5295.001 reste obligatoire ; le PDF compact conserve la même obstruction matérielle.
