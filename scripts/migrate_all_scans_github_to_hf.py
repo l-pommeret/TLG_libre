@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+"""Migrate one deterministic shard of scan directories from GitHub to HF Xet."""
+
+import argparse
+import base64
+import hashlib
+import json
+import os
+import subprocess
+import tempfile
+from pathlib import Path
+from urllib.parse import quote
+
+import requests
+from huggingface_hub import CommitOperationAdd, HfApi
+
+
+def stable_shard(value: str, count: int) -> int:
+    return int(hashlib.sha256(value.encode()).hexdigest()[:16], 16) % count
+
+
+def git_blob_oid(path: str, revision: str) -> str:
+    return subprocess.run(
+        ["git", "rev-parse", f"{revision}:{path}"], check=True,
+        stdout=subprocess.PIPE, text=True,
+    ).stdout.strip()
+
+
+def fetch_github_blob(session: requests.Session, repo: str, oid: str) -> bytes:
+    response = session.get(f"https://api.github.com/repos/{repo}/git/blobs/{oid}", timeout=120)
+    response.raise_for_status()
+    payload = response.json()
+    if payload.get("encoding") != "base64":
+        raise RuntimeError(f"Unsupported GitHub encoding for {oid}")
+    return base64.b64decode(payload["content"])
+
+
+def public_remote_sha1(repo_id: str, path: str) -> str:
+    url = f"https://huggingface.co/datasets/{repo_id}/resolve/main/{quote(path)}"
+    response = requests.get(url, stream=True, timeout=180)
+    response.raise_for_status()
+    digest = hashlib.sha1()
+    for chunk in response.iter_content(1024 * 1024):
+        digest.update(chunk)
+    return digest.hexdigest()
+
+
+def parse_manifest(path: Path) -> list[tuple[str, str]]:
+    entries = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        expected, relative = line.split(None, 1)
+        entries.append((expected, relative))
+    return entries
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--shard-index", type=int, required=True)
+    parser.add_argument("--shard-count", type=int, required=True)
+    parser.add_argument("--batch-size", type=int, default=50)
+    parser.add_argument("--repo-id", default="Zual/TLG_libre_scans")
+    parser.add_argument("--github-repo", default="l-pommeret/TLG_libre")
+    parser.add_argument("--revision", default="HEAD")
+    args = parser.parse_args()
+    if not 0 <= args.shard_index < args.shard_count:
+        raise SystemExit("invalid shard index")
+
+    api = HfApi(token=os.environ["HF_TOKEN"])
+    known = set(api.list_repo_files(args.repo_id, repo_type="dataset"))
+    manifests = sorted(Path("scans").glob("**/SHA1SUMS"))
+    roots = [p.parent for p in manifests if stable_shard(p.parent.as_posix(), args.shard_count) == args.shard_index]
+    github = requests.Session()
+    github.headers.update({"Authorization": f"Bearer {os.environ['SOURCE_GITHUB_TOKEN']}", "Accept": "application/vnd.github+json"})
+
+    migrated = skipped = commits = 0
+    temporary_paths: list[Path] = []
+    operations: list[CommitOperationAdd] = []
+    expected_after_commit: list[tuple[str, str, int]] = []
+
+    def flush() -> None:
+        nonlocal commits, migrated, operations, temporary_paths, expected_after_commit, known
+        if not operations:
+            return
+        try:
+            api.create_commit(repo_id=args.repo_id, repo_type="dataset", operations=operations,
+                              commit_message=f"Migrate scan shard {args.shard_index + 1}/{args.shard_count}")
+            info = api.get_paths_info(args.repo_id, paths=[p for p, _, _ in expected_after_commit], repo_type="dataset")
+            sizes = {item.path: item.size for item in info}
+            for path, expected, size in expected_after_commit:
+                if sizes.get(path) != size:
+                    raise RuntimeError(f"HF size mismatch for {path}: {sizes.get(path)} != {size}")
+                known.add(path)
+            sample_path, sample_sha1, _ = expected_after_commit[0]
+            if public_remote_sha1(args.repo_id, sample_path) != sample_sha1:
+                raise RuntimeError(f"HF remote sample SHA-1 mismatch for {sample_path}")
+            migrated += len(expected_after_commit)
+            commits += 1
+            print(json.dumps({"shard": args.shard_index, "commit": commits,
+                              "uploaded": len(expected_after_commit), "sample_sha1_verified": sample_path}), flush=True)
+        finally:
+            for temporary in temporary_paths:
+                temporary.unlink(missing_ok=True)
+            operations = []
+            temporary_paths = []
+            expected_after_commit = []
+
+    for root in roots:
+        for metadata in (root / "README.md", root / "SHA1SUMS"):
+            remote_path = metadata.as_posix()
+            if metadata.is_file() and remote_path not in known:
+                operations.append(CommitOperationAdd(path_in_repo=remote_path, path_or_fileobj=remote_path))
+                known.add(remote_path)
+        for expected, relative in parse_manifest(root / "SHA1SUMS"):
+            remote_path = f"{root}/{relative}"
+            if remote_path in known:
+                skipped += 1
+                continue
+            oid = git_blob_oid(remote_path, args.revision)
+            content = fetch_github_blob(github, args.github_repo, oid)
+            actual = hashlib.sha1(content).hexdigest()
+            if actual != expected:
+                raise RuntimeError(f"GitHub SHA-1 mismatch for {remote_path}: {actual} != {expected}")
+            with tempfile.NamedTemporaryFile(prefix="tlg-hf-", suffix=Path(relative).suffix, delete=False) as handle:
+                handle.write(content)
+                temporary = Path(handle.name)
+            operations.append(CommitOperationAdd(path_in_repo=remote_path, path_or_fileobj=temporary.as_posix()))
+            temporary_paths.append(temporary)
+            expected_after_commit.append((remote_path, expected, len(content)))
+            del content
+            if len(expected_after_commit) >= args.batch_size:
+                flush()
+        flush()
+
+    print(json.dumps({"shard": args.shard_index, "roots": len(roots), "migrated": migrated,
+                      "skipped": skipped, "commits": commits, "temporary_images_retained": 0}), flush=True)
+
+
+if __name__ == "__main__":
+    main()
