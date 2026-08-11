@@ -9,6 +9,8 @@ import os
 import subprocess
 import tempfile
 import time
+from email.utils import parsedate_to_datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -37,10 +39,45 @@ def fetch_github_blob(session: requests.Session, repo: str, oid: str) -> bytes:
     return base64.b64decode(payload["content"])
 
 
+def retry_delay(error: HfHubHTTPError, default: int = 300) -> int:
+    raw = error.response.headers.get("Retry-After", str(default)) if error.response is not None else str(default)
+    try:
+        return max(5, int(float(raw)) + 5)
+    except ValueError:
+        try:
+            target = parsedate_to_datetime(raw)
+            return max(5, int((target - datetime.now(timezone.utc)).total_seconds()) + 5)
+        except (TypeError, ValueError):
+            return default + 5
+
+
+def retry_hf(label: str, call, *args, **kwargs):
+    for attempt in range(30):
+        try:
+            return call(*args, **kwargs)
+        except HfHubHTTPError as error:
+            if error.response is None or error.response.status_code != 429 or attempt == 29:
+                raise
+            delay = retry_delay(error)
+            print(json.dumps({"hf_operation": label, "rate_limited": True,
+                              "retry_in_seconds": delay, "attempt": attempt + 1}), flush=True)
+            time.sleep(delay)
+
+
 def public_remote_sha1(repo_id: str, path: str) -> str:
     url = f"https://huggingface.co/datasets/{repo_id}/resolve/main/{quote(path)}"
-    response = requests.get(url, stream=True, timeout=180)
-    response.raise_for_status()
+    for attempt in range(30):
+        response = requests.get(url, stream=True, timeout=180)
+        if response.status_code != 429:
+            response.raise_for_status()
+            break
+        delay = int(response.headers.get("Retry-After", "300")) + 5
+        print(json.dumps({"hf_operation": "public_sample", "rate_limited": True,
+                          "retry_in_seconds": delay, "attempt": attempt + 1}), flush=True)
+        response.close()
+        time.sleep(delay)
+    else:
+        raise RuntimeError(f"HF public sample remained rate-limited: {path}")
     digest = hashlib.sha1()
     for chunk in response.iter_content(1024 * 1024):
         digest.update(chunk)
@@ -72,7 +109,8 @@ def main() -> None:
         raise SystemExit("invalid shard index")
 
     api = HfApi(token=os.environ["HF_TOKEN"])
-    known = set(api.list_repo_files(args.repo_id, repo_type="dataset"))
+    known = set(retry_hf("list_repo_files", api.list_repo_files,
+                         args.repo_id, repo_type="dataset"))
     manifests = sorted(Path("scans").glob("**/SHA1SUMS"))
     roots = [p.parent for p in manifests if stable_shard(p.parent.as_posix(), args.shard_count) == args.shard_index]
     if args.local_blobs:
@@ -99,22 +137,16 @@ def main() -> None:
         if not operations:
             return
         try:
-            for attempt in range(20):
-                try:
-                    api.create_commit(repo_id=args.repo_id, repo_type="dataset", operations=operations,
-                                      commit_message=f"Migrate scan shard {args.shard_index + 1}/{args.shard_count}")
-                    break
-                except HfHubHTTPError as error:
-                    if error.response is None or error.response.status_code != 429 or attempt == 19:
-                        raise
-                    delay = int(error.response.headers.get("Retry-After", "300")) + 5
-                    print(json.dumps({"shard": args.shard_index, "rate_limited": True,
-                                      "retry_in_seconds": delay, "attempt": attempt + 1}), flush=True)
-                    time.sleep(delay)
+            retry_hf(
+                "create_commit", api.create_commit,
+                repo_id=args.repo_id, repo_type="dataset", operations=operations,
+                commit_message=f"Migrate scan shard {args.shard_index + 1}/{args.shard_count}",
+            )
             sizes = {}
             paths = [p for p, _, _ in expected_after_commit]
             for offset in range(0, len(paths), 100):
-                info = api.get_paths_info(args.repo_id, paths=paths[offset:offset + 100], repo_type="dataset")
+                info = retry_hf("get_paths_info", api.get_paths_info, args.repo_id,
+                                paths=paths[offset:offset + 100], repo_type="dataset")
                 sizes.update({item.path: item.size for item in info})
             for path, expected, size in expected_after_commit:
                 if sizes.get(path) != size:
