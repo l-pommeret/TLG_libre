@@ -15,3 +15,9 @@ Recommandation : transfert PDM et manifeste colonne→image obligatoire, particu
 - Pré-vol direct sur le PDF SHA-1 ci-dessus : p.14 ouvre le texte grec aux cols 9 sqq. ; p.350 a été contrôlée dans la partie centrale ; p.784 porte les cols 761–762 en grec ; p.802 porte 777–778 en grec ; p.804 clôt 779–780 avec le grec final.
 - P.12 est encore la préface latine et p.805 sqq. sont hors des bornes canoniques : elles sont exclues.
 - Aucun OCR fournisseur ; les labels `[Sp.]` et les chevauchements des courts items restent gouvernés par les colonnes imprimées.
+
+## Compaction HF vérifiée
+
+- Le PDF image-only original de 107 694 134 octets a été transféré sous `scans/volumes/pg62-chrysostom/pg62-original-image-only.pdf`.
+- SHA-256 local et distant : `96981936718bf2a9f4f5a83a9fb788df2a6a239bbfcf841b05c6501215dc2e6a` ; 814 pages confirmées.
+- Après cette vérification distante, le tar de 658 698 240 octets contenant les rendus redondants a été supprimé de la tête HF. Il reste récupérable dans l'historique Git HF.
