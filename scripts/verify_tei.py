@@ -74,7 +74,7 @@ def main() -> None:
     checked = [check(row) for row in rows]
     fields = list(checked[0])
     with Path("data/text_verification.csv").open("w", encoding="utf-8", newline="") as dst:
-        writer = csv.DictWriter(dst, fieldnames=fields)
+        writer = csv.DictWriter(dst, fieldnames=fields, lineterminator="\n")
         writer.writeheader(); writer.writerows(checked)
     print(f"checked {len(checked)} TEI editions")
 
