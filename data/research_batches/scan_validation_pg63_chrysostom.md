@@ -17,3 +17,9 @@
 | 4139.016 | 543–550 |
 
 2755.041 n'a pas de locus MPG63 dans le canon et est exclu. Découper par colonnes imprimées, en dédupliquant les bornes partagées. Rendement READY : 22 notices directes, droits explicites et qualité contrôlée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg63-chrysostom/pg63-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 109 395 171 octets et son SHA-256 LFS vérifié est `0c0b614389eff8799b36f3de023253fba9f48eacd9b5fb8f40da59855d1b157a`.
+
+L’ancienne archive de 689 971 200 octets, constituée de rendus redondants, a été retirée de HF après validation de cette copie native. Les 841 pages, les 22 mappings et les contrôles grecs des pages 20, 300 et 500 restent inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
