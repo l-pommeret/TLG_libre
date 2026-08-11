@@ -16,3 +16,9 @@
 | 4139.003, .008 | 603–612 ; 619–630 |
 
 Sélectionner par colonnes imprimées et dédupliquer les frontières partagées. Rendement READY : 19 notices à concordance directe, droits explicites et qualité visuelle validée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg55-chrysostom/pg55-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 109 728 339 octets et son SHA-256 LFS vérifié est `8ddb6740a89d3b1af464fcce9ad047a26ff3d46290effa2c1485f9a7cbd85398`.
+
+L’ancienne archive JPEG de 669 368 320 octets a été retirée après validation de cette copie native. Les 785 pages, les 19 mappings et les contrôles grecs des pages 20, 250 et 400 restent inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
