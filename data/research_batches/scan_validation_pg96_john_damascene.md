@@ -16,3 +16,9 @@
 | 2714.001 ; 2935.001–002 ; 3173.001 | 680–697 ; 1460–1500 ; 1501–1508 ; 1348–1361 |
 
 Les clés avec suffixe `x` et 5060.003 n'ont pas de locus MPG96 dans le canon et sont exclues. Découper par colonnes imprimées et dédupliquer les bornes communes. Rendement READY : 16 notices exactes, droits explicites et qualité contrôlée.
+
+## Compaction HF vérifiée
+
+- Le PDF image-only original de 111 178 601 octets a été transféré sous `scans/volumes/pg96-john-damascene/pg96-original-image-only.pdf`.
+- SHA-256 local et distant : `4d13ddae7f94e90f8aac6fed58ab5295acfdc46e04a26fbd6a49efa105bc5285` ; 908 pages confirmées.
+- Après cette vérification distante, le tar de 667 535 360 octets contenant les rendus redondants a été supprimé de la tête HF. Il reste récupérable dans l'historique Git HF.
