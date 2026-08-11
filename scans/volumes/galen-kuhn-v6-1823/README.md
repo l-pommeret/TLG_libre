@@ -6,7 +6,8 @@ Knobloch, 1823.
 - Source: <https://archive.org/details/BIUSante_45674x06>
 - Archive: `BIUSante_45674x06_jp2.zip`
 - SHA-1 publié: `690f293d88c5616125020e2f079501a645eb2995`
-- Métadonnées: 387 640 151 octets, 913 JP2.
+- Métadonnées: 387 640 151 octets; l'archive contient 889 JP2, tandis que
+  la métadonnée IA annonce 913 images.
 - Droits: Licence ouverte / Open Licence Etalab.
 - Couverture: TLG 0057.040–041.
 
