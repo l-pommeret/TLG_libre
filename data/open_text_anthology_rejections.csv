@@ -18,3 +18,7 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 4060,001,9.597,9.597,9.597=tlg-4058 Cometas Chartularius,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b32_batch_0004.csv
 0131,001,7.50,7.50,7.50=tlg-0552,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b11_batch_0003.csv
 0198,001,5.161;5.199;6.292;11.123;11.414,5.199;6.292;11.123;11.414,5.161=tlg-0137 Asclepiades; remaining loci=tlg-0198,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_134.csv
+0022,006,7.435;7.526;9.503b,7.435;7.526,9.503b absent from author record tlg-0022 and no passage page,INCOMPLETE_CANON_LOCUS_COVERAGE,data/research_batches/detailed_verified_3001_batch_599.csv
+4040,011,9.203,9.203,9.203=tlg-9016,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_433.csv
+1640,001,7.314,7.314,7.314=tlg-0363 Claudius Ptolemaeus,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_821.csv
+4048,001,16.379,16.379,16.379=tlg-4049 Thomas,LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_444.csv
