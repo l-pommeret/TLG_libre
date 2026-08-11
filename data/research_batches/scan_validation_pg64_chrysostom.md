@@ -17,3 +17,9 @@
 | 2062.368–371 | 1061 ; 1061–1064 ; 1064 ; 1064–1068 |
 
 La notice 2914.016 ne porte pas de locus MPG64 dans sa ligne canonique et n'est pas incluse. Les colonnes frontières partagées doivent être dédupliquées lors du découpage. Rendement : 26 notices à concordance directe, droits explicites et qualité visuelle suffisante.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg64-chrysostom/pg64-original-image-only.pdf` : 94 500 422 octets, 776 pages.
+- SHA-256 local et distant : `c07270bcbb7f2a1c7a0d25a221c6f9800d6b08d147295529798c554aa6fafee8`.
+- Le tar redondant de 577 341 440 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
