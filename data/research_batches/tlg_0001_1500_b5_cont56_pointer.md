@@ -1,0 +1,6 @@
+# Pointeur de reprise — lot 0001–1500 b5, continuation 56
+
+- Notice traitée : `2892.039`.
+- Checkpoint : CSV détaillé d’une notice, 17 colonnes.
+- Reprise exacte : `2892.040`.
+- Méthode : corpus ouverts et PG/catalogues; aucun OCR tiers ni image récupérée.
