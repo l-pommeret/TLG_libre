@@ -154,6 +154,14 @@ Une absence de résultat ne signifie pas que le livre n'est pas numérisé : les
 
 ## Contrôle juridique
 
+Ce dépôt est privé et réservé à l'usage personnel de son propriétaire. Dans ce
+cadre, les images dont les conditions autorisent l'usage privé ou non commercial
+(par exemple CC BY-NC) peuvent être acquises. La restriction exacte, la source et
+la date de contrôle restent obligatoirement enregistrées dans les métadonnées.
+Cette règle interne n'autorise ni le contournement d'un contrôle d'accès, ni un
+téléchargement expressément interdit, ni la redistribution publique ultérieure
+des fichiers concernés.
+
 Pour chaque objet, distinguer :
 
 - le texte ancien, généralement dans le domaine public ;
