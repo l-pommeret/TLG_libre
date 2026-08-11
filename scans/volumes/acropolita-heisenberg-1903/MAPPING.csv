@@ -1,0 +1,13 @@
+tlg_author_id,tlg_work_id,record_type,work_title,bibliographic_notice
+3141,002,work,Annales,"Annales, ed. A. Heisenberg, Georgii Acropolitae opera, vol. 1, Leipzig: Teubner, 1903: 3–189. Cod: 38,487: Chronogr., Hist."
+3141,003,work,Historia in brevius redacta,"Historia in brevius redacta, ed. Heisenberg, op. cit., vol. 1, 193–274. ACTA ALEXANDRINORUM Cod: 15,520: Chronogr., Hist."
+3141,005,work,Epitaphius in Irenam imperatricem,"Epitaphius in Irenam imperatricem, ed. Heisenberg, op. cit., vol. 2, 3–6. Cod: 712: Encom., Iamb."
+3141,006,work,In imaginem beatae virginis,"In imaginem beatae virginis, ed. Heisenberg, op. cit., vol. 2, 6–7. Cod: 115: Iamb."
+3141,007,work,Praefatio in epistulas Theodori Lascaris,"Praefatio in epistulas Theodori Lascaris, ed. Heisenberg, op. cit., vol. 2, 7–9. Cod: 345: Iamb."
+3141,008,work,Carmen in magnum sabbatum,"Carmen in magnum sabbatum, ed. Heisenberg, op. cit., vol. 2, 9–11. Cod: 198: Liturg."
+3141,009,work,Epitaphius in Joannem Ducam,"Epitaphius in Joannem Ducam, ed. Heisenberg, op. cit., vol. 2, 12–29. Cod: 4,805: Encom."
+3141,010,work,Contra Latinos,"Contra Latinos, ed. Heisenberg, op. cit., vol. 2, 30–66. Cod: 10,338: Orat."
+3141,011,work,Epistula ad Joannem Tornicem,"Epistula ad Joannem Tornicem, ed. Heisenberg, op. cit., vol. 2, 67–69. Cod: 744: Epist."
+3141,012,work,In Gregorii Nazianzeni sententias,"In Gregorii Nazianzeni sententias, ed. Heisenberg, op. cit., vol. 2, 70–80. Cod: 2,986: Comm., Phil., Theol."
+3141,013,work,Laudatio Petri et Pauli,"Laudatio Petri et Pauli, ed. Heisenberg, op. cit., vol. 2, 81–111. Cod: 8,364: Encom."
+3141,x01,cross_reference,"Theodori Scutariotae additamenta ad Georgii Acropolitae historiam. Heisenberg-Wirth, vol. 1, pp. 277–302. Cf. Theodorus SCUTARIOTA Hist. (3157 001)","Theodori Scutariotae additamenta ad Georgii Acropolitae historiam. Heisenberg-Wirth, vol. 1, pp. 277–302. Cf. Theodorus SCUTARIOTA Hist. (3157 001)."
