@@ -12332,67 +12332,67 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5014,028,SCHOLIA IN ARISTOPHANEM,Scholia in ranas (scholia vetera),1,detailed_verified_3001_batch_965.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5014,029,SCHOLIA IN ARISTOPHANEM,"Scholia recentiora in Aristophanis ranas (scholia Thomae Magistri, Triclinii et anonyma)",1,detailed_verified_3001_batch_965.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5014,030,SCHOLIA IN ARISTOPHANEM,Scholia in plutum (scholia vetera),1,detailed_verified_3001_batch_965.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5014,031,SCHOLIA IN ARISTOPHANEM,Scholia in plutum (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5015,001,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis sophisticos elenchos (scholia recentiora) (e cod. Vat. Urb. gr. 35),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5015,002,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis sophisticos elenchos (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5015,003,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis ethica Nicomachea (scholia vetera et recentiora) (e cod. Paris. gr. 1854),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,002,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (scholia Florentina) (PSI 11.1219),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,003,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (scholia Londinensia) (P. Lit. Lond. 181 [= Brit. Mus. inv. 131]),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,004,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (commentarius Berolinensis) (P. Berol. 11521),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,005,SCHOLIA IN CALLIMACHUM,"Scholia in Aetia (P. Berol. 11629 + P. Oxy. 18.2169; 19.2208, 2212; 20.2258 addenda, fragmenta inedita)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,006,SCHOLIA IN CALLIMACHUM,Scholia in Iambos (P. Oxy. 7.1011),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,007,SCHOLIA IN CALLIMACHUM,Scholia in Iambos (scholia Florentina) (PSI 9.1094),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,008,SCHOLIA IN CALLIMACHUM,Scholia in Lyrica (P. Berol. 13417),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,009,SCHOLIA IN CALLIMACHUM,"Argumentum Hecalae (P. Oxy. 20.2258, olim inedita A, fr. 9)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,010,SCHOLIA IN CALLIMACHUM,"Scholia in Epica et elegiaca minora (P. Oxy. 20.2258, olim inedita C, fr. 2)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,011,SCHOLIA IN CALLIMACHUM,Diegeseis in Aetia (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,012,SCHOLIA IN CALLIMACHUM,Diegeseis in Iambos (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,013,SCHOLIA IN CALLIMACHUM,Diegeseis in Lyrica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,014,SCHOLIA IN CALLIMACHUM,Diegeseis in Hecalam (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,015,SCHOLIA IN CALLIMACHUM,Diegeseis in Hymnos i et ii (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,016,SCHOLIA IN CALLIMACHUM,Diegeseis fabularum (P. Oxy. 20.2263),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,017,SCHOLIA IN CALLIMACHUM,"Scholia in Hymnos (scholia vetera) (P. Oxy. 20.2258, olim inedita A, frr. 2, 4, 10)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,018,SCHOLIA IN CALLIMACHUM,Scholia in Hymnos ii et iii (scholia vetera) (P. Ant. 20),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,019,SCHOLIA IN CALLIMACHUM,Scholia in Hymnum iii (scholia vetera) (P. Cair. 47993b),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,020,SCHOLIA IN CALLIMACHUM,Scholia in Hymnum iii (scholia vetera) (P. Amh. 20),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,022,SCHOLIA IN CALLIMACHUM,"Commentarius ad Aetia i (P. Oxy. 20.2262, olim inedita a, frr. 1–2)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,023,SCHOLIA IN CALLIMACHUM,"Fragmenta scholiorum incertae sedis (P. Oxy. 20.2258, olim inedita, frr. 10–11)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5016,024,SCHOLIA IN CALLIMACHUM,Scholia in Hymnos (scholia vetera) (scholia ψ ex archetypo),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5017,001,SCHOLIA IN DEMOSTHENEM,Scholia in Demosthenem (scholia vetera) (fort. auctore Ulpiano),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5017,002,SCHOLIA IN DEMOSTHENEM,Scholia in Demosthenem (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5018,001,SCHOLIA IN DIONYSIUM BYZAN-,Scholia in Dionysii Byzantii per Bosporum navigationem (scholia recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5019,001,SCHOLIA IN DIONYSIUM PERIEGE-,Scholia in Dionysii periegetae orbis descriptionem (scholia vetera) (olim sub auctore Demetrio Lampsaceno),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5019,002,SCHOLIA IN DIONYSIUM PERIEGE-,Scholia in Dionysii periegetae orbis descriptionem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5021,001,SCHOLIA IN DIOPHANTUM,Scholia in Diophanti arithmetica (scholia recentiora e codd. Matr. Bibl. Nat. 4678; Vat. gr. 191 et 304),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5021,002,SCHOLIA IN DIOPHANTUM,Scholia in Diophanti arithmetica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,001,SCHOLIA IN EUCLIDEM,Scholia in Euclidis elementa (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,002,SCHOLIA IN EUCLIDEM,Scholia in Euclidis data (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,003,SCHOLIA IN EUCLIDEM,Scholia in Euclidis optica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,004,SCHOLIA IN EUCLIDEM,Scholia in opticorum recensionem Theonis (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,005,SCHOLIA IN EUCLIDEM,Scholia in Euclidis catoptrica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,006,SCHOLIA IN EUCLIDEM,Scholia in Euclidis phaenomena (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5022,007,SCHOLIA IN EUCLIDEM,Scholia in Euclidis data et catoptrica (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,001,SCHOLIA IN EURIPIDEM,Scholia in Euripidem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,002,SCHOLIA IN EURIPIDEM,"Scholia in Euripidem (scholia recentiora Thomae Magistri, Triclinii, Moschopuli)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,003,SCHOLIA IN EURIPIDEM,Scholia in Euripidem (cod. Hierosolymitanus patriarchalis 36),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,004,SCHOLIA IN EURIPIDEM,Glossae codicis Vaticani 909 in Euripidis Rhesum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,005,SCHOLIA IN EURIPIDEM,Glossae codicis C in Euripidis Rhesum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,006,SCHOLIA IN EURIPIDEM,Glossae in Euripidis Troiades (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,008,SCHOLIA IN EURIPIDEM,Argumenta fabularum decem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,009,SCHOLIA IN EURIPIDEM,Glossemata in fabulas decem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,010,SCHOLIA IN EURIPIDEM,Vitae Euripidis,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,011,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Rhesum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,012,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Troiades,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,013,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Hippolytum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,014,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Hecubam (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,015,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Orestem (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,016,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Phoenissas (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,017,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Medeam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,018,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Alcestin,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,019,SCHOLIA IN EURIPIDEM,Scholia in Euripides Andromacham,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,020,SCHOLIA IN EURIPIDEM,"Scholia metrica anonyma in Euripidis Hecubam, Orestem et Phoenissas",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,021,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Hippolytum,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5023,022,SCHOLIA IN EURIPIDEM,Scholia in Euripidem,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5014,031,SCHOLIA IN ARISTOPHANEM,Scholia in plutum (scholia recentiora),1,detailed_verified_3001_batch_966.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5015,001,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis sophisticos elenchos (scholia recentiora) (e cod. Vat. Urb. gr. 35),1,detailed_verified_3001_batch_966.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5015,002,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis sophisticos elenchos (scholia recentiora),1,detailed_verified_3001_batch_966.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5015,003,SCHOLIA IN ARISTOTELEM,Scholia in Aristotelis ethica Nicomachea (scholia vetera et recentiora) (e cod. Paris. gr. 1854),1,detailed_verified_3001_batch_966.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,002,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (scholia Florentina) (PSI 11.1219),1,detailed_verified_3001_batch_966.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,003,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (scholia Londinensia) (P. Lit. Lond. 181 [= Brit. Mus. inv. 131]),1,detailed_verified_3001_batch_967.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,004,SCHOLIA IN CALLIMACHUM,Scholia in Aetia i (commentarius Berolinensis) (P. Berol. 11521),1,detailed_verified_3001_batch_967.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,005,SCHOLIA IN CALLIMACHUM,"Scholia in Aetia (P. Berol. 11629 + P. Oxy. 18.2169; 19.2208, 2212; 20.2258 addenda, fragmenta inedita)",1,detailed_verified_3001_batch_967.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,006,SCHOLIA IN CALLIMACHUM,Scholia in Iambos (P. Oxy. 7.1011),1,detailed_verified_3001_batch_967.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,007,SCHOLIA IN CALLIMACHUM,Scholia in Iambos (scholia Florentina) (PSI 9.1094),1,detailed_verified_3001_batch_967.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,008,SCHOLIA IN CALLIMACHUM,Scholia in Lyrica (P. Berol. 13417),1,detailed_verified_3001_batch_968.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,009,SCHOLIA IN CALLIMACHUM,"Argumentum Hecalae (P. Oxy. 20.2258, olim inedita A, fr. 9)",1,detailed_verified_3001_batch_968.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,010,SCHOLIA IN CALLIMACHUM,"Scholia in Epica et elegiaca minora (P. Oxy. 20.2258, olim inedita C, fr. 2)",1,detailed_verified_3001_batch_968.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,011,SCHOLIA IN CALLIMACHUM,Diegeseis in Aetia (scholia vetera),1,detailed_verified_3001_batch_968.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,012,SCHOLIA IN CALLIMACHUM,Diegeseis in Iambos (scholia vetera),1,detailed_verified_3001_batch_968.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,013,SCHOLIA IN CALLIMACHUM,Diegeseis in Lyrica (scholia vetera),1,detailed_verified_3001_batch_969.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,014,SCHOLIA IN CALLIMACHUM,Diegeseis in Hecalam (scholia vetera),1,detailed_verified_3001_batch_969.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,015,SCHOLIA IN CALLIMACHUM,Diegeseis in Hymnos i et ii (scholia vetera),1,detailed_verified_3001_batch_969.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,016,SCHOLIA IN CALLIMACHUM,Diegeseis fabularum (P. Oxy. 20.2263),1,detailed_verified_3001_batch_969.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,017,SCHOLIA IN CALLIMACHUM,"Scholia in Hymnos (scholia vetera) (P. Oxy. 20.2258, olim inedita A, frr. 2, 4, 10)",1,detailed_verified_3001_batch_969.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,018,SCHOLIA IN CALLIMACHUM,Scholia in Hymnos ii et iii (scholia vetera) (P. Ant. 20),1,detailed_verified_3001_batch_970.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,019,SCHOLIA IN CALLIMACHUM,Scholia in Hymnum iii (scholia vetera) (P. Cair. 47993b),1,detailed_verified_3001_batch_970.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,020,SCHOLIA IN CALLIMACHUM,Scholia in Hymnum iii (scholia vetera) (P. Amh. 20),1,detailed_verified_3001_batch_970.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,022,SCHOLIA IN CALLIMACHUM,"Commentarius ad Aetia i (P. Oxy. 20.2262, olim inedita a, frr. 1–2)",1,detailed_verified_3001_batch_970.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,023,SCHOLIA IN CALLIMACHUM,"Fragmenta scholiorum incertae sedis (P. Oxy. 20.2258, olim inedita, frr. 10–11)",1,detailed_verified_3001_batch_970.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5016,024,SCHOLIA IN CALLIMACHUM,Scholia in Hymnos (scholia vetera) (scholia ψ ex archetypo),1,detailed_verified_3001_batch_971.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5017,001,SCHOLIA IN DEMOSTHENEM,Scholia in Demosthenem (scholia vetera) (fort. auctore Ulpiano),1,detailed_verified_3001_batch_971.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5017,002,SCHOLIA IN DEMOSTHENEM,Scholia in Demosthenem (scholia vetera et recentiora),1,detailed_verified_3001_batch_971.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5018,001,SCHOLIA IN DIONYSIUM BYZAN-,Scholia in Dionysii Byzantii per Bosporum navigationem (scholia recentiora),1,detailed_verified_3001_batch_971.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5019,001,SCHOLIA IN DIONYSIUM PERIEGE-,Scholia in Dionysii periegetae orbis descriptionem (scholia vetera) (olim sub auctore Demetrio Lampsaceno),1,detailed_verified_3001_batch_971.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5019,002,SCHOLIA IN DIONYSIUM PERIEGE-,Scholia in Dionysii periegetae orbis descriptionem (scholia vetera),1,detailed_verified_3001_batch_972.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5021,001,SCHOLIA IN DIOPHANTUM,Scholia in Diophanti arithmetica (scholia recentiora e codd. Matr. Bibl. Nat. 4678; Vat. gr. 191 et 304),1,detailed_verified_3001_batch_972.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5021,002,SCHOLIA IN DIOPHANTUM,Scholia in Diophanti arithmetica (scholia vetera),1,detailed_verified_3001_batch_972.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,001,SCHOLIA IN EUCLIDEM,Scholia in Euclidis elementa (scholia vetera et recentiora),1,detailed_verified_3001_batch_972.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,002,SCHOLIA IN EUCLIDEM,Scholia in Euclidis data (scholia vetera),1,detailed_verified_3001_batch_972.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,003,SCHOLIA IN EUCLIDEM,Scholia in Euclidis optica (scholia vetera),1,detailed_verified_3001_batch_973.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,004,SCHOLIA IN EUCLIDEM,Scholia in opticorum recensionem Theonis (scholia vetera),1,detailed_verified_3001_batch_973.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,005,SCHOLIA IN EUCLIDEM,Scholia in Euclidis catoptrica (scholia vetera),1,detailed_verified_3001_batch_973.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,006,SCHOLIA IN EUCLIDEM,Scholia in Euclidis phaenomena (scholia vetera),1,detailed_verified_3001_batch_973.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5022,007,SCHOLIA IN EUCLIDEM,Scholia in Euclidis data et catoptrica (scholia vetera),1,detailed_verified_3001_batch_973.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,001,SCHOLIA IN EURIPIDEM,Scholia in Euripidem (scholia vetera),1,detailed_verified_3001_batch_974.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,002,SCHOLIA IN EURIPIDEM,"Scholia in Euripidem (scholia recentiora Thomae Magistri, Triclinii, Moschopuli)",1,detailed_verified_3001_batch_974.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,003,SCHOLIA IN EURIPIDEM,Scholia in Euripidem (cod. Hierosolymitanus patriarchalis 36),1,detailed_verified_3001_batch_974.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,004,SCHOLIA IN EURIPIDEM,Glossae codicis Vaticani 909 in Euripidis Rhesum (scholia vetera),1,detailed_verified_3001_batch_974.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,005,SCHOLIA IN EURIPIDEM,Glossae codicis C in Euripidis Rhesum (scholia vetera),1,detailed_verified_3001_batch_974.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,006,SCHOLIA IN EURIPIDEM,Glossae in Euripidis Troiades (scholia vetera),1,detailed_verified_3001_batch_975.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,008,SCHOLIA IN EURIPIDEM,Argumenta fabularum decem,1,detailed_verified_3001_batch_975.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,009,SCHOLIA IN EURIPIDEM,Glossemata in fabulas decem,1,detailed_verified_3001_batch_975.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,010,SCHOLIA IN EURIPIDEM,Vitae Euripidis,1,detailed_verified_3001_batch_975.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,011,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Rhesum,1,detailed_verified_3001_batch_975.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,012,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Troiades,1,detailed_verified_3001_batch_976.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,013,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Hippolytum,1,detailed_verified_3001_batch_976.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,014,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Hecubam (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",1,detailed_verified_3001_batch_976.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,015,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Orestem (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",1,detailed_verified_3001_batch_976.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,016,SCHOLIA IN EURIPIDEM,"Scholia in Euripidis Phoenissas (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)",1,detailed_verified_3001_batch_976.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,017,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Medeam,1,detailed_verified_3001_batch_977.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,018,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Alcestin,1,detailed_verified_3001_batch_977.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,019,SCHOLIA IN EURIPIDEM,Scholia in Euripides Andromacham,1,detailed_verified_3001_batch_977.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,020,SCHOLIA IN EURIPIDEM,"Scholia metrica anonyma in Euripidis Hecubam, Orestem et Phoenissas",1,detailed_verified_3001_batch_977.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,021,SCHOLIA IN EURIPIDEM,Scholia in Euripidis Hippolytum,1,detailed_verified_3001_batch_977.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5023,022,SCHOLIA IN EURIPIDEM,Scholia in Euripidem,1,detailed_verified_3001_batch_978.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5024,001,ANONYMI IN HERMOGENEM,Introductio in prolegomena Hermogenis artis rhetoricae (fort. auctore Marcellino),1,tlg_3001_4500_b5_batch_0001.csv,SCAN_CANDIDATE,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5024,002,ANONYMI IN HERMOGENEM,Prolegomena in librum περὶ στάσεων,1,tlg_3001_4500_b5_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5024,003,ANONYMI IN HERMOGENEM,"Excerpta e prolegomenis in librum περὶ στάσεων (e cod. Paris. 3032, fol. 143r–149r)",1,tlg_3001_4500_b5_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
@@ -12415,45 +12415,45 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 5024,020,ANONYMI IN HERMOGENEM,Commentarium in librum περὶ ἰδεῶν,1,tlg_3001_4500_b5_batch_0002.csv,SCAN_CANDIDATE,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5024,021,ANONYMI IN HERMOGENEM,De figuris in libris περὶ εὑρέσεων et περὶ ἰδεῶν,1,tlg_3001_4500_b5_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5024,022,ANONYMI IN HERMOGENEM,Synopses artis rhetoricae (excerpta),1,tlg_3001_4500_b5_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-5025,001,SCHOLIA IN HESIODUM,Scholia in opera et dies (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5025,002,SCHOLIA IN HESIODUM,"Scholia in opera et dies (scholia vetera partim Procli et recentiora partim Moschopuli, Tzetzae et Joannis Galeni)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5025,003,SCHOLIA IN HESIODUM,Scholia in theogoniam (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5025,004,SCHOLIA IN HESIODUM,Glossae in theogoniam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5025,006,SCHOLIA IN HESIODUM,Scholia in theogoniam (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,001,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,003,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera et recentiora e cod. Genevensi gr. 44),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,004,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia recentiora Theodori Meliteniotis) (e cod. Genevensi gr. 44),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,005,SCHOLIA IN HOMERUM,Scholia minora in Iliadem (glossae et scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,006,SCHOLIA IN HOMERUM,Scholia in Iliadem (=D Scholia),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,007,SCHOLIA IN HOMERUM,Scholia in Odysseam (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,008,SCHOLIA IN HOMERUM,Scholia in Odysseam 1.1–309 (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,009,SCHOLIA IN HOMERUM,Inscriptiones et hypothesis in Odysseam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,010,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,011,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera) (= D scholia),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,012,SCHOLIA IN HOMERUM,Scholia in Odysseam (scholia vetera) (= D scholia),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,013,SCHOLIA IN HOMERUM,Scholia in Odysseam,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,014,SCHOLIA IN HOMERUM,"Scholia in Iliadem (e cod. Veneto) (scholia vetera, minora et recentiora)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,015,SCHOLIA IN HOMERUM,"Scholia in Iliadem (e cod. Veneto Marciano 454) (scholia vetera, minora et recentiora)",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,016,SCHOLIA IN HOMERUM,Hypotheses in Iliadem (e D scholiis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,017,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera) (= D scholia),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,018,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri α–β),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,019,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri γ–δ),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,020,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri ε–ζ),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5026,021,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri η–θ),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5027,001,SCHOLIA IN IAMBLICHUM PHILO-,Scholia in librum Iamblichi in Nicomachi arithmeticam introductionem (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5028,001,SCHOLIA IN ISOCRATEM,Scholia in Isocratem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5029,001,SCHOLIA IN LUCIANUM,Scholia in Lucianum (scholia vetera et recentiora Arethae),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5029,002,SCHOLIA IN LUCIANUM,Scholia in pseudo-Luciani Halcyonem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5030,001,SCHOLIA IN LYCOPHRONEM,Scholia in Lycophronem (scholia vetera et recentiora partim Isaac et Joannis Tzetzae),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5030,002,SCHOLIA IN LYCOPHRONEM,Scholia in Lycophronem (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5030,004,SCHOLIA IN LYCOPHRONEM,Paraphrasis antiquior,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5030,005,SCHOLIA IN LYCOPHRONEM,Paraphrasis recentior,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5031,001,SCHOLIA IN NICANDRUM,Scholia et glossae in Nicandri theriaca (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5031,002,SCHOLIA IN NICANDRUM,Scholia et glossae in Nicandri alexipharmaca (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5031,003,SCHOLIA IN NICANDRUM,Scholia in Nicandri theriaca et alexipharmaca (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5032,001,SCHOLIA IN OPPIANUM,Scholia et glossae in cynegetica (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5032,002,SCHOLIA IN OPPIANUM,Scholia et glossae in halieutica (scholia vetera et recentiora),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-5033,001,SCHOLIA IN PAUSANIAM,Scholia in Pausaniae periegesin (scholia vetera sub auctore Agathia),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+5025,001,SCHOLIA IN HESIODUM,Scholia in opera et dies (scholia vetera),1,detailed_verified_3001_batch_978.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5025,002,SCHOLIA IN HESIODUM,"Scholia in opera et dies (scholia vetera partim Procli et recentiora partim Moschopuli, Tzetzae et Joannis Galeni)",1,detailed_verified_3001_batch_978.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5025,003,SCHOLIA IN HESIODUM,Scholia in theogoniam (scholia vetera),1,detailed_verified_3001_batch_978.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5025,004,SCHOLIA IN HESIODUM,Glossae in theogoniam,1,detailed_verified_3001_batch_978.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5025,006,SCHOLIA IN HESIODUM,Scholia in theogoniam (scholia vetera),1,detailed_verified_3001_batch_979.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,001,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera),1,detailed_verified_3001_batch_979.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,003,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera et recentiora e cod. Genevensi gr. 44),1,detailed_verified_3001_batch_979.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,004,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia recentiora Theodori Meliteniotis) (e cod. Genevensi gr. 44),1,detailed_verified_3001_batch_979.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,005,SCHOLIA IN HOMERUM,Scholia minora in Iliadem (glossae et scholia vetera),1,detailed_verified_3001_batch_979.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,006,SCHOLIA IN HOMERUM,Scholia in Iliadem (=D Scholia),1,detailed_verified_3001_batch_980.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,007,SCHOLIA IN HOMERUM,Scholia in Odysseam (scholia vetera),1,detailed_verified_3001_batch_980.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,008,SCHOLIA IN HOMERUM,Scholia in Odysseam 1.1–309 (scholia vetera),1,detailed_verified_3001_batch_980.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,009,SCHOLIA IN HOMERUM,Inscriptiones et hypothesis in Odysseam,1,detailed_verified_3001_batch_980.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,010,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera),1,detailed_verified_3001_batch_980.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,011,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera) (= D scholia),1,detailed_verified_3001_batch_981.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,012,SCHOLIA IN HOMERUM,Scholia in Odysseam (scholia vetera) (= D scholia),1,detailed_verified_3001_batch_981.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,013,SCHOLIA IN HOMERUM,Scholia in Odysseam,1,detailed_verified_3001_batch_981.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,014,SCHOLIA IN HOMERUM,"Scholia in Iliadem (e cod. Veneto) (scholia vetera, minora et recentiora)",1,detailed_verified_3001_batch_981.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,015,SCHOLIA IN HOMERUM,"Scholia in Iliadem (e cod. Veneto Marciano 454) (scholia vetera, minora et recentiora)",1,detailed_verified_3001_batch_981.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,016,SCHOLIA IN HOMERUM,Hypotheses in Iliadem (e D scholiis),1,detailed_verified_3001_batch_982.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,017,SCHOLIA IN HOMERUM,Scholia in Iliadem (scholia vetera) (= D scholia),1,detailed_verified_3001_batch_982.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,018,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri α–β),1,detailed_verified_3001_batch_982.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,019,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri γ–δ),1,detailed_verified_3001_batch_982.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,020,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri ε–ζ),1,detailed_verified_3001_batch_982.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5026,021,SCHOLIA IN HOMERUM,Scholia in Odysseam (libri η–θ),1,detailed_verified_3001_batch_983.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5027,001,SCHOLIA IN IAMBLICHUM PHILO-,Scholia in librum Iamblichi in Nicomachi arithmeticam introductionem (scholia vetera et recentiora),1,detailed_verified_3001_batch_983.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5028,001,SCHOLIA IN ISOCRATEM,Scholia in Isocratem (scholia vetera),1,detailed_verified_3001_batch_983.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5029,001,SCHOLIA IN LUCIANUM,Scholia in Lucianum (scholia vetera et recentiora Arethae),1,detailed_verified_3001_batch_983.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5029,002,SCHOLIA IN LUCIANUM,Scholia in pseudo-Luciani Halcyonem (scholia vetera),1,detailed_verified_3001_batch_983.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5030,001,SCHOLIA IN LYCOPHRONEM,Scholia in Lycophronem (scholia vetera et recentiora partim Isaac et Joannis Tzetzae),1,detailed_verified_3001_batch_984.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5030,002,SCHOLIA IN LYCOPHRONEM,Scholia in Lycophronem (scholia vetera),1,detailed_verified_3001_batch_984.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5030,004,SCHOLIA IN LYCOPHRONEM,Paraphrasis antiquior,1,detailed_verified_3001_batch_984.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5030,005,SCHOLIA IN LYCOPHRONEM,Paraphrasis recentior,1,detailed_verified_3001_batch_984.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5031,001,SCHOLIA IN NICANDRUM,Scholia et glossae in Nicandri theriaca (scholia vetera et recentiora),1,detailed_verified_3001_batch_984.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5031,002,SCHOLIA IN NICANDRUM,Scholia et glossae in Nicandri alexipharmaca (scholia vetera et recentiora),1,detailed_verified_3001_batch_985.csv,OPEN_TEXT_DIFFERENT_EDITION,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5031,003,SCHOLIA IN NICANDRUM,Scholia in Nicandri theriaca et alexipharmaca (scholia vetera et recentiora),1,detailed_verified_3001_batch_985.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5032,001,SCHOLIA IN OPPIANUM,Scholia et glossae in cynegetica (scholia vetera et recentiora),1,detailed_verified_3001_batch_985.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5032,002,SCHOLIA IN OPPIANUM,Scholia et glossae in halieutica (scholia vetera et recentiora),1,detailed_verified_3001_batch_985.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+5033,001,SCHOLIA IN PAUSANIAM,Scholia in Pausaniae periegesin (scholia vetera sub auctore Agathia),1,detailed_verified_3001_batch_985.csv,NO_COMPLETE_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 5034,001,SCHOLIA IN PINDARUM,Scholia in Pindarum (scholia vetera),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5034,002,SCHOLIA IN PINDARUM,Capitula ad praefationem scholiorum ad Pindari carmina,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
 5034,003,SCHOLIA IN PINDARUM,Scholia in Pythia v–xii (scholia vetera et recentiora Thomae Magistri et Triclinii) (e cod. Flor.),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
