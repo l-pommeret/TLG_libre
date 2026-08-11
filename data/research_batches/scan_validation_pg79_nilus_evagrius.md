@@ -23,4 +23,20 @@ Les bornes MPG sont celles de `canon_coverage.csv`; les deux notices marquées d
 | 4110.022 | *De malignis cogitationibus* | 1200–1233 | exclu : doublon de 4110.034 dans le canon |
 | 2743.001 | Hyperechius, *Adhortatio ad monachos* | 1473–1489 | exclu : `is_work=no` dans le canon |
 
-**Rendement** : 7 notices canon `work=yes` directement couvertes. Préparer une ingestion ciblée ou volume complet depuis l'URL Commons; ne pas utiliser un texte OCR tiers.
+**Rendement** : 7 notices canon `work=yes` directement couvertes. Préparer exclusivement l'ingestion ciblée du manifeste ci-dessous depuis l'URL Commons; ne pas utiliser un texte OCR tiers.
+
+## Manifeste image-only ciblé (pages fichier)
+
+Ne pas transférer le volume complet : les pages sont déduites de la pagination imprimée effectivement contrôlée (fichier p. 45 = cols. 77–78, p. 300 = 571–572, p. 568 = 1083–1084, p. 590 = 1127–1128, p. 650 = 1247–1248), puis des feuillets consécutifs. Les bornes sont inclusives.
+
+| Notice(s) | Locus MPG | Pages fichier à transférer |
+|---|---:|---:|
+| 4118.004 | 82–582 | 47–305 |
+| 4110.020 | 1093–1140 | 573–596 |
+| 4110.021 | 1140–1144 | 596–598 |
+| 4110.023 | 1145–1164 | 599–608 |
+| 4110.024 | 1165–1200 | 609–626 |
+| 4110.025 | 1235–1240 | 644–646 |
+| 4110.016 | 1249–1252 | 651–652 |
+
+Les chevauchements de feuillet (4110.020/.021) sont intentionnels; dédupliquer lors du transfert. Les segments non listés, notamment préfaces, autres auteurs et pages de garde, sont hors cible.
