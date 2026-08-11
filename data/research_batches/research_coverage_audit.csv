@@ -110,16 +110,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,038,PLUTARCHUS Biogr. et Phil.,Nicias,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,039,PLUTARCHUS Biogr. et Phil.,Crassus,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,040,PLUTARCHUS Biogr. et Phil.,Comparatio Niciae et Crassi,1,detailed_verified_3001_batch_563.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,041,PLUTARCHUS Biogr. et Phil.,Eumenes,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,042,PLUTARCHUS Biogr. et Phil.,Sertorius,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,043,PLUTARCHUS Biogr. et Phil.,Comparatio Eumenis et Sertorii,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,044,PLUTARCHUS Biogr. et Phil.,Agesilaus,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,045,PLUTARCHUS Biogr. et Phil.,Pompeius,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,046,PLUTARCHUS Biogr. et Phil.,Comparatio Agesilai et Pompeii,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,047,PLUTARCHUS Biogr. et Phil.,Alexander,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,048,PLUTARCHUS Biogr. et Phil.,Caesar,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,049,PLUTARCHUS Biogr. et Phil.,Phocion,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,050,PLUTARCHUS Biogr. et Phil.,Cato Minor,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,041,PLUTARCHUS Biogr. et Phil.,Eumenes,1,detailed_verified_3001_batch_564.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,042,PLUTARCHUS Biogr. et Phil.,Sertorius,1,detailed_verified_3001_batch_564.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,043,PLUTARCHUS Biogr. et Phil.,Comparatio Eumenis et Sertorii,1,detailed_verified_3001_batch_564.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,044,PLUTARCHUS Biogr. et Phil.,Agesilaus,1,detailed_verified_3001_batch_564.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,045,PLUTARCHUS Biogr. et Phil.,Pompeius,1,detailed_verified_3001_batch_564.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,046,PLUTARCHUS Biogr. et Phil.,Comparatio Agesilai et Pompeii,1,detailed_verified_3001_batch_565.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,047,PLUTARCHUS Biogr. et Phil.,Alexander,1,detailed_verified_3001_batch_565.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,048,PLUTARCHUS Biogr. et Phil.,Caesar,1,detailed_verified_3001_batch_565.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,049,PLUTARCHUS Biogr. et Phil.,Phocion,1,detailed_verified_3001_batch_565.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,050,PLUTARCHUS Biogr. et Phil.,Cato Minor,1,detailed_verified_3001_batch_565.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,051,PLUTARCHUS Biogr. et Phil.,Agis et Cleomenes,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,052,PLUTARCHUS Biogr. et Phil.,Tiberius et Gaius Gracchus,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,053,PLUTARCHUS Biogr. et Phil.,Comparatio Agidis et Cleomenis cum Tiberio et Gaio Graccho,0,,,1,range_inferred_batch_01_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
