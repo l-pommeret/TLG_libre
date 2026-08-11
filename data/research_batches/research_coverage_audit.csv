@@ -11992,22 +11992,22 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 4445,002,Georgius SCYLITZES Poeta,Acoluthia,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4445,003,Georgius SCYLITZES Poeta,Canones in sanctos Demetrium et Georgium,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4445,004,Georgius SCYLITZES Poeta,Versus dedicatorii,1,detailed_verified_3001_batch_535.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4446,001,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Job (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4446,002,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Ezechielem (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4446,003,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Danielem (fragmenta in catenis),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4446,001,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Job (fragmenta in catenis),1,detailed_verified_3001_batch_536.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4446,002,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Ezechielem (fragmenta in catenis),1,detailed_verified_3001_batch_536.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4446,003,POLYCHRONIUS Apamensis Scr. Eccl.,Commentarii in Danielem (fragmenta in catenis),1,detailed_verified_3001_batch_536.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4447,001,Michael BALSAMON Theol.,Professio fidei,1,tlg_3001_4500_b22_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4448,001,Michael BALSAMON Hagiogr.,"Encomium in sanctos Antonium, Joannem et Eustathium (BHG 2035)",1,tlg_3001_4500_b22_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4449,001,NICEPHORUS Athonita Theol.,De sancta trinitate,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4449,002,NICEPHORUS Athonita Theol.,"Tractatus de sobrietate et cordis custodia, MPG 147: 945–966. Q: 3,544: Theol",0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4450,001,NICETAS Chartophylax Theol.,Contra Latinos de azymis,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4449,001,NICEPHORUS Athonita Theol.,De sancta trinitate,1,detailed_verified_3001_batch_536.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4449,002,NICEPHORUS Athonita Theol.,"Tractatus de sobrietate et cordis custodia, MPG 147: 945–966. Q: 3,544: Theol",1,detailed_verified_3001_batch_536.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4450,001,NICETAS Chartophylax Theol.,Contra Latinos de azymis,1,detailed_verified_3001_batch_537.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4451,001,JOANNES CLAUDIOPOLITANUS,Epistula de azymis,1,tlg_0001_1500_b5_cont13_checkpoint_02_2934_084_2578_003.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4452,001,LEO Russiae Metropolita Theol.,De azymis,1,tlg_0001_1500_b5_cont15_checkpoint_04_4429_002_2554_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4453,001,DOMINICUS Gradensis Epist.,Epistula ad Petrum III patriarcham,1,tlg_3001_4500_b45_batch_0001.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4454,001,LEO IX Papa Epist.,Epistula ad Petrum III patriarcham,1,tlg_0001_1500_b5_cont15_checkpoint_03_3041_002_4429_001.csv,EDITION_IDENTIFIED,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
-4455,001,SYMEON II Patriarcha Epist. et Theol.,Epistula de azymis [Dub.],0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4456,001,ORACULA LEONIS SAPIENTIS,Imperatoris Leonis oracula (e cod. Amstelod. gr. VI E 8),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4456,002,ORACULA LEONIS SAPIENTIS,Anonymi narratio de vero imperatore (e cod. Amstelod. gr. VI E 8),0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
-4457,001,THEOGNOSTUS Theol.,Thesaurus,0,,,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_RANGE_INFERRED
+4455,001,SYMEON II Patriarcha Epist. et Theol.,Epistula de azymis [Dub.],1,detailed_verified_3001_batch_537.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4456,001,ORACULA LEONIS SAPIENTIS,Imperatoris Leonis oracula (e cod. Amstelod. gr. VI E 8),1,detailed_verified_3001_batch_537.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4456,002,ORACULA LEONIS SAPIENTIS,Anonymi narratio de vero imperatore (e cod. Amstelod. gr. VI E 8),1,detailed_verified_3001_batch_537.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
+4457,001,THEOGNOSTUS Theol.,Thesaurus,1,detailed_verified_3001_batch_537.csv,NO_EXACT_OPEN_TEXT,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4458,001,Matthaeus CANTACUZENUS Scr. Eccl.,Περὶ φιλομαθίας,1,tlg_3001_4500_b27_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4458,002,Matthaeus CANTACUZENUS Scr. Eccl.,De tribus virtutibus animae,1,tlg_3001_4500_b27_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
 4458,003,Matthaeus CANTACUZENUS Scr. Eccl.,"Expositio in canticum canticorum Salomonis, MPG 152: 997–1084. Cod: 15,406: Exeget",1,tlg_3001_4500_b27_batch_0002.csv,BLOCKED_RIGHTS,0,,0602.001-9500.002.md; 1337.001-5514.003.md,REVIEWED_EXPLICIT
