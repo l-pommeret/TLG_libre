@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+from collections import Counter
 from pathlib import Path
 
 
@@ -34,7 +35,24 @@ def main() -> None:
         fields = reader.fieldnames
         rows = list(reader)
 
+    work_key_counts = Counter(
+        (row["tlg_author_id"], row["tlg_work_id"])
+        for row in rows
+        if row["record_type"] == "work"
+    )
+    external_urls = {row["source_url"] for row in evidence_rows}
+    for row in rows:
+        if (
+            row["pipeline_status"] in ALLOWED_MATCHES.values()
+            and row["open_text_url"] in external_urls
+        ):
+            row["pipeline_status"] = "NOT_CHECKED"
+            row["open_text_url"] = ""
+            row["open_text_license"] = ""
+            row["next_action"] = ""
+
     seen: set[tuple[str, str]] = set()
+    promoted_by_key: Counter[tuple[str, str]] = Counter()
     promoted = 0
     for row in rows:
         key = (row["tlg_author_id"], row["tlg_work_id"])
@@ -43,16 +61,28 @@ def main() -> None:
             continue
         if row["record_type"] != "work":
             raise SystemExit(f"external verification targets non-work row: {key}")
+        selector = (item.get("work_title_selector") or "").strip()
+        if work_key_counts[key] > 1:
+            if not selector:
+                raise SystemExit(
+                    f"ambiguous duplicate Canon key requires work_title_selector: {key}"
+                )
+            if selector not in row["work_title"]:
+                continue
         row["pipeline_status"] = ALLOWED_MATCHES[item["match_type"]]
         row["open_text_url"] = item["source_url"]
         row["open_text_license"] = item["source_license"]
         row["next_action"] = "compare_verified_open_edition_with_canon_edition"
         seen.add(key)
+        promoted_by_key[key] += 1
         promoted += 1
 
     missing = set(evidence) - seen
     if missing:
         raise SystemExit(f"external verification keys absent from Canon works: {sorted(missing)}")
+    non_unique = {key: count for key, count in promoted_by_key.items() if count != 1}
+    if non_unique:
+        raise SystemExit(f"external verification did not select one Canon work: {non_unique}")
 
     with COVERAGE.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
