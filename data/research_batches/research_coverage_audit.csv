@@ -140,16 +140,16 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,068,PLUTARCHUS Biogr. et Phil.,Quomodo adolescens poetas audire debeat (14d–37b),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,069,PLUTARCHUS Biogr. et Phil.,De recta ratione audiendi (37b–48d),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,070,PLUTARCHUS Biogr. et Phil.,Quomodo adulator ab amico internoscatur (48e–74e),1,detailed_verified_3001_batch_569.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,071,PLUTARCHUS Biogr. et Phil.,Quomodo quis suos in virtute sentiat profectus (75a–86a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,072,PLUTARCHUS Biogr. et Phil.,De capienda ex inimicis utilitate (86b– 92f),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,073,PLUTARCHUS Biogr. et Phil.,De amicorum multitudine (93a–97b),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,074,PLUTARCHUS Biogr. et Phil.,De fortuna (97c–100a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,075,PLUTARCHUS Biogr. et Phil.,De virtute et vitio (100b–101e),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,076,PLUTARCHUS Biogr. et Phil.,Consolatio ad Apollonium [Sp.] (101f– 122a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,077,PLUTARCHUS Biogr. et Phil.,De tuenda sanitate praecepta (122b–137e),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,078,PLUTARCHUS Biogr. et Phil.,Conjugalia praecepta (138a–146a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,079,PLUTARCHUS Biogr. et Phil.,Septem sapientium convivium (146b– PLUTARCHUS 164d),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,080,PLUTARCHUS Biogr. et Phil.,De superstitione (164e–171f),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,071,PLUTARCHUS Biogr. et Phil.,Quomodo quis suos in virtute sentiat profectus (75a–86a),1,detailed_verified_3001_batch_570.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,072,PLUTARCHUS Biogr. et Phil.,De capienda ex inimicis utilitate (86b– 92f),1,detailed_verified_3001_batch_570.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,073,PLUTARCHUS Biogr. et Phil.,De amicorum multitudine (93a–97b),1,detailed_verified_3001_batch_570.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,074,PLUTARCHUS Biogr. et Phil.,De fortuna (97c–100a),1,detailed_verified_3001_batch_570.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,075,PLUTARCHUS Biogr. et Phil.,De virtute et vitio (100b–101e),1,detailed_verified_3001_batch_570.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,076,PLUTARCHUS Biogr. et Phil.,Consolatio ad Apollonium [Sp.] (101f– 122a),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,077,PLUTARCHUS Biogr. et Phil.,De tuenda sanitate praecepta (122b–137e),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,078,PLUTARCHUS Biogr. et Phil.,Conjugalia praecepta (138a–146a),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,079,PLUTARCHUS Biogr. et Phil.,Septem sapientium convivium (146b– PLUTARCHUS 164d),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,080,PLUTARCHUS Biogr. et Phil.,De superstitione (164e–171f),1,detailed_verified_3001_batch_571.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,081,PLUTARCHUS Biogr. et Phil.,Regum et imperatorum apophthegmata [Sp.?] (172b–208a),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,082,PLUTARCHUS Biogr. et Phil.,Apophthegmata Laconica [Sp.?] (208b– 242d),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
 0007,083,PLUTARCHUS Biogr. et Phil.,Mulierum virtutes (242e–263c),0,,,1,range_inferred_batch_02_checkpoint_01.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
