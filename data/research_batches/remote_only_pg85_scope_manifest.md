@@ -14,6 +14,10 @@
 
 Les feuilles à garder, fusionnées et inclusives, sont donc : **14–237, 681–682, 691–696, 760–803, 915–916, 938–948** (296 pages). Les bornes MPG 1837–1838 précèdent une feuille d'index non pertinente dans cette numérisation; la première feuille du texte effectivement imprimé est p.938/cols.1839–1840.
 
+## Garde-fou grec par segment
+
+Une page grecque lisible a été ouverte et inspectée dans chacune des six plages fusionnées : p.14 (28), p.681 (1361–1362), p.691 (1381–1382), p.760 (1523–1524), p.915 (1793–1794) et p.938 (1839–1840). Les vues de borne p.237, p.780, p.948 déjà consignées complètent ce contrôle. Tous les échantillons temporaires ont été supprimés après vérification.
+
 ## Purge exacte
 
 Supprimer : **1–13, 238–680, 683–690, 697–759, 804–914, 917–937, 949–957** (661 pages). Ne pas supprimer les plages conservées, ni produire d'OCR. Tous les JPEG temporaires de vérification ont été supprimés après ce manifeste.
