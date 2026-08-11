@@ -50,13 +50,20 @@ python3 scripts/fetch_matched_texts.py
 python3 scripts/verify_tei.py
 python3 scripts/build_open_text_aliases.py
 python3 scripts/apply_text_verification.py
+python3 scripts/apply_external_text_verification.py
 ```
 
+`external_open_text_verification.csv` conserve les preuves vérifiées
+manuellement pour les textes grecs ouverts qui ne sont pas distribués dans
+les corpus TEI locaux. Le script refuse les clés absentes, les renvois, les
+doublons de preuve, les licences manquantes et tout type de correspondance qui
+n'est pas explicitement exact ou une édition alternative.
+
 Au 11 août 2026, la vue Canon contient 13 765 notices d'œuvres, hors 1 536
-renvois : 1 709 (12,42 %) ont un texte grec ouvert vérifié sous le même
+renvois : 1 713 (12,44 %) ont un texte grec ouvert vérifié sous le même
 identifiant TLG et 135 (0,98 %) supplémentaires ont une édition alternative
 ouverte vérifiée. La couverture textuelle directement exploitable est donc de
-1 844 notices (13,40 %). Les
+1 848 notices (13,43 %). Les
 deux catégories restent séparées afin de ne pas présenter une édition
 alternative comme l'édition bibliographique exacte du Canon.
 
