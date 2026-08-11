@@ -2,6 +2,6 @@
 
 Completed: `3191.007` — *Carmina iii–iv*.
 
-Exact Greek manuscript images are ready for the private/non-commercial scan flow: Paris, BnF, Grec 2751, ff. 34v–46r, Gallica IIIF images `f72`–`f83`. The split opening `f77` contains the end of poem III (39v) and the beginning of poem IV (40r), so it must be retained as one composite image. Gallica’s terms require the BnF/Gallica source credit and restrict commercial reuse; no image was retained locally.
+Correction (2026-08-12): do **not** transfer the previously stated `f72`–`f83` range. A second audit of the official Gallica pagination found paired captures of each opening: the exact inclusive range for BnF Grec 2751, ff. 34v–46r, is `f74`–`f97`. Remote quality review must select one non-redundant frame per opening while retaining the opening that crosses 39v–40r. Gallica’s terms require the BnF/Gallica source credit and restrict commercial reuse; no image was retained locally.
 
 Next canonical notice: `3191.008` — *Πρεσβευτικός*.

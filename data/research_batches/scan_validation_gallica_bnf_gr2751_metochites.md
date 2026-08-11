@@ -2,9 +2,11 @@
 
 ## Décision
 
-**TRANSFERRED_PRIVATE_NONCOMMERCIAL.** Les poèmes III–IV sont identifiés par
+**TRANSFERRED_PRIVATE_NONCOMMERCIAL_CORRECTED.** Les poèmes III–IV sont identifiés par
 Biblissima/Pinakes aux ff. 34v–46r du manuscrit Paris, BnF, Grec 2751. Le
-manifeste IIIF Gallica mappe cette plage aux douze ouvertures `f72–f83`.
+premier mapping `f72–f83` était erroné. Une seconde inspection montre que les
+vues se chevauchent page par page : la sélection exacte et non redondante est
+`f74,f76,…,f96` (douze ouvertures).
 
 ## Source et droits
 
@@ -17,18 +19,16 @@ manifeste IIIF Gallica mappe cette plage aux douze ouvertures `f72–f83`.
 
 ## Mapping et contrôle
 
-- `f72` = 34v–35r, …, `f77` = 39v–40r (frontière III/IV), …,
-  `f83` = 45v–46r.
-- `f72` a été contrôlé visuellement : grec manuscrit lisible et folio 34.
-- Douze JPEG IIIF natifs transférés, aucun OCR fournisseur.
+- `f74` = 34v–35r ; chaque vue paire suivante avance d'une ouverture ;
+  `f96` = 45v–46r.
+- `f74` et `f96` ont été contrôlés visuellement : grec manuscrit lisible.
+- Aucun OCR fournisseur.
 
-## Vérification distante
+## Retrait correctif
 
-- 12 fichiers, 38 213 319 octets au total.
-- Manifeste chemin/taille/SHA-256 :
-  `db9477c255442f3c8a904b4626009d9fe9505a62eeb0667442944ff7f18f7514`.
-- `f72.jpg` : `29577464276aef2b72ca74ce80da7c165b27cbc25558295143ea4b45c38c694b`.
-- `f83.jpg` : `cee2595daf9b33e3a7bd3f81b1e1e57affdd087c030afd0b406386df0e6ce7de`.
-
-Les deux fichiers extrêmes ont été retéléchargés depuis HF et vérifiés. Tous
-les temporaires locaux ont ensuite été supprimés.
+L'ancien lot HF incomplet/mal paginé a été supprimé le 12 août 2026. Le lot
+corrigé de douze vues paires `f74–f96` a ensuite été transféré et vérifié par
+les métadonnées LFS distantes : 37 062 337 octets, manifeste SHA-256
+`7e98e35548803448bc3af51acac16aec8040c524db240673decf1d89e4e600ed`.
+Les extrêmes distants sont `f74` (`9882d6f3…543c69b7`) et `f96`
+(`7be2cb11•5f627`).
