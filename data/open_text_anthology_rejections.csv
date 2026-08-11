@@ -34,3 +34,4 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0176,001,5.106;9.391,5.106,9.391=tlg-0174 Diotimus Epicus; 5.106=tlg-0176,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
 1290,001,1.218,,,NO_PASSAGE_OR_AUTHOR_RECORD_FOR_CANON_LOCUS,data/research_batches/tlg_3001_4500_b34_batch_0004.csv
 0006,031,10.107;10.107b,10.107,10.107b absent from author record tlg-0006 and no passage page,INCOMPLETE_CANON_LOCUS_COVERAGE,data/research_batches/range_inferred_batch_01_checkpoint_01.csv
+0199,009,6.53;6.313;13.28,6.53;6.313,13.28=tlg-0261 Simonides; remaining loci=tlg-0199,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b21_batch_0004.csv
