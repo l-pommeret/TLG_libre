@@ -51,3 +51,9 @@ Ces trois vues couvrent début, milieu et fin de l’étendue 12–1332 ; elles 
 ## Recommandation d’ingestion
 
 **READY (priorité haute, 16 notices directes).** Transférer directement l’original PDM ou, si l’espace impose un ciblage, seulement les images contenant les colonnes listées, avec contrôle visuel des six lacunes du `Fragmenta varia`. Conserver l’URL Commons, la déclaration PDM, le SHA-1 du PDF et un manifeste de bornes imprimées. Lancer exclusivement l’OCR du projet après transfert.
+
+## Compaction HF vérifiée
+
+- PDF image-only original transféré sous `scans/volumes/pg26-athanasius/pg26-original-image-only.pdf` : 94 774 657 octets, 785 pages.
+- SHA-256 local et distant : `fb5b12164f77ad1e5296784d1e5e13ffb57b495007c8729e231926fac4a6c4a2`.
+- Le tar redondant de 598 251 520 octets a été supprimé après vérification distante ; récupération possible via l'historique HF.
