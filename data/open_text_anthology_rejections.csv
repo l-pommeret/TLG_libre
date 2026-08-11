@@ -28,3 +28,7 @@ tlg_author_id,tlg_work_id,required_loci,unresolved_loci,observed_attributions,re
 0590,004,7.315;16.14,16.14,7.315=tlg-0219 Rhianus; 16.14=tlg-0590,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_749.csv
 1755,001,6.15;6.183;6.184;6.185;9.40,6.183;6.184;6.185;9.40,6.15=tlg-0113 Antipater; remaining loci=tlg-1755,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_867.csv
 0191,001,9.17;9.18;9.387,9.17;9.18,9.387=tlg-0195 Hadrianus; 9.17-9.18=tlg-0191,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/detailed_verified_3001_batch_52.csv
+0170,001,7.462;7.716,7.716,7.462=tlg-0167 Dionysius; 7.716=tlg-0170,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
+0171,001,5.81;11.182,5.81,11.182=tlg-0167 Dionysius; 5.81=tlg-0171,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/tlg_3001_4500_b43_batch_0002.csv
+0175,001,7.261;7.420,7.420,7.261=tlg-0174 Diotimus Epicus; 7.420=tlg-0175,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
+0176,001,5.106;9.391,5.106,9.391=tlg-0174 Diotimus Epicus; 5.106=tlg-0176,ONE_CANON_LOCUS_TLG_ATTRIBUTION_MISMATCH,data/research_batches/range_inferred_batch_10_checkpoint_03.csv
