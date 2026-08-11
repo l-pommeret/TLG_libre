@@ -52,3 +52,9 @@ La résolution est modeste (~143 ppi) mais les trois échantillons sont lisibles
 ## Recommandation
 
 **READY : 17 notices directes, dont les grands ensembles 2102.042–.043.** Source PDM explicite, volume de 115 MiB (<500 Mo). Transférer l’original ou des images rendues de l’original seulement, conserver URL/licence/SHA-1 et produire un manifeste colonne→image. L’OCR doit être exécuté exclusivement par le projet.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg39-didymus-amphilochius/pg39-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 120 528 115 octets et son SHA-256 LFS vérifié est `39dd6f65292213f3bbede37f4f7f754edee2b9eb8dd9c1dfdfaad25a932de521`.
+
+L’ancienne archive de rendus redondants (754 790 400 octets) a été retirée de HF après validation de cette copie native. Les 988 pages, les 17 mappings et les contrôles grecs des pages 12, 400 et 860 sont inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
