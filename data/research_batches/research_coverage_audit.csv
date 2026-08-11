@@ -210,21 +210,21 @@ tlg_author_id,tlg_work_id,author,work_title,journal_rows,journal_files,statuses,
 0007,139,PLUTARCHUS Biogr. et Phil.,Non posse suaviter vivi secundum Epicurum (1086c–1107c),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,140,PLUTARCHUS Biogr. et Phil.,Adversus Colotem (1107d–1127e),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0007,141,PLUTARCHUS Biogr. et Phil.,De latenter vivendo (1128a–1130e),1,detailed_verified_3001_batch_583.csv,OPEN_TEXT_DIFFERENT_EDITION,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
-0007,143,PLUTARCHUS Biogr. et Phil.,De libidine et aegritudine,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,144,PLUTARCHUS Biogr. et Phil.,Parsne an facultas animi sit vita passiva,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,145,PLUTARCHUS Biogr. et Phil.,Fragmenta,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,146,PLUTARCHUS Biogr. et Phil.,Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,147,PLUTARCHUS Biogr. et Phil.,Ἐκλογὴ περὶ τῶν ἀδυνάτων,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,148,PLUTARCHUS Biogr. et Phil.,"Fragmenta, FGrH #388: 3B:264–265. Q: 482: Hist., Myth",0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
-0007,149,PLUTARCHUS Biogr. et Phil.,De proverbiis Alexandrinorum [Sp.],0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,PRIORITIZED_ONLY
+0007,143,PLUTARCHUS Biogr. et Phil.,De libidine et aegritudine,1,detailed_verified_3001_batch_584.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,144,PLUTARCHUS Biogr. et Phil.,Parsne an facultas animi sit vita passiva,1,detailed_verified_3001_batch_584.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,145,PLUTARCHUS Biogr. et Phil.,Fragmenta,1,detailed_verified_3001_batch_584.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,146,PLUTARCHUS Biogr. et Phil.,Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο,1,detailed_verified_3001_batch_584.csv,CANDIDATE_SCAN_EXACT_EDITION_GREEK_SAMPLE_PENDING,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,147,PLUTARCHUS Biogr. et Phil.,Ἐκλογὴ περὶ τῶν ἀδυνάτων,1,detailed_verified_3001_batch_584.csv,CANDIDATE_SCAN_EXACT_EDITION_GREEK_SAMPLE_PENDING,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,148,PLUTARCHUS Biogr. et Phil.,"Fragmenta, FGrH #388: 3B:264–265. Q: 482: Hist., Myth",1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
+0007,149,PLUTARCHUS Biogr. et Phil.,De proverbiis Alexandrinorum [Sp.],1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0008,001,ATHENAEUS Soph.,Deipnosophistae,1,tlg_3001_4500_b20_batch_0004.csv,TEXT_OPEN_UNVERIFIED,0,,0006.012-2018.004.md,REVIEWED_EXPLICIT
 0008,002,ATHENAEUS Soph.,"Fragmentum, FGrH #166: 2B:891–892. Q: 240: Hist",1,tlg_3001_4500_b21_batch_0001.csv,EDITION_IDENTIFIED,0,,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0008,003,ATHENAEUS Soph.,Deipnosophistae (epitome),1,tlg_3001_4500_b21_batch_0001.csv,BLOCKED_RIGHTS,0,,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0008,008,ATHENAEUS Soph.,Deipnosophistae (lib. viii–xi),1,tlg_3001_4500_b21_batch_0001.csv,BLOCKED_RIGHTS,0,,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0008,010,ATHENAEUS Soph.,Deipnosophistae (epitome lib. viii–xi),1,tlg_3001_4500_b21_batch_0001.csv,BLOCKED_RIGHTS,0,,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
-0009,001,SAPPHO Lyr.,Fragmenta,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0009,002,SAPPHO Lyr.,"Epigrammata, AG: 6.269(?); 7.489, 505. Q: 71: Epigr",0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
-0009,003,SAPPHO Lyr.,Fragmenta,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
+0009,001,SAPPHO Lyr.,Fragmenta,1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0009,002,SAPPHO Lyr.,"Epigrammata, AG: 6.269(?); 7.489, 505. Q: 71: Epigr",1,detailed_verified_3001_batch_585.csv,OPEN_TEXT_AVAILABLE,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
+0009,003,SAPPHO Lyr.,Fragmenta,1,detailed_verified_3001_batch_585.csv,NO_EXACT_OPEN_TEXT,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0009,004,SAPPHO Lyr.,Fragmentis addenda,0,,,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,PRIORITIZED_ONLY
 0010,001,ISOCRATES Orat.,In Euthynum (orat. 21),1,tlg_0001_1500_b5_cont7_checkpoint_02_3401_001_0010_003.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT
 0010,002,ISOCRATES Orat.,In Callimachum (orat. 18),1,tlg_0001_1500_b5_cont7_checkpoint_02_3401_001_0010_003.csv,TEXT_OPEN_UNVERIFIED,1,range_inferred_batch_02_checkpoint_04.csv,0006.012-2018.004.md; 0008.002-1211.003.md,REVIEWED_EXPLICIT

@@ -1,0 +1,12 @@
+import csv
+
+OUTPUT = "data/research_batches/detailed_verified_3001_batch_584.csv"
+FIELDS = "tlg_author_id tlg_work_id author_heading work_title canonical_edition sources_tested open_text_result open_text_url open_text_license scan_result scan_url scan_rights confidence proposed_status next_action notes last_checked".split()
+WORKS = ["143", "144", "145", "146", "147"]
+COMMONS = "https://commons.wikimedia.org/wiki/File:Corpus_paroemiographorum_Graecorum,_ediderunt_E.L._a_Leutsch_et_F.G._Schneidewin_(IA_corpusparoemiogr01leutuoft).pdf"
+canon = {(r["tlg_author_id"], r["tlg_work_id"]): r for r in csv.DictReader(open("data/canon_coverage.csv", encoding="utf-8"))}
+with open(OUTPUT, "w", newline="", encoding="utf-8") as handle:
+    writer = csv.DictWriter(handle, fieldnames=FIELDS, lineterminator="\n"); writer.writeheader()
+    for work in WORKS:
+        source = canon[("0007", work)]; historical = work in {"146", "147"}; row = {field: "" for field in FIELDS}
+        row.update(tlg_author_id="0007", tlg_work_id=work, author_heading=source["author_heading"], work_title=source["work_title"], canonical_edition=source["bibliographic_notice"], sources_tested="Exact TLG identifier search in Perseus canonical-greekLit, First1KGreek, OPP and local scan registry; edition and item boundaries checked." + (" Exact 1839 volume independently identified at Internet Archive and Wikimedia Commons." if historical else ""), open_text_result="No complete licensed Greek TEI for this exact canonical item was verified.", scan_result=("Exact Leutsch–Schneidewin 1839 volume is available as a Commons public-domain PDF; printed pages 321–342 and 343–348 must be mapped and Greek-sampled before transfer." if historical else "No exact reusable page-image source was verified for the canonical modern edition."), scan_url=(COMMONS if historical else ""), scan_rights=("Public domain (Wikimedia Commons file metadata)" if historical else ""), confidence=("high" if historical else "medium"), proposed_status=("CANDIDATE_SCAN_EXACT_EDITION_GREEK_SAMPLE_PENDING" if historical else "NO_EXACT_OPEN_TEXT"), next_action=("Map the printed-page leaves, visually verify Greek at the start/end of this item, then transfer only those pages to HF." if historical else "Resolve the fragment or citation witnesses individually; do not substitute a different Plutarch work."), notes="No provider OCR used. No image acquired locally.", last_checked="2026-08-11"); writer.writerow(row)
