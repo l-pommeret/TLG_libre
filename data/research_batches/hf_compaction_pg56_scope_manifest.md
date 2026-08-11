@@ -64,3 +64,7 @@ taille et hash sur HF avant de supprimer l'archive complète de 780 images.
 Les vignettes Commons consultées pour les contrôles sont temporaires et seront
 supprimées après rédaction du présent manifeste. Aucun asset local, archive ou
 OCR n'est conservé par cet audit.
+
+## Résultat
+
+Le PDF image-only original complet s’est révélé plus compact que le dérivé ciblé estimé : 110 584 461 octets pour les 780 pages. Il a été vérifié à distance sous `scans/volumes/pg56-chrysostom-severianus/pg56-original-image-only.pdf`, SHA-256 `85c078d90dae3bea995aca228c54a5e43d978dc2304633f3d14810c7a4b8c0e8`. L’archive JPEG de 671 344 640 octets a ensuite été supprimée. Les sept segments restent documentés par la table ci-dessus et les autres pages du volume demeurent disponibles pour de futurs rattachements.

@@ -16,3 +16,9 @@
 | 4139.005, .007, .009, .011, .034, .038, .067 | 522–526 ; 397–410 ; 499–516 ; 429–500 ; 519–522 ; 563–582 ; 593–600 |
 
 2062.497–.498 n'ont pas de locus MPG56 et sont exclus. Utiliser les colonnes imprimées, conserver « SEVERIANUS » pour 4139.007, et dédupliquer les bornes partagées. Rendement READY : 23 notices directes, droits explicites et qualité validée.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg56-chrysostom-severianus/pg56-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 110 584 461 octets et son SHA-256 LFS vérifié est `85c078d90dae3bea995aca228c54a5e43d978dc2304633f3d14810c7a4b8c0e8`.
+
+Le PDF complet est plus petit que le dérivé ciblé estimé ; il conserve donc les 780 pages tout en remplaçant l’archive JPEG de 671 344 640 octets. Les sept segments canoniques disposent chacun d’une preuve grecque dans le manifeste de compaction. Aucun OCR fournisseur n’a été extrait ni conservé.
