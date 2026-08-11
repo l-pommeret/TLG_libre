@@ -19,10 +19,15 @@ test ! -e "$TARGET_PATH/images" || { echo "images already exist" >&2; exit 2; }
 
 mkdir -p "$TARGET_PATH/images"
 for ((page=START_PAGE; page<=END_PAGE; page++)); do
+  if test "$page" -gt "$START_PAGE"; then
+    # Gallica rate-limits bursts even when only a handful of pages is selected.
+    sleep 10
+  fi
   name="${GALLICA_ARK}_f$(printf '%04d' "$page").jpg"
   url="https://gallica.bnf.fr/iiif/ark:/12148/${GALLICA_ARK}/f${page}/full/full/0/default.jpg"
   curl --user-agent 'TLG_libre image research' --fail --location \
-    --retry 5 --retry-all-errors --output "$TARGET_PATH/images/$name" "$url"
+    --retry 8 --retry-all-errors --retry-delay 20 --retry-max-time 240 \
+    --output "$TARGET_PATH/images/$name" "$url"
   file "$TARGET_PATH/images/$name" | grep -q 'JPEG image data' || {
     echo "non-JPEG response for Gallica f$page" >&2; exit 1;
   }
