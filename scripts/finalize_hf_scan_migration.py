@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
 import os
@@ -34,6 +35,7 @@ def main() -> None:
     parser.add_argument("--repo-id", default="Zual/TLG_libre_scans")
     parser.add_argument("--marker", default="migration/complete.json")
     parser.add_argument("--check-only", action="store_true")
+    parser.add_argument("--write-registry", type=Path)
     args = parser.parse_args()
 
     roots = sorted(path.parent for path in Path("scans").glob("**/SHA1SUMS"))
@@ -78,6 +80,23 @@ def main() -> None:
     }
     print(json.dumps({key: marker[key] for key in
                       ("repo_id", "archive_count", "image_count", "remote_bytes")}, indent=2))
+    if args.write_registry:
+        args.write_registry.parent.mkdir(parents=True, exist_ok=True)
+        with args.write_registry.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, lineterminator="\n",
+                                    fieldnames=("source_root", "hf_repo", "archive",
+                                                "image_count", "remote_size",
+                                                "manifest_sha256", "verification",
+                                                "status", "last_checked"))
+            writer.writeheader()
+            for record in records:
+                writer.writerow({"source_root": record["source_root"], "hf_repo": args.repo_id,
+                                 "archive": record["archive"], "image_count": record["image_count"],
+                                 "remote_size": record["remote_size"],
+                                 "manifest_sha256": record["sha1sums_sha256"],
+                                 "verification": "REMOTE_PATH_AND_SIZE_MATCH",
+                                 "status": "MIGRATED_PUBLIC",
+                                 "last_checked": datetime.now(timezone.utc).date().isoformat()})
     if args.check_only:
         return
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".json", delete=False) as handle:
