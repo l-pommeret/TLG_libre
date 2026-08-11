@@ -40,3 +40,7 @@ Tous les JPEG de contrôle et de repérage ont été supprimés après inspectio
 ## Action recommandée
 
 Garder cette source de 305 Mo comme candidat `REVIEW` pour 5045.003–004. Réexaminer uniquement lorsque des droits explicites et réutilisables auront été établis, en conservant la divergence de date dans le manifeste.
+
+## Source CC0 écartée après contrôle
+
+La fiche SearchCulture `amorgos_rep/000159-7759` décrit bien Walz II et attache CC0 au fichier fourni par la bibliothèque municipale d'Amorgos. Le PDF direct a toutefois été contrôlé avant promotion : il ne contient qu'une page (375 120 octets), correspondant à la page de titre cataloguée comme telle, et non les pages 1–684 du volume. Cette preuve de droits ne s'étend donc pas au scan IA complet et ne rend pas 5045.003–004 `READY`.

@@ -40,3 +40,7 @@ Toutes les vues BookReader temporaires, y compris les pages de repérage, ont é
 ## Action recommandée
 
 Conserver ce volume exact de 296 Mo comme candidat de deux notices à très fort volume textuel. Ne lancer la récupération d'images que lorsqu'une licence ou déclaration de droits explicite aura été ajoutée; ne pas déduire la permission de la seule ancienneté bibliographique.
+
+## Source CC0 écartée après contrôle
+
+La fiche SearchCulture `amorgos_rep/000159-7764` décrit exactement Walz VII.1, indique les langues grecque et latine et attache CC0 au fichier d'Amorgos. Le PDF direct a néanmoins été contrôlé avant promotion : il ne contient qu'une page (358 092 octets), la page de titre cataloguée comme telle, et non les pages 55–696 recherchées. Il ne constitue donc ni un scan complet ni une preuve que le fichier IA complet est sous CC0; le statut reste `REVIEW`.
