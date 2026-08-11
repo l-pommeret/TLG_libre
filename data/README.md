@@ -61,9 +61,9 @@ n'est pas explicitement exact ou une édition alternative.
 
 Au 11 août 2026, la vue Canon contient 13 765 notices d'œuvres, hors 1 536
 renvois : 1 899 (13,80 %) ont un texte grec ouvert vérifié sous le même
-identifiant TLG et 135 (0,98 %) supplémentaires ont une édition alternative
+identifiant TLG et 139 (1,01 %) supplémentaires ont une édition alternative
 ouverte vérifiée. La couverture textuelle directement exploitable est donc de
-2 034 notices (14,78 %). Les
+2 038 notices (14,81 %). Les
 deux catégories restent séparées afin de ne pas présenter une édition
 alternative comme l'édition bibliographique exacte du Canon.
 
