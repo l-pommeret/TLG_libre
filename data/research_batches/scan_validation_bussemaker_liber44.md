@@ -2,14 +2,14 @@
 
 ## Décision
 
-**REVIEW — substitut partiel, non édition canonique.** `BIUSante_33046` est absent de `data/scan_sources.csv` et de `scans/` au contrôle du 11 août 2026. Il s'agit bien de l'édition-disssertation de Bussemaker (1835) consacrée au seul livre XLIV des *Collectiones medicae*, sous licence ouverte Etalab, avec un paquet JP2 de 111 Mo. Le canon TLG 0722.001 prescrit toutefois l'édition Raeder (CMG, 1928–1933) et comprend plusieurs livres : le volume ne peut donc pas être enregistré comme scan exact de l'ensemble de la notice. Les feuillets contrôlés confirment une impression nette, mais n'établissent pas à eux seuls le locus XLIV.14 : aucune attribution de ce locus ne doit être automatisée.
+**PARTIAL READY — fragment grec de Mégès seulement.** `BIUSante_33046` est absent de `data/scan_sources.csv` au contrôle du 11 août 2026. Il s'agit bien de l'édition-dissertation de Bussemaker (1835) consacrée au seul livre XLIV des *Collectiones medicae*, sous licence ouverte Etalab. Le canon TLG 0722.001 prescrit toutefois l'édition Raeder (CMG, 1928–1933) et comprend plusieurs livres : ce volume ne couvre donc jamais l'ensemble de la notice. En revanche, le chapitre imprimé `XV. (XIV.) E MEGETIS LIBRIS DE FISTULIS` a été repéré directement et rend le renvoi `0976.x02` prêt pour une ingestion image ciblée.
 
 ## Concordance
 
 | Notice TLG | Œuvre / locus | Édition canonique | Concordance vérifiée |
 |---|---|---|---|
 | 0722.001 | Oribasius, *Collectiones medicae* (livres 1–16, 24–25, 43–50) | J. Raeder, CMG 6.1.1–6.2.2, 1928–1933 | Bussemaker 1835 ne contient que le livre XLIV : témoin historique partiel, non concordant comme édition complète. |
-| 0976.x02 (renvoi) | Meges, fragment ap. Oribasium | CMG 6.2.1, pp. 142–144 ; renvoie à 0722.001 | Le renvoi canonique est confirmé ; le locus XLIV.14 reste à vérifier directement dans Bussemaker avant toute relation de couverture. |
+| 0976.x02 (renvoi) | Meges, fragment ap. Oribasium | CMG 6.2.1, pp. 142–144 ; renvoie à 0722.001 | Concordance directe : Bussemaker, chapitre `XV. (XIV.) E MEGETIS LIBRIS DE FISTULIS`, pages imprimées 72–80, feuilles grecques IA `n89,n91,n93,n95,n97`. Couverture fragmentaire seulement. |
 
 ## Métadonnées Internet Archive
 
@@ -26,8 +26,8 @@
 
 ## Contrôles visuels temporaires
 
-`n10` (p. VII, introduction biographique), `n100` (p. 83, texte médical continu) et `n200` (p. 95, grec et latin) ont été obtenus individuellement par le visualiseur distant et inspectés. Ils montrent une numérisation propre, mais aucun de ces trois échantillons ne porte le marqueur « XLIV.14 ». Les trois JPEG temporaires et leur répertoire ont été supprimés après contrôle ; aucun OCR, PDF ni archive image n'a été conservé localement.
+Le contrôle ciblé a établi matériellement l'alternance grec/latin. `n89` porte le titre grec du chapitre de Mégès et son début (p. 72) ; `n91`, `n93` et `n95` en donnent la suite (pp. 74, 76, 78) ; `n97` contient sa fin en haut de la p. 80, puis le titre grec du chapitre suivant d'Archigène. Les feuilles paires `n90,n92,n94,n96,n98` sont la traduction latine en regard et sont exclues de l'ingestion. Les cinq feuilles grecques ont chacune été inspectées : caractères grecs nets, page entière lisible, aucune page allemande ou page de garde dans la sélection. Aucun OCR n'a été utilisé.
 
 ## Action
 
-Conserver comme candidat `REMOTE_ONLY` **REVIEW**, limité au livre XLIV. Avant ingestion ciblée, repérer visuellement le locus XLIV.14 et vérifier sa correspondance avec le fragment de Meges ; ne pas le rattacher globalement à 0722.001.
+Ingérer uniquement `n89,n91,n93,n95,n97` dans `scans/volumes/oribasius-bussemaker-liber44-meges-1835`, directement vers Hugging Face. Enregistrer la ressource comme couverture du renvoi `0976.x02` et fragment de l'hôte, jamais comme scan complet de `0722.001`.

@@ -40,3 +40,7 @@ Les images de repérage (y compris les feuillets de titre) et les trois vues de 
 ## Action recommandée
 
 Conserver ce candidat exact de 296 Mo pour les deux notices. Promouvoir en `READY` uniquement après ajout d'une preuve de droits ouverte et réutilisable pour cette source précise; ne pas inférer cette permission de l'ancienneté de l'édition ou d'un autre exemplaire.
+
+## Copies Commons écartées après contrôle
+
+L'index Wikimedia Commons contient les fichiers `fragmentacomico02meingoog`, `fragmentacomico03meingoog` et `fragmentacomico04meingoog`, tous déclarés dans le domaine public. Ils ne remplacent toutefois pas le tome III : les pages rendues montrent respectivement une partie tardive/indexée de la collection et les suppléments du volume V (en-tête imprimé « SUPPLEMENTA ADDENDORUM »). Aucun de ces fichiers ne contient la séquence autonome du tome III, *Fragmenta poetarum comoediae mediae*, pp. 161–355. Ils restent donc exclus du mapping 0405.002/0406.002.

@@ -1,0 +1,82 @@
+name: Ingest selected Internet Archive leaves
+
+on:
+  workflow_dispatch:
+    inputs:
+      ia_identifier:
+        description: Internet Archive identifier
+        required: true
+        type: string
+      leaves:
+        description: Comma-separated BookReader leaf numbers
+        required: true
+        type: string
+      target_path:
+        description: Existing scan directory below scans/
+        required: true
+        type: string
+      expected_count:
+        description: Expected number of JPEG images
+        required: true
+        type: number
+      scope_manifest:
+        description: Exact canonical leaves covered
+        required: true
+        type: string
+      greek_sample_evidence:
+        description: Visual evidence confirming Greek on every selected leaf
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /scripts/
+            /${{ inputs.target_path }}/*
+            !/${{ inputs.target_path }}/images/
+      - name: Require scoped Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+        run: scripts/validate_greek_ingest_evidence.sh
+      - name: Download and verify selected source pages
+        env:
+          IA_IDENTIFIER: ${{ inputs.ia_identifier }}
+          LEAVES: ${{ inputs.leaves }}
+          TARGET_PATH: ${{ inputs.target_path }}
+          EXPECTED_COUNT: ${{ inputs.expected_count }}
+        run: scripts/remote_ingest_ia_selected_leaves.sh
+      - name: Upload verified images to Hugging Face and clear runner copy
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          TARGET_PATH: ${{ inputs.target_path }}
+        run: |
+          pip install --disable-pip-version-check --quiet "huggingface_hub[hf_xet]>=1.1"
+          python scripts/upload_scan_root_to_hf.py "$TARGET_PATH"
+      - name: Commit metadata only
+        env:
+          TARGET_PATH: ${{ inputs.target_path }}
+          IA_IDENTIFIER: ${{ inputs.ia_identifier }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add --sparse "$TARGET_PATH"
+          git commit -m "Register selected HF scan leaves from $IA_IDENTIFIER"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push origin HEAD:main && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1
