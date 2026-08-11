@@ -72,7 +72,8 @@ reconstructions futures.
 
 `open_text_fragments.csv` conserve séparément les témoignages et fragments
 partiels transmis par des textes hôtes vérifiés. Ils ne font jamais passer une
-œuvre au statut de texte complet.
+œuvre au statut de texte complet. Le relevé courant contient 19 œuvres sans
+texte complet disposant néanmoins d'au moins un témoin partiel vérifié.
 
 `scan_work_coverage.csv` relie les scans déjà archivés sur Hugging Face aux
 notices exactes du Canon. `coverage_summary.md` croise ensuite texte et scan :

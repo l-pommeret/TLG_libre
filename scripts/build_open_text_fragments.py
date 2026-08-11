@@ -46,6 +46,28 @@ def main() -> None:
         except (csv.Error, UnicodeDecodeError):
             continue
 
+    manual_path = Path("data/open_text_partial_manual.csv")
+    for row in csv.DictReader(manual_path.open(encoding="utf-8")):
+        source_urn = row["source_urn"]
+        source = passed.get(source_urn)
+        if not source:
+            raise SystemExit(f"manual partial source did not pass TEI verification: {source_urn}")
+        target = (row["tlg_author_id"], row["tlg_work_id"])
+        key = target + (source_urn,)
+        records[key] = {
+            "tlg_author_id": target[0],
+            "tlg_work_id": target[1],
+            "coverage": "PARTIAL_HOST_TEXT_VERIFIED",
+            "journal_status": "MANUALLY_CLASSIFIED_PARTIAL_HOST_WITNESS",
+            "source_urn": source_urn,
+            "source_url": verified_text_url(source),
+            "source_local_path": source["local_path"],
+            "source_sha256": source["sha256"],
+            "source_license": source["tei_license"] or source["license"],
+            "evidence_file": row["evidence_file"],
+            "scope_note": row["scope_note"],
+        }
+
     fields = (
         "tlg_author_id", "tlg_work_id", "coverage", "journal_status", "source_urn",
         "source_url", "source_local_path", "source_sha256", "source_license",
