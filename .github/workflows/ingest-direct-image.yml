@@ -6,6 +6,8 @@ on:
       source_url: {description: Direct HTTPS image URL, required: true, type: string}
       target_path: {description: Existing scan directory below scans/, required: true, type: string}
       output_name: {description: Safe output filename, required: true, type: string}
+      scope_manifest: {description: Exact canonical item covered by this image, required: true, type: string}
+      greek_sample_evidence: {description: Visual inspection explicitly confirming Greek in this image, required: true, type: string}
 
 permissions:
   contents: write
@@ -25,6 +27,11 @@ jobs:
             /scripts/
             /${{ inputs.target_path }}/*
             !/${{ inputs.target_path }}/images/
+      - name: Require Greek visual evidence
+        env:
+          SCOPE_MANIFEST: ${{ inputs.scope_manifest }}
+          GREEK_SAMPLE_EVIDENCE: ${{ inputs.greek_sample_evidence }}
+        run: scripts/validate_greek_ingest_evidence.sh
       - name: Download and verify direct image
         env:
           SOURCE_URL: ${{ inputs.source_url }}
