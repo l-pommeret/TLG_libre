@@ -1,9 +1,9 @@
 # Audit de couverture
 
 - Notices work : 13765
-- REVIEWED_EXPLICIT : 8773
+- REVIEWED_EXPLICIT : 8783
 - PRIORITIZED_ONLY : 1183
-- REVIEWED_RANGE_INFERRED : 3809
+- REVIEWED_RANGE_INFERRED : 3799
 - UNREVIEWED : 0
-- Chevauchements : 8630
+- Chevauchements : 8640
 - Chaînes MD invalides : 25
