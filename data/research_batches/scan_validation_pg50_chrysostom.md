@@ -84,3 +84,9 @@ La source couvre l’intervalle 417ter–824 et les échantillons confirment une
 - Pré-vol visuel direct sur l'original SHA-1 ci-dessus : page 12 = cols 417–420, début grec ; page 220 = cols 625–626, grec ; page 416 = cols 817–820, grec ; page 419 = parallèle grec final des cols 821–824.
 - Page 10 = frontispice latin et page 420 = *Selecta ex notis* : toutes deux explicitement hors transfert.
 - Les pages latines parallèles internes restent attachées à l'édition bilingue, mais les bornes excluent le paratexte initial et final ; aucun OCR fournisseur n'est utilisé.
+
+## Transfert réalisé
+
+Le DjVu original a été découpé sans réencodage : les pages source 1–11 et 420–440 ont été retirées, et seules les pages source 12–419 demeurent. Le sous-document contient donc exactement **408 pages**. Aprè le découpage, ses pages 1, 209, 405 et 408 ont été rendues et inspectées ; toutes montrent bien le texte grec de l’édition, y compris la dernière page. Les pages latines parallèles internes restent indissociables de la mise en page bilingue, mais aucun segment purement paratextuel extérieur aux bornes canoniques n’a été conservé.
+
+Le fichier est archivé dans `Zual/TLG_libre_scans` sous `scans/volumes/pg50-chrysostom/pg50-targeted-pages-012-419.djvu`. La copie distante fait 51 480 874 octets et son SHA-256 LFS vérifié est `54108ec595f988422c22fcf68dbef6cdaf78230e05c5dd06849c5b8ba8997f7e`. Deux copies redondantes, dont un rendu de 2,56 Go, ont été retirées de HF ; ce DjVu natif ciblé reste l’unique copie canonique. Aucun OCR fourni par Commons ou par le DjVu n’a été extrait ni utilisé.
