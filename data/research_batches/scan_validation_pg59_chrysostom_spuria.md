@@ -81,3 +81,9 @@ Les quatre contrôles couvrent début, milieu et fin (23–766) et confirment un
 ## Recommandation
 
 **READY, rendement très élevé : 46 notices directes pour 102 MiB.** Transférer l’original PDM ou ses images originales, garder l’URL, la licence et le SHA-1, établir un manifeste colonne→image, puis lancer uniquement l’OCR du projet.
+
+## Transfert compact réalisé
+
+Le PDF image-only original est archivé sans réencodage sous `scans/volumes/pg59-chrysostom-spuria/pg59-original-image-only.pdf` dans `Zual/TLG_libre_scans`. La copie distante fait 106 680 790 octets et son SHA-256 LFS vérifié est `70d9042f58bcc76b3c272b02757285eede0d3b553460a54161d464272226733d`.
+
+L’ancienne archive JPEG de 671 447 040 octets a été retirée après validation de cette copie native. Les 773 pages, les 46 mappings et les contrôles grecs des pages 30, 250, 400 et 760 restent inchangés. Aucun OCR fournisseur n’a été extrait ni conservé.
