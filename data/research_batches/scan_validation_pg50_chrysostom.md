@@ -77,3 +77,10 @@ La source couvre l’intervalle 417ter–824 et les échantillons confirment une
 ## Recommandation
 
 **READY, priorité très haute : 43 notices directes, seulement 52 MiB et source PDM explicite.** Transférer le DjVu original ou ses images originales, conserver URL/licence/SHA-1 et effectuer exclusivement l’OCR du projet.
+
+## Manifeste d'ingestion ciblé vérifié
+
+- Pages DjVu à transférer : **12–419 incluses** (408 images), correspondant aux colonnes MPG 417ter–824 et à leurs pages grecques parallèles.
+- Pré-vol visuel direct sur l'original SHA-1 ci-dessus : page 12 = cols 417–420, début grec ; page 220 = cols 625–626, grec ; page 416 = cols 817–820, grec ; page 419 = parallèle grec final des cols 821–824.
+- Page 10 = frontispice latin et page 420 = *Selecta ex notis* : toutes deux explicitement hors transfert.
+- Les pages latines parallèles internes restent attachées à l'édition bilingue, mais les bornes excluent le paratexte initial et final ; aucun OCR fournisseur n'est utilisé.

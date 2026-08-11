@@ -69,6 +69,13 @@ jobs:
           EXPECTED_SHA1: ${{ inputs.expected_sha1 }}
           EXPECTED_COUNT: ${{ inputs.expected_count }}
         run: scripts/remote_ingest_ia.sh
+      - name: Upload verified images to Hugging Face and clear runner copy
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          TARGET_PATH: ${{ inputs.target_path }}
+        run: |
+          pip install --disable-pip-version-check --quiet "huggingface_hub[hf_xet]>=1.1"
+          python scripts/upload_scan_root_to_hf.py "$TARGET_PATH"
       - name: Commit and push with conflict retry
         env:
           TARGET_PATH: ${{ inputs.target_path }}
@@ -77,7 +84,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add --sparse "$TARGET_PATH"
-          git commit -m "Store scan images from $IA_IDENTIFIER"
+          git commit -m "Register HF scan archive from $IA_IDENTIFIER"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main
             git push origin HEAD:main && exit 0
