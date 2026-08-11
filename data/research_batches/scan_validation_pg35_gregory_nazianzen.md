@@ -60,3 +60,9 @@ Elles représentent respectivement le début, le milieu et la fin de l’étendu
 ## Recommandation
 
 **READY, très haut rendement : 25 notices directes.** Le volume entier fait moins de 80 Mo et dispose d’un droit PDM explicite ; il peut être transféré directement. Conserver la provenance Commons/PDM et le SHA-1, extraire seulement les images de l’original, et effectuer l’OCR exclusivement dans le projet.
+
+## Compaction HF vérifiée
+
+- PDF image-only original : 77 617 616 octets, 660 pages.
+- SHA-256 local et distant : `5c8d9bebe21052aa89c31e095ac3f280891345050ed44c039612ee522f88140d`.
+- Ancien tar de 490 844 160 octets retiré après vérification distante, récupérable dans l'historique HF.
