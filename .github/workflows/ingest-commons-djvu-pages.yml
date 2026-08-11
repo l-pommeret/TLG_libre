@@ -1,0 +1,51 @@
+name: Ingest Commons DjVu page range
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url: {description: Direct Wikimedia Commons DjVu URL, required: true, type: string}
+      start_page: {description: First one-based DjVu page, required: true, type: number}
+      end_page: {description: Last one-based DjVu page, required: true, type: number}
+      target_path: {description: Existing scan directory below scans/, required: true, type: string}
+      expected_count: {description: Expected number of JPEG images, required: true, type: number}
+permissions:
+  contents: write
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /scripts/
+            /${{ inputs.target_path }}/*
+            !/${{ inputs.target_path }}/images/
+      - name: Install DjVu renderer
+        run: sudo apt-get update && sudo apt-get install -y djvulibre-bin libjpeg-turbo-progs
+      - name: Download DjVu and extract selected pages
+        env:
+          SOURCE_URL: ${{ inputs.source_url }}
+          START_PAGE: ${{ inputs.start_page }}
+          END_PAGE: ${{ inputs.end_page }}
+          TARGET_PATH: ${{ inputs.target_path }}
+          EXPECTED_COUNT: ${{ inputs.expected_count }}
+        run: scripts/remote_ingest_commons_djvu_pages.sh
+      - name: Commit and push with conflict retry
+        env:
+          TARGET_PATH: ${{ inputs.target_path }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add --sparse "$TARGET_PATH"
+          git commit -m "Store selected Commons DjVu page images"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push origin HEAD:main && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1
