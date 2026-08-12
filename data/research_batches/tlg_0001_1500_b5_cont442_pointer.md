@@ -1,0 +1,4 @@
+next_canonical_pointer: 3083.008
+after_checkpoint: tlg_0001_1500_b5_cont442_checkpoint_01_3083_007.csv
+validated_against: data/canon_coverage.csv (immediate next canonical row)
+last_checked: 2026-08-12
